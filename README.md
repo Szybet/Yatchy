@@ -37,7 +37,6 @@ Yatchy features, compared to 2.0 watchy:
 - A module area, with almost all exposed pins from the esp, power lines, and many gpio pins thanks to the expander IC - The default module has been described above, but you can create your own, increase the capability of you yatchy without modifying everything inside - solar panel module, encoder instead of the button, sd card module, frontlight module, torchlight module, speaker module, microphone module, some environmental sensors. The only limitation is your imagination (And the size of the module)
 - the low power core while using the high power core could be used to write portable apps for the yatchy (but we could achieve that with lua anyway I think)
 - All the components are newer, still available and produced. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
-Features for advanced users:
 - All QFN packages IC's on the board have increased pad sizes, so if you are skilled enough to solder QFN packages, here it will be easier
 - I used via teardrops, so more solid traces & pads
 - JTAG debugging via usb, yay
