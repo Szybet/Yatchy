@@ -52,6 +52,6 @@ Yatchy features, compared to 2.0 watchy:
 
 </details>
 
-# Join us!
+# Community
 
-<a href="https://discord.gg/6PUmRXZRGD">![Discord Banner 2](https://discord.com/api/guilds/1255774901701312542/widget.png?style=banner2)</a>
+<a href="https://discord.gg/6PUmRXZRGD">Join the *atchy community on discord</a>
