@@ -9,7 +9,7 @@
   <img src="/img/Yatchy.png" width="340,5" height="384"/>
 </p>
 
-It's my hobby, It won't be a big commercial product like SQFMI watchy, so don't accuse me of being a competitor ;/
+It's my hobby project, It won't be a big commercial product like SQFMI watchy, so don't accuse me of being a competitor ;/
 
 apart from that, If I have a cake for more advanced users, and he has a cake for less advanced users then we all have more cake for everyone, right? right?
 
