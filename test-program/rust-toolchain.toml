@@ -1,0 +1,7 @@
+[toolchain]
+channel = "nightly-2024-07-22"
+components = ["rustfmt", "llvm-tools", "rust-src", "clippy", "rust-analyzer"]
+targets = [
+    "riscv32imac-unknown-none-elf",
+]
+profile = "default"

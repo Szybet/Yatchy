@@ -1,0 +1,46 @@
+[package]
+name = "yatchy-test-program"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp-hal-embassy = { version = "0.2.0", features = ["esp32c6"] }
+esp-hal-low = { package = "esp-hal", version = "0.19.0", features = [
+    "esp32c6",
+    "async",
+] }
+esp-backtrace = { version = "0.13.0", features = [
+    "exception-handler",
+    "panic-handler",
+    "esp32c6",
+    "println",
+] }
+esp-alloc = "0.4.0"
+embassy-executor = { version = "0.5.0", features = [
+    "nightly",
+    "task-arena-size-40960",
+] }
+embassy-time = { version = "0.3.1", features = ["generic-queue-8"] }
+embassy-embedded-hal = { version = "0.1.0", features = ["time"] }
+static_cell = "2.1.0"
+embedded-io-async = "0.6.1"
+heapless = "0.8.0"
+esp-println = { version = "0.10.0", features = ["esp32c6", "log", "colors", "auto"] }
+log = "0.4.22"
+
+[profile.release]
+opt-level = "z"
+codegen-units = 1
+debug = 2
+debug-assertions = false
+incremental = false
+lto = 'fat'
+overflow-checks = false
+
+[profile.dev]
+opt-level = "z"
+lto = 'fat'
+panic = "abort"
+
+[patch.crates-io]
+embassy-executor-macros = { git = 'https://github.com/embassy-rs/embassy' }
