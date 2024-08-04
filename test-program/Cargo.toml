@@ -27,6 +27,10 @@ embedded-io-async = "0.6.1"
 heapless = "0.8.0"
 esp-println = { version = "0.10.0", features = ["esp32c6", "log", "colors", "auto"] }
 log = "0.4.22"
+once_cell = { version = "1.19.0", default-features = false, features = [
+    "portable-atomic",
+    "critical-section",
+] }
 
 [profile.release]
 opt-level = "z"

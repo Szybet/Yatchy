@@ -4,6 +4,7 @@
 #![feature(impl_trait_in_assoc_type)]
 
 use actions::{manage_action, reset_actions};
+use flex_io::FlexIo;
 use core::{fmt::Write, mem::MaybeUninit};
 use esp_println::logger::{init_logger, init_logger_from_env};
 use heapless::{String, Vec};
@@ -12,7 +13,7 @@ use static_cell::StaticCell;
 
 use embassy_executor::Spawner;
 use esp_backtrace as _;
-use esp_hal_low::gpio::Level;
+use esp_hal_low::gpio::{Flex, Level};
 use esp_hal_low::{
     clock::ClockControl,
     entry,
@@ -25,6 +26,8 @@ use esp_hal_low::{
 };
 
 mod actions;
+mod flex_io;
+mod gpio_action;
 
 #[global_allocator]
 pub(crate) static ALLOCATOR: esp_alloc::EspHeap = esp_alloc::EspHeap::empty();
@@ -84,28 +87,6 @@ pub enum currentAction {
     gpio(gpioAction),
 }
 
-pub struct outputGpios<'a> {
-    gpio0: Output<'a, GpioPin<0>>,
-    gpio1: Output<'a, GpioPin<1>>,
-    gpio2: Output<'a, GpioPin<2>>,
-    gpio3: Output<'a, GpioPin<3>>,
-    gpio4: Output<'a, GpioPin<4>>,
-    gpio5: Output<'a, GpioPin<5>>,
-    gpio6: Output<'a, GpioPin<6>>,
-    gpio7: Output<'a, GpioPin<7>>,
-    gpio8: Output<'a, GpioPin<8>>,
-    gpio10: Output<'a, GpioPin<10>>,
-    gpio11: Output<'a, GpioPin<11>>,
-    gpio14: Output<'a, GpioPin<14>>,
-    gpio15: Output<'a, GpioPin<15>>,
-    gpio18: Output<'a, GpioPin<18>>,
-    gpio19: Output<'a, GpioPin<19>>,
-    gpio20: Output<'a, GpioPin<20>>,
-    gpio21: Output<'a, GpioPin<21>>,
-    gpio22: Output<'a, GpioPin<22>>,
-    gpio23: Output<'a, GpioPin<23>>,
-}
-
 #[main]
 async fn main(_spawner: Spawner) {
     init_logger(log::LevelFilter::Info);
@@ -128,27 +109,7 @@ async fn main(_spawner: Spawner) {
     );
     let mut io = Io::new(peripherals.GPIO, peripherals.IO_MUX);
 
-    let mut gpio_out = outputGpios {
-        gpio0: Output::new(io.pins.gpio0, Level::Low),
-        gpio1: Output::new(io.pins.gpio1, Level::Low),
-        gpio2: Output::new(io.pins.gpio2, Level::Low),
-        gpio3: Output::new(io.pins.gpio3, Level::Low),
-        gpio4: Output::new(io.pins.gpio4, Level::Low),
-        gpio5: Output::new(io.pins.gpio5, Level::Low),
-        gpio6: Output::new(io.pins.gpio6, Level::Low),
-        gpio7: Output::new(io.pins.gpio7, Level::Low),
-        gpio8: Output::new(io.pins.gpio8, Level::Low),
-        gpio10: Output::new(io.pins.gpio10, Level::Low),
-        gpio11: Output::new(io.pins.gpio11, Level::Low),
-        gpio14: Output::new(io.pins.gpio14, Level::Low),
-        gpio15: Output::new(io.pins.gpio15, Level::Low),
-        gpio18: Output::new(io.pins.gpio18, Level::Low),
-        gpio19: Output::new(io.pins.gpio19, Level::Low),
-        gpio20: Output::new(io.pins.gpio20, Level::Low),
-        gpio21: Output::new(io.pins.gpio21, Level::Low),
-        gpio22: Output::new(io.pins.gpio22, Level::Low),
-        gpio23: Output::new(io.pins.gpio23, Level::Low),
-    };    
+    let mut gpios = FlexIo::new(io);
 
     info!("Initializing usb serial");
     // https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/usb_serial.rs
@@ -236,7 +197,7 @@ async fn main(_spawner: Spawner) {
                 }
             } else if action == "exit" {
                 info!("Exiting the current action");
-                reset_actions(&mut gpio_out).await;
+                reset_actions(&mut gpios);
                 cur_act = None;
             } else {
                 error!("Unknown action");
@@ -254,6 +215,6 @@ async fn main(_spawner: Spawner) {
             continue;
         }
 
-        manage_action(cur_act, &mut gpio_out).await;
+        manage_action(cur_act, &mut gpios).await;
     }
 }
