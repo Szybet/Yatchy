@@ -3,10 +3,11 @@
 #![feature(type_alias_impl_trait)]
 #![feature(impl_trait_in_assoc_type)]
 
-use actions::{manage_action, reset_actions};
-use flex_io::FlexIo;
+use actions::{check_actions, manage_action, reset_actions};
 use core::{fmt::Write, mem::MaybeUninit};
 use esp_println::logger::{init_logger, init_logger_from_env};
+use flex_io::FlexIo;
+use gpio_action::{gpio_reset};
 use heapless::{String, Vec};
 use log::{debug, error, info};
 use static_cell::StaticCell;
@@ -57,6 +58,7 @@ macro_rules! iterable_enum {
     };
 }
 
+/*
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum gpioAction {
     gpio0,
@@ -81,10 +83,12 @@ pub enum gpioAction {
     gpio22,
     gpio23,
 }
+*/
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum currentAction {
-    gpio(gpioAction),
+    Gpio(u32),
+    SelfCheckGpio(),
 }
 
 #[main]
@@ -110,6 +114,8 @@ async fn main(_spawner: Spawner) {
     let mut io = Io::new(peripherals.GPIO, peripherals.IO_MUX);
 
     let mut gpios = FlexIo::new(io);
+    gpio_reset(&mut gpios).await;
+    embassy_time::Timer::after_millis(1000).await; // To make sure all pins are low
 
     info!("Initializing usb serial");
     // https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/usb_serial.rs
@@ -120,7 +126,7 @@ async fn main(_spawner: Spawner) {
     let mut cur_act: Option<currentAction> = None;
     let mut started_typing = false;
     loop {
-        debug!("Iterating...");
+        //debug!("Iterating...");
         // Read from serial until space is detected
         let mut is_newline = false;
         let r = rx.read_byte();
@@ -140,6 +146,8 @@ async fn main(_spawner: Spawner) {
             }
         }
 
+        check_actions(&mut gpios).await;
+
         if started_typing && !is_newline {
             embassy_time::Timer::after_millis(50).await;
             continue;
@@ -154,50 +162,53 @@ async fn main(_spawner: Spawner) {
             // What a horrible day to see this, but I can't create a function that takes an argument of String<_>
             if action.contains("gpio") {
                 if action == "gpio0" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio0));
+                    cur_act = Some(currentAction::Gpio(0));
                 } else if action == "gpio1" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio1));
+                    cur_act = Some(currentAction::Gpio(1));
                 } else if action == "gpio2" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio2));
+                    cur_act = Some(currentAction::Gpio(2));
                 } else if action == "gpio3" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio3));
+                    cur_act = Some(currentAction::Gpio(3));
                 } else if action == "gpio4" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio4));
+                    cur_act = Some(currentAction::Gpio(4));
                 } else if action == "gpio5" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio5));
+                    cur_act = Some(currentAction::Gpio(5));
                 } else if action == "gpio6" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio6));
+                    cur_act = Some(currentAction::Gpio(6));
                 } else if action == "gpio7" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio7));
+                    cur_act = Some(currentAction::Gpio(7));
                 } else if action == "gpio8" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio8));
+                    cur_act = Some(currentAction::Gpio(8));
                 } else if action == "gpio10" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio10));
+                    cur_act = Some(currentAction::Gpio(10));
                 } else if action == "gpio11" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio11));
+                    cur_act = Some(currentAction::Gpio(11));
                 } else if action == "gpio14" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio14));
+                    cur_act = Some(currentAction::Gpio(14));
                 } else if action == "gpio15" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio15));
+                    cur_act = Some(currentAction::Gpio(15));
                 } else if action == "gpio18" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio18));
+                    cur_act = Some(currentAction::Gpio(18));
                 } else if action == "gpio19" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio19));
+                    cur_act = Some(currentAction::Gpio(19));
                 } else if action == "gpio20" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio20));
+                    cur_act = Some(currentAction::Gpio(20));
                 } else if action == "gpio21" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio21));
+                    cur_act = Some(currentAction::Gpio(21));
                 } else if action == "gpio22" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio22));
+                    cur_act = Some(currentAction::Gpio(22));
                 } else if action == "gpio23" {
-                    cur_act = Some(currentAction::gpio(gpioAction::gpio23));
+                    cur_act = Some(currentAction::Gpio(23));
+                } else if action == "self_check_gpio" {
+                    info!("Starting self checking gpio");
+                    cur_act = Some(currentAction::SelfCheckGpio());
                 } else {
                     error!("Specify the gpio number as gpioX");
                     cur_act = None;
                 }
             } else if action == "exit" {
                 info!("Exiting the current action");
-                reset_actions(&mut gpios);
+                reset_actions(&mut gpios).await;
                 cur_act = None;
             } else {
                 error!("Unknown action");
@@ -215,6 +226,6 @@ async fn main(_spawner: Spawner) {
             continue;
         }
 
-        manage_action(cur_act, &mut gpios).await;
+        manage_action(&mut cur_act, &mut gpios).await;
     }
 }

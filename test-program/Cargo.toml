@@ -30,6 +30,7 @@ log = "0.4.22"
 once_cell = { version = "1.19.0", default-features = false, features = [
     "portable-atomic",
     "critical-section",
+    "race",
 ] }
 
 [profile.release]

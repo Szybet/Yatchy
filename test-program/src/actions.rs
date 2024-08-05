@@ -2,22 +2,25 @@ use esp_hal_low::gpio::InputPin;
 use esp_hal_low::gpio::{Flex};
 use log::info;
 
-use crate::{currentAction, gpioAction, gpio_action, FlexIo};
-use crate::gpio_action::gpio_action;
+use crate::{currentAction, gpio_action, FlexIo};
+use crate::gpio_action::{gpio_action, gpio_check, gpio_reset, self_check_gpio};
 
-pub fn reset_actions(io: &mut FlexIo<'_>) {
-    io.gpio0.set_as_input(esp_hal_low::gpio::Pull::Down);
+pub async fn reset_actions(io: &mut FlexIo<'_>) {
+    gpio_reset(io).await;
 }
 
-pub fn check_actions(io: &mut FlexIo<'_>) {
-    
+pub async fn check_actions(io: &mut FlexIo<'_>) {
+    gpio_check(io).await;
 }
 
-pub async fn manage_action(act: Option<currentAction>, io: &mut FlexIo<'_>) {
+pub async fn manage_action(act: &mut Option<currentAction>, io: &mut FlexIo<'_>) {
     if let Some(ract) = act {
         match ract {
-            currentAction::gpio(pin) => {
-                gpio_action(pin, io).await;
+            currentAction::Gpio(pin) => {
+                gpio_action(*pin, io).await;
+            }
+            currentAction::SelfCheckGpio() => {
+                self_check_gpio(act, io).await;
             }
         }
     }
