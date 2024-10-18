@@ -9,10 +9,6 @@
   <img src="/img/Yatchy.png" width="340,5" height="384"/>
 </p>
 
-It's my hobby project, It won't be a big commercial product like SQFMI watchy, so don't accuse me of being a competitor ;/
-
-apart from that, If I have a cake for more advanced users, and he has a cake for less advanced users then we all have more cake for everyone, right? right?
-
 ~~The device doesn't exist yet, No software was written but (Not the case anymore)~~ hardware was created for it with these things in mind, I doubt something will change - That's the reason I also avoid giving any "software" features here, also some claims are theoretic, no battery life has been measured for example.
 
 Yatchy features, compared to 2.0 watchy:
