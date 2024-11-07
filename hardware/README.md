@@ -41,3 +41,5 @@ So all this talking is cool but it's just on paper, I can't enforce it, let's be
 In the kicad folder inside this directory are the design files for the yatchy v1, not yet tested
 
 they (PCB's) are also a bit messy, not fully profesionall, but they do the job, I hope, as I will order them
+
+Yes, the source files reference watchy in a few places, that's because the name "Yatchy" came after, at first this project was planned to be a small watchy fork.
