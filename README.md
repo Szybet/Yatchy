@@ -55,6 +55,9 @@ Yatchy features, compared to 2.0 watchy:
 
 </details>
 
+## Software
+It's fully supported by [InkWatchy](https://github.com/Szybet/InkWatchy). Maybe a rust firmware in the future? We will see...
+
 ## Hardware sources, buying, reselling, license
 Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 
