@@ -9,9 +9,11 @@
   <img src="/img/Yatchy.png" width="340,5" height="384"/>
 </p>
 
+Project under "construction", nothing is final yet, but most is probably
+
 Yatchy features, compared to 2.0 watchy:
 
-<sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's not open source, it has many flaws so I don't even compare to it</sub>
+<sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's not even open source, it has many flaws so I don't even compare to it</sub>
 
 
 <details>
