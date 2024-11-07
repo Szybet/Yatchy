@@ -17,6 +17,8 @@ Oh did I mention **it's is open source anyway?** I share the full source, the sc
 Yatchy was designed to:
 - Be created by yourself. That means it's adjusted to be hand solderable. Sooo that means changed footprints for easier hand soldering. If you can solder SMD without a problem and QFN packets aren't scary for you, but BGA is a bit, then it's for you
 - Extremely hackable and modular. The main point is the module and all exposed pads for it
+- Optimisation of the ammount of different components, so cheaper
+- I tried to use widely available IC's and components. For example, while using some highly mauser only specific IC could improve power consumption a small bit, I preffered the simplicity and availability of the current design
 
 Those design choices have their own flaws:
 - It's not possible to order a assembled yatchy from a manufacturer. Not only because of the module, but the modified footprints have not adjusted solder mask (And I don't have the experience and money to test it). With that in mind, let's go to the commercial section
