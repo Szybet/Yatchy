@@ -2,7 +2,7 @@
   Yatchy
 </h1>
 <p align="center">
-  Your Watchy, with all the flaws of the original fixed
+  <b>Y</b>our W<b>atchy</b>, with all the flaws of the original fixed
 </p>
 
 <p float="left" align="middle">
