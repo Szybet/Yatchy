@@ -1,0 +1,106 @@
+(footprint "Battery_Header"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.09 6.34 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e944428a-0b0e-4c00-8bb9-886b639dab4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "94129401-8ec6-4378-99ef-8163673ea742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:Battery_Header"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1b6898-1f1e-4d9c-a3d3-0e26b2c4ac18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c01387b-331e-4df0-bf74-4e049a000be9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e14f05b-1ff1-4b06-be74-33661dab4b7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.7 -0.75)
+		(end 2.002837 0.602837)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5e53020b-4c2a-4aaf-a38c-fa50900a5350")
+	)
+	(fp_text user "B"
+		(at -0.3 0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d2dd41d-da31-45c5-bdee-eff69023a2ad")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.05 -0.066906 270)
+		(size 1.15 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "756517f9-de45-4278-bf19-c91bf0618a32")
+	)
+	(pad "2" smd rect
+		(at 1.333093 -0.066906 270)
+		(size 1.15 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "008df8e6-33a7-4376-a138-32b8c6d4cdfa")
+	)
+)

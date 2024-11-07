@@ -1,0 +1,279 @@
+(footprint "BOSCH_LGA-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bosch_LGA-12")
+	(tags "Accelerometer")
+	(property "Reference" "REF**"
+		(at -1.45 4.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f67b2ce4-5ad1-45d9-9050-dac8cac14264")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BMA456"
+		(at -0.65 4.65 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd7af58a-12b8-46d7-9527-965e3da847f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:BOSCH_LGA-12"
+		(at -0.3 3.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1be5866d-6499-445f-8155-8b6501c9d5ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA456-DS000.pdf"
+		(at -0.55 4.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89574250-b4df-4504-a8b5-9d1b0ed4aa3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Accelerometers Triaxial low-g 16bit Acceleration Sensor"
+		(at -0.65 4.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70838ff3-9659-4429-a23a-fc5fdd0eadd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4522a5ea-0c1b-4745-82ff-2752bc08bfe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "262-BMA456"
+		(at -1.2 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ced72fc-3e4e-41f1-a489-70efbfa4f3b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA456?qs=HXFqYaX1Q2wJz6UBQvRc5g%3D%3D"
+		(at -0.85 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2010b51-3546-484e-801f-1dcb60d3513d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "BOSCH"
+		(at 0.1 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00f3b882-4c57-44bc-8331-658e04ca108b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BMA456"
+		(at -0.35 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e2732f5-2504-455c-b076-9db431ce3135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.38666 -1)
+		(end -1.38666 -0.98666)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5555b014-1fad-4475-85dd-6a01bacb57f8")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01e7c49c-484d-47c1-9a8c-99abc0648096")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbd1b743-68fc-445b-9c24-8f74ee4ce2d2")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "711a36bc-9f3c-4ee6-b764-fe07014f5076")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4656e61-4a84-451b-9d44-25fc173a78f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.05 4.55 0)
+		(layer "F.Fab")
+		(uuid "a11579eb-4ddf-41bd-9040-9edda02b3c6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.93 -0.75 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e5bfc6e8-f16a-4d66-8322-72ff00c755ca")
+	)
+	(pad "2" smd rect
+		(at -0.93 -0.25 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1957201e-809b-4c0c-98ba-123d47765f4e")
+	)
+	(pad "3" smd rect
+		(at -0.93 0.25 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "93fb1cd9-af60-4968-8076-016aa119e735")
+	)
+	(pad "4" smd rect
+		(at -0.93 0.75 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc77e7f2-3ade-4c8d-ad2d-cf0aeb976266")
+	)
+	(pad "5" smd rect
+		(at -0.25 0.93)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "164a458f-05fe-41f4-abda-c36f5e9ed81a")
+	)
+	(pad "6" smd rect
+		(at 0.25 0.93)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c5e9c1b3-641a-4434-a21f-049264513a28")
+	)
+	(pad "7" smd rect
+		(at 0.93 0.75 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e25ba34-4d50-4061-a1ec-2638002ceb89")
+	)
+	(pad "8" smd rect
+		(at 0.93 0.25 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2f8b986c-ab6e-4e40-908f-2b80a5dd8fe0")
+	)
+	(pad "9" smd rect
+		(at 0.93 -0.25 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "adaedc87-16a6-41ad-88a8-e14015b7f589")
+	)
+	(pad "10" smd rect
+		(at 0.93 -0.75 90)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf53256c-d1d5-49c7-bcfa-bf230397ba21")
+	)
+	(pad "11" smd rect
+		(at 0.25 -0.93)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3c1a8f2-6c08-4967-bf8e-8e7b562a9e56")
+	)
+	(pad "12" smd rect
+		(at -0.25 -0.93)
+		(size 0.28 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25b02bd6-d6f0-45fc-b121-5c22bbf6194f")
+	)
+	(model "${KIPRJMOD}/3d-Models/BMA456.stp"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,447 @@
+(footprint "USB4730GFAKIT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB4730-GF-A-KIT-2")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 -0.388 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef322445-a046-454a-a172-872ae1c4838d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "USB4730-GF-A-KIT"
+		(at -20 6.2495 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "199b557d-339b-4e8a-b923-311e971aff9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:USB4730GFAKIT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa140641-d20c-415e-9e18-ea8a4e9d6148")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.gct.co/files/drawings/USB4730.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09572d5f-2aa4-48a6-9667-02fca9641079")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Connectors USB2.0 TypeC Recpt. Kit, w/GASKET GF, 16P Horz T.Mt. SMT, IP67"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c7ee747-d53f-4ebb-bb69-e1df6c5311fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4.81"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b58b3854-59cf-4831-915f-4ded5811a708")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "640-USB4730GFAKIT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ada5c93a-8406-4f7a-8211-ae0761caac72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4730-GF-A-KIT?qs=Z%252BL2brAPG1IoU%252BBwnQ%2FE8Q%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5faf3a00-001d-4934-9efd-b66535b409c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a73610e1-8e2d-46b7-8a2e-d24ed70fc6a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "USB4730-GF-A-KIT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14b58bd8-232e-4a75-9bdd-a538134a42fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -3.812)
+		(end -5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa0adaca-b501-40f4-beda-dae583c3bc3b")
+	)
+	(fp_line
+		(start -4 -3.812)
+		(end -5 -3.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "424bdec7-5954-48b6-bc69-803ecf04b65b")
+	)
+	(fp_line
+		(start 4 -3.812)
+		(end 5 -3.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b20e627-2224-4449-979a-2496c6df5521")
+	)
+	(fp_line
+		(start 5 -3.812)
+		(end 5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "936c38bc-471c-42fb-a777-4c0792c0ada1")
+	)
+	(fp_line
+		(start -6.1 -5)
+		(end 6.1 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f371ddec-6442-46d2-a552-7c3ae63f3000")
+	)
+	(fp_line
+		(start -6.1 5)
+		(end -6.1 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5acbc8b-fb5a-46bb-84f3-570c4dbda785")
+	)
+	(fp_line
+		(start 6.1 -5)
+		(end 6.1 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12189c28-9191-4ab8-96d2-718c08ed7bd9")
+	)
+	(fp_line
+		(start 6.1 5)
+		(end -6.1 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7d88d98-8897-4848-b61f-bd9dbe3b9de7")
+	)
+	(fp_line
+		(start -5 -3.812)
+		(end -5 2.837)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42cae53c-aa34-4b5b-9f4c-fb94a54fb3d9")
+	)
+	(fp_line
+		(start -5 2.837)
+		(end -4.47 2.837)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99050616-1d82-4e3e-9e9f-60c1909ccec1")
+	)
+	(fp_line
+		(start -4.47 2.837)
+		(end -4.47 4.037)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d50d7529-da09-4809-964a-e3fe5b921ba9")
+	)
+	(fp_line
+		(start -4.47 4.037)
+		(end 0 4.037)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96aad570-1f67-4735-b325-66e5b80d7a49")
+	)
+	(fp_line
+		(start 0 4.037)
+		(end 4.47 4.037)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d84267ef-a639-4781-838a-9738af78b5a5")
+	)
+	(fp_line
+		(start 4.47 2.837)
+		(end 5 2.837)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06773620-3aca-4b7c-90e6-da19c9fa7d54")
+	)
+	(fp_line
+		(start 4.47 4.037)
+		(end 4.47 2.837)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a74f74b5-ceab-4acf-9919-8b414c232af9")
+	)
+	(fp_line
+		(start 5 -3.812)
+		(end -5 -3.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcdbd079-12cd-4799-bc74-ed3891bd1111")
+	)
+	(fp_line
+		(start 5 2.837)
+		(end 5 -3.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b5aee68-7eb7-47f4-a4f5-b6c2a3c14825")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.388 180)
+		(layer "F.Fab")
+		(uuid "f1703e2b-7f46-498f-a6c4-ea60c8d68fbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.25 -1.963)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(uuid "54fae271-34a7-4b3e-b62d-98e138cf1793")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.25 -1.963)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5385ac52-96f8-4636-a3e4-77b4ed1bfb2d")
+	)
+	(pad "A1" smd rect
+		(at -3.2 -4.037)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50a3cef1-0eee-4278-bda0-f4f526d7116d")
+	)
+	(pad "A4" smd rect
+		(at -2.4 -4.037)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "40f4142f-7604-4dd6-b7aa-7d4eb42d02d5")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6df52b27-3a71-45f3-9f4c-5b9e865caa2e")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "550a4333-898e-41a2-b4bf-e6f0cbb5f8f1")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2fcc86c0-aee5-4826-b18d-6bb5eb9bd500")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "37561890-936d-4b45-9334-a2c5599a8992")
+	)
+	(pad "A9" smd rect
+		(at 2.4 -4.037)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6fe7e84-1ecd-42a8-bee3-ce7d2a808cfc")
+	)
+	(pad "A12" smd rect
+		(at 3.2 -4.037)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c0980b8-e0f8-4849-9e20-12f475a744a5")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b598ee6-0977-47f9-b393-b913bb516cae")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc63ef8b-ae87-443e-a95a-9f34e3a4a026")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "05c12ad3-ec58-4280-9ad1-0755709b6197")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -4.037)
+		(size 0.3 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "55ac5263-99d3-4448-8676-95fac7d44723")
+	)
+	(pad "MH1" thru_hole circle
+		(at -4.895 -2.063)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "498ad07b-b3e3-4920-8bf0-2b023bdeb46c")
+	)
+	(pad "MH2" thru_hole circle
+		(at -4.895 0.937)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5366ae5d-b9b5-418a-b87d-19ec62271ccf")
+	)
+	(pad "MH3" thru_hole circle
+		(at 4.895 0.937)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87763d71-f687-44e1-b7bf-b8d6e65e0466")
+	)
+	(pad "MH4" thru_hole circle
+		(at 4.895 -2.063)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3973742-84fb-47e9-b303-66e3c507bdf0")
+	)
+	(model "${KIPRJMOD}/3d-Models/USB4730-GF-A-KIT.stp"
+		(offset
+			(xyz 0 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+(version 1)
+#Kicad 7
+
+# drill/hole size
+(rule "Minimum Via Hole Size"
+	(constraint hole_size (min 0.15mm))
+	(condition "A.Type == 'via'"))
+
+(rule "Minimum Via Diameter"
+	(constraint via_diameter (min 0.25mm))
+	(condition "A.Type == 'via'"))

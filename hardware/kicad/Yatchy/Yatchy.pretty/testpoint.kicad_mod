@@ -1,0 +1,92 @@
+(footprint "testpoint"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "small testpoint")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d4c62f5-0619-4ef1-91d9-0c52e1f8d8b7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint"
+		(at 0.05 4.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a6e3249-4cb7-4c92-9369-a90a5b360b06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Watchy:testpoint"
+		(at 0.05 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30714dc-0b8a-4a9f-971c-92e1a795624a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "263fb89f-b4af-4804-974d-0a552d1f1a46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at -0.45 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7700f419-34c0-4c92-ab3f-2a44b7afbabe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files)
+	(net_tie_pad_groups "1")
+	(fp_rect
+		(start -0.345 -0.4)
+		(end 0.335 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d46c87f2-f0b7-48ca-9d96-c3f99c010303")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.54 0.64)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1727fc6d-6c21-41e9-b591-e8e573d9a860")
+	)
+)

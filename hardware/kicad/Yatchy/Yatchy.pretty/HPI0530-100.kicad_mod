@@ -1,0 +1,143 @@
+(footprint "HPI0530-100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c47e4bb8-91cf-435b-8747-a04120ab5d77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10uH 1A"
+		(at 0 8.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5eec4036-f0bb-4a3b-94f5-91f13e4297e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Watchy:HPI0530-100"
+		(at 0 7.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8bd0781-420d-47b3-aeb0-500d151b5848")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 7.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7898d1c4-aae8-4e33-bf48-9b30bee34367")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 7.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "783b12c8-d3de-4fcb-b449-81c3dd1309e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.6 -2.85)
+		(end 3.6 2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cfcad2b0-92af-41b6-8e9c-f47991b3603d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b3684d7-3280-41c7-a843-e15494fe786d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.5 -0.25 90)
+		(size 2.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 0.5)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "85deea77-7823-42a6-87f0-af4968b52b9a")
+	)
+	(pad "2" smd rect
+		(at -2.5 -0.25 90)
+		(size 2.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 0.5)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d414cacc-4ec3-4f9a-bcc9-5eab3f17bb91")
+	)
+	(group ""
+		(uuid "9620f8a8-a46d-4c88-9980-2151028e41cd")
+		(members "85deea77-7823-42a6-87f0-af4968b52b9a" "d414cacc-4ec3-4f9a-bcc9-5eab3f17bb91")
+	)
+	(model "${KIPRJMOD}/3d-Models/inductor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,0 +1,130 @@
+(footprint "Motor_Header"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.06 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2358deb7-21dc-4a1a-a498-4e77bb43edd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Vibration_Motor"
+		(at 0 4.060001 0)
+		(layer "F.Fab")
+		(uuid "57fc00f3-0cc5-4686-8b40-eb6cc19acddc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:Motor_Header"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b36bf363-dd15-4742-bc2e-1b95c2fe62c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad9c9259-25f7-4e93-bf81-bfe9e1cfdcaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Motor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81a87be0-a067-40d8-82aa-2b80e2bd34ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -0.45 -0.5) (xy 0.45 -0.5) (xy 0.449999 2.2) (xy -0.449999 2.2)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "80b8fa80-4cba-4429-a3e3-d93860786427")
+	)
+	(fp_text user "M"
+		(at 0.3 1.3 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc66f9a5-f31b-4873-8a84-52621c38f764")
+		(effects
+			(font
+				(size 0.5 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 -90)
+		(layer "F.Fab")
+		(uuid "41ad7436-737a-44d3-8715-1165ecc7b006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at 0 0 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f435b9c-0f71-44fa-bd14-dba81d00b201")
+	)
+	(pad "2" smd rect
+		(at 0 1.700001 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b84d6984-ed05-4d2f-98a0-523ff0001a42")
+	)
+	(model "${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

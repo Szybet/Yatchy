@@ -1,0 +1,298 @@
+(footprint "BMA530"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BMA530-1")
+	(tags "Accelerometer")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9d52bf68-5b2e-4a6b-a0b6-f58c51e95147")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BMA530"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c7c18cfe-a8d9-4635-8f5e-491a279163c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:BMA530"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7a16e98-2b2b-482f-9e06-30e2212d5385")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma530-ds000.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9146dd32-3dfa-4ed7-970d-252fdec2629f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3-Axis 16bit MEMS  WLCSP-6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7418cb69-27b5-47f8-898b-bf5c85279d20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "3-Axis 16bit MEMS  WLCSP-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f94a5f48-23f2-4bb7-a9d5-5f3002347f19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.59"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b8efc5a-d27a-42c2-ba26-278dc241f3c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "262-BMA530"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf15d1f1-1697-41ec-b505-c143c639fd3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA530?qs=2wMNvWM5ZX4xN1KGqjzO%252Bg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "631c5716-46dd-4210-8a5b-8bb97e700d05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "BOSCH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7447057f-dc05-49b4-9b22-7a4963f43b5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BMA530"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a3892aa-72f7-40da-b46e-3cf9e4894f2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.6)
+		(end -0.9 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2478bd5-0c30-4305-a27b-4b31f07d789c")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d96a2e1-e251-4752-a30d-25f5a41202b1")
+	)
+	(fp_arc
+		(start -0.9 -0.6)
+		(mid -0.85 -0.65)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efe06fe1-fb1d-48a1-bf5a-7c895844c226")
+	)
+	(fp_arc
+		(start -0.8 -0.6)
+		(mid -0.85 -0.55)
+		(end -0.9 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6ce1a68-4c7d-413e-8a85-f9e7405be653")
+	)
+	(fp_rect
+		(start -0.6 -0.75)
+		(end 0.55 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a818e06e-99f7-4bdb-b813-b9f4ff12dc87")
+	)
+	(fp_line
+		(start -0.4 -0.6)
+		(end 0.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "479a1732-5c8f-4ddf-b613-df119788eb26")
+	)
+	(fp_line
+		(start -0.4 0.6)
+		(end -0.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8f6b15e-bda2-433f-97d6-65fe9a2bbce9")
+	)
+	(fp_line
+		(start 0.4 -0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac30eeb6-7e9f-4e50-8df9-1bf7f0b09079")
+	)
+	(fp_line
+		(start 0.4 0.6)
+		(end -0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac4569f0-2a01-4dc0-8020-fcdf1a1db63b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7ef65ac1-b2b0-4a05-b585-e3d35c941c78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd oval
+		(at -0.43 -0.4 90)
+		(size 0.18 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a45d163-1d17-4376-a263-995e715ce5c1")
+	)
+	(pad "A2" smd oval
+		(at 0.405 -0.4 90)
+		(size 0.18 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36bd3dfe-e440-40b5-9fb7-f959589f693d")
+	)
+	(pad "B1" smd oval
+		(at -0.43 0 90)
+		(size 0.18 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3df23b9-5be8-48d0-9664-74ea676ee2b3")
+	)
+	(pad "B2" smd oval
+		(at 0.405 0 90)
+		(size 0.18 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0cf135bb-53c9-40b3-ae14-79a165c16f2b")
+	)
+	(pad "C1" smd oval
+		(at -0.43 0.405 90)
+		(size 0.19 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6207771-abb0-467b-953c-d928ccba2e3f")
+	)
+	(pad "C2" smd oval
+		(at 0.405 0.4 90)
+		(size 0.18 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a5a8d2f-e9a3-47aa-9777-3c2a740244a8")
+	)
+	(model "${KIPRJMOD}/3d-Models/BMA530.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

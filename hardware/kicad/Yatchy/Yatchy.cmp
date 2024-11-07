@@ -1,0 +1,731 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-10-23T20:13:08+0200
+
+BeginCmp
+TimeStamp = ad0f8d7e-e185-43d0-bc21-434f0b615e9a
+Path = /76a66811-cf6b-4b1e-9219-8d377dfc7585
+Reference = SW3;
+ValeurCmp = EVP-AKE31A;
+IdModule  = Yatchy:SW_EVP-AKE31A_PAN;
+EndCmp
+
+BeginCmp
+TimeStamp = 32d4e54c-d879-45ea-a71a-45554ae6e5e5
+Path = /ff2ba897-9213-49c7-ba1f-10dbc8064f2f
+Reference = SW2;
+ValeurCmp = EVP-AKE31A;
+IdModule  = Yatchy:SW_EVP-AKE31A_PAN;
+EndCmp
+
+BeginCmp
+TimeStamp = 754c9844-6b3e-4840-962c-de763c99b446
+Path = /d84613f1-f1a1-40b0-8c4e-49bb51039c3d
+Reference = SW1;
+ValeurCmp = EVP-AKE31A;
+IdModule  = Yatchy:SW_EVP-AKE31A_PAN;
+EndCmp
+
+BeginCmp
+TimeStamp = a1c65f6f-24c8-439e-876b-706f8a3aa385
+Path = /af5caa59-d308-4c82-9525-1e4effa379a8
+Reference = J5;
+ValeurCmp = SFV24R-4STBE1HLF;
+IdModule  = Yatchy:SFV24R4STBE1HLF;
+EndCmp
+
+BeginCmp
+TimeStamp = c122c709-c959-47b4-b60f-14f4bc77d7d3
+Path = /6e58f239-1c99-46e3-a966-fe669e2bc883
+Reference = J4;
+ValeurCmp = USB4730-GF-A-KIT;
+IdModule  = Yatchy:USB4730GFAKIT;
+EndCmp
+
+BeginCmp
+TimeStamp = 0cdaabac-42dc-496a-b506-76baccfa52f1
+Path = /d0b53043-05e8-46db-a6df-cc423846d020
+Reference = IC3;
+ValeurCmp = MCP73831T-2ATI_OT;
+IdModule  = Yatchy:SOT95P270X145-5N;
+EndCmp
+
+BeginCmp
+TimeStamp = 1eef8365-997e-44cb-8c06-00916de258bb
+Path = /f625f79e-3816-4dfa-ac7e-e108f67275bf
+Reference = IC2;
+ValeurCmp = MCP23018-E_MJ;
+IdModule  = Yatchy:QFN50P400X400X90-25N-D;
+EndCmp
+
+BeginCmp
+TimeStamp = be393ba7-877a-49e2-9193-57f753b289a6
+Path = /397a6f38-d1f8-4dbd-bbaf-71a92f5d1e13
+Reference = D5;
+ValeurCmp = BAT54TW-7-F;
+IdModule  = Yatchy:SOT65P222X110-6N;
+EndCmp
+
+BeginCmp
+TimeStamp = 3489c587-baa2-404d-88e8-147e9f0ad463
+Path = /0718d0c9-776f-424a-948a-975f57ac61c8
+Reference = D2;
+ValeurCmp = BAT54TW-7-F;
+IdModule  = Yatchy:SOT65P222X110-6N;
+EndCmp
+
+BeginCmp
+TimeStamp = a0e40934-add5-455a-b180-ab67e22be997
+Path = /c82f399f-bf2a-4b45-9d47-8162285556cc
+Reference = AC2;
+ValeurCmp = BMA530;
+IdModule  = Yatchy:BMA530;
+EndCmp
+
+BeginCmp
+TimeStamp = 1012a773-a2b1-4bd2-8606-7ca342a41b34
+Path = /7efab286-222b-485f-a854-51a50a978dc0
+Reference = U8;
+ValeurCmp = ~;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = d697c1a5-940d-4520-a55c-7b1d4cd814bb
+Path = /a24d1962-0c2b-4338-b94d-e245e1f54ac3
+Reference = U7;
+ValeurCmp = ~;
+IdModule  = Yatchy:mouse-bite-3mm-slot;
+EndCmp
+
+BeginCmp
+TimeStamp = d9742bc3-97a1-4d5b-bbd8-ef902dc131f3
+Path = /1cbe1d55-28fc-4887-886f-1e7dea745c4d
+Reference = U6;
+ValeurCmp = ~;
+IdModule  = Yatchy:mouse-bite-3mm-slot;
+EndCmp
+
+BeginCmp
+TimeStamp = 3cdc9138-15df-4426-873a-d7a7010deaaa
+Path = /a0bb7479-0300-430c-bd3d-67fb3ad9afd2
+Reference = U5;
+ValeurCmp = ~;
+IdModule  = Yatchy:mouse-bite-3mm-slot;
+EndCmp
+
+BeginCmp
+TimeStamp = bc90d703-d5fd-4c60-957d-a63903612fe4
+Path = /6a3a26ce-a010-4ba3-9b1c-dc1b283880da
+Reference = U4;
+ValeurCmp = ~;
+IdModule  = Yatchy:mouse-bite-3mm-slot;
+EndCmp
+
+BeginCmp
+TimeStamp = 5d1f9d4c-ca1e-43d6-a945-d03fdf7432f9
+Path = /f7247f09-df88-4a53-8615-3b81c61dc3c7
+Reference = J24;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 72d26ebc-2951-425c-aaa9-53e7295d83e6
+Path = /b1d61365-06b8-43ac-b9d4-00bd98215aea
+Reference = J23;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 1292f8fc-87f8-43e9-a4bc-9b9cd5265843
+Path = /d90d81c0-ca31-4c0a-bd34-a5acccc8f4ad
+Reference = J22;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = c7fe4235-04cd-47cf-acfb-a92a2cd6a455
+Path = /b818f28d-e80b-4f59-87b1-06f614ddb785
+Reference = J21;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = edf4760f-09ba-4a3d-8d3d-026b2c47231d
+Path = /92b5e4ce-b6c4-4060-adb3-305e8146dd12
+Reference = J20;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = b60f5f73-a094-448a-8018-0b42b58a7d01
+Path = /5f1a26ed-413d-474b-8b20-ad631b54b8d2
+Reference = J19;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = c2728822-908c-4552-9601-97882388a1ab
+Path = /db191751-4827-4450-bf29-939273dc8bd7
+Reference = J18;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = c6d40b8b-f1ed-4bcc-8d48-b465f339a337
+Path = /56f9a8d5-a159-4911-adb3-50c18c538fa3
+Reference = J17;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 339af536-264c-4755-800a-df31e7b4bc9a
+Path = /1e502b39-d994-429b-a191-a49775c3f60e
+Reference = J16;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = db9ea71f-9800-4da9-b5e9-bc8c981e4e25
+Path = /5834c5e3-db9f-420c-93c2-3d42ff2f03ce
+Reference = J15;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = cc786457-80ff-4952-a86b-9c060e0d8ab0
+Path = /d6e74a49-8997-48ba-824c-e89117586580
+Reference = J14;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 0db86b32-9d64-4422-b907-a6fb2a8f69fe
+Path = /71d76bb3-1c35-4733-bd6a-31896f7a8e72
+Reference = J13;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = bc23658b-3ffc-4a6c-883b-41949c71e19f
+Path = /2c26273c-4ed0-4ed6-a328-abb70ff3f65a
+Reference = J12;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 622fa86c-2baa-414e-8a42-2f047a00381b
+Path = /5456059f-723e-4a4c-95f1-d83ab2ee12c5
+Reference = J11;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = a5440d1a-1871-4df3-9a9c-15b5f5ea13ad
+Path = /e4a58c0a-ebdc-4bdc-aabd-981a4737ba8a
+Reference = J10;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = c8f198e4-4d9f-456d-9a95-21e508a2aa94
+Path = /b8b68c89-a608-4c5d-a147-f6782b89603e
+Reference = J9;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = fbf21ba9-2d57-4d5e-a042-b26173091a92
+Path = /be1d31ec-6540-44e7-b4d8-3eccb9ba17aa
+Reference = J8;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 726510c2-7852-42af-9b5b-867d1e597576
+Path = /d3f9a953-3619-4c47-94c7-47167341f710
+Reference = J7;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 3e6d4cae-e4d1-43dc-8fe2-89cb32d154a2
+Path = /cba6ccdf-e596-4904-b13e-a4ad0de31a5f
+Reference = J6;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 49e4c321-30a0-4d7d-a8e1-c6dafdea87bb
+Path = /b7c0d042-e505-4978-b7e5-89cbca0d9f0b
+Reference = J3;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 692fe1bc-37f2-4ff6-a721-9c26f549ce9a
+Path = /38b51d03-5a4a-492f-b4e6-aaef870fbf4b
+Reference = J2;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 3b50b4fd-46d0-4234-801c-36069a0a4f7f
+Path = /f4eb4ed8-ddab-4cf5-9cf4-8563918aa089
+Reference = J1;
+ValeurCmp = MOD_CONN;
+IdModule  = Yatchy:mod_Connector;
+EndCmp
+
+BeginCmp
+TimeStamp = 01e33018-5dbc-4702-9cb3-e4f2f726d861
+Path = /0631fd53-4060-4da6-afa7-37e667c0b898
+Reference = R1;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 04c849b2-6ed4-497f-bff7-3606db3bee5a
+Path = /5eac63e0-afde-4f75-a2c1-d841a09b9818
+Reference = C20;
+ValeurCmp = 19pF;
+IdModule  = Yatchy:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0f47cd42-d3d9-4fdf-94a6-cb61069bbf00
+Path = /00000000-0000-0000-0000-00005e91aa10
+Reference = L1;
+ValeurCmp = 10uH 1A;
+IdModule  = Yatchy:HPI0530-100;
+EndCmp
+
+BeginCmp
+TimeStamp = 13904fc9-235f-40dc-a96f-b1725817b590
+Path = /00603b93-652f-449c-8030-3e4b7744a08e
+Reference = R4;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1f5b54a0-384c-4ea2-9af6-e4ae75c2d576
+Path = /00000000-0000-0000-0000-00005e919995
+Reference = C4;
+ValeurCmp = 4.7uF/50V;
+IdModule  = Yatchy:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 208ce2fb-ae7a-4eb9-bd0b-079663ce8b59
+Path = /37180315-6397-4307-9ce3-f40280aaaf67
+Reference = C13;
+ValeurCmp = 1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 20c1eb57-d7c0-4695-96b8-2bd29794be80
+Path = /731237b8-57ee-4dec-8374-0956451cf716
+Reference = BT1;
+ValeurCmp = Battery_Cell;
+IdModule  = Yatchy:Battery_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = 2e682ad5-6bcc-42b9-9f34-adc13547f5df
+Path = /00000000-0000-0000-0000-00005e91eaec
+Reference = C3;
+ValeurCmp = 4.7uF/50V;
+IdModule  = Yatchy:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 34c54d43-3306-4106-88f5-4ef0998efe51
+Path = /06e9a046-31fc-4498-9267-4ed7ef0d15ce
+Reference = AC1;
+ValeurCmp = BMA456;
+IdModule  = Yatchy:BOSCH_LGA-12;
+EndCmp
+
+BeginCmp
+TimeStamp = 36b6120d-3640-4092-bbd1-dce415f04774
+Path = /511d2a1e-e556-43b8-b15d-4251e90712ce
+Reference = C24;
+ValeurCmp = 10uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 38fbb6fb-d68e-40ed-bead-93d3354c0003
+Path = /4e3236f4-2099-4284-814c-1c1a652bcdb7
+Reference = R10;
+ValeurCmp = 100K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 3bc6f305-ef3c-4e62-a930-b47b2a721b0a
+Path = /371ad778-8a99-44f9-bea2-d5a4baf8b5eb
+Reference = U3;
+ValeurCmp = ESP32-C6-MINI-1-N4;
+IdModule  = Yatchy:XCVR_ESP32-C6-MINI-1-N4;
+EndCmp
+
+BeginCmp
+TimeStamp = 4318ff05-c9c0-4438-8350-5ac2129c53c9
+Path = /00000000-0000-0000-0000-00005e9270f9
+Reference = Q1;
+ValeurCmp = AO3400A;
+IdModule  = Yatchy:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 43f75684-4d91-4e60-a605-a38766cbaa70
+Path = /29237cca-4dc2-477f-89d2-b101847fdb33
+Reference = U1;
+ValeurCmp = USBLC6-2P6;
+IdModule  = Yatchy:SOT-666;
+EndCmp
+
+BeginCmp
+TimeStamp = 4ef70d6d-1a8a-43d6-8bb4-e092282c5f37
+Path = /00000000-0000-0000-0000-00005d3806e8
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 55c345f0-d7af-4c83-b189-7b038ef14ce7
+Path = /00000000-0000-0000-0000-00005b7a4487
+Reference = R15;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5952d59e-c67b-4d52-bf3a-5af985b55579
+Path = /db7213d7-fce5-4537-a3fe-6c4311961f6e
+Reference = R13;
+ValeurCmp = 50k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5c427f97-a3c7-4007-bebf-8239ff29dcca
+Path = /00000000-0000-0000-0000-00005d37f1da
+Reference = Q5;
+ValeurCmp = S8050;
+IdModule  = Yatchy:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5dd62b83-9e48-4f66-b988-5ed1c635509c
+Path = /2cf937f8-8bae-4295-bf8b-49a6833a5b72
+Reference = R6;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5f184fcd-9b24-4189-b63b-cc7ee87f91f5
+Path = /00000000-0000-0000-0000-00005e90c2fd
+Reference = C10;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 60b79791-225a-4e65-a8a3-42b27cf6caa3
+Path = /a0a390c3-a724-41ce-bc03-c352ec4aa26f
+Reference = R3;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6d9b62ed-2efb-4a85-8562-959a9dba4082
+Path = /00000000-0000-0000-0000-00005e925888
+Reference = C5;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6f6c7375-307b-49d7-a78d-1fcdc1fbcbbf
+Path = /00000000-0000-0000-0000-00005b7a385f
+Reference = R16;
+ValeurCmp = 800k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7147de24-5ded-482f-95be-eaeda4a669f9
+Path = /421f3a59-3b7a-4e4f-b119-d3daeef165b0
+Reference = J26;
+ValeurCmp = Conn_01x03_Pin;
+IdModule  = Yatchy:PinHeader_1x03_P2.00mm_Horizontal_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 73b74f9e-d06e-4099-ad97-f4976ff8f7fa
+Path = /c832fda7-6f26-4c91-b196-b4856aa85f39
+Reference = C22;
+ValeurCmp = 1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 744dd0aa-3832-475b-82da-18e0efcf7723
+Path = /9ff16dfe-9278-4dbf-ba2b-fb04a8a241a3
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 74570621-88bd-479f-b9b3-fc6b62f7113e
+Path = /00000000-0000-0000-0000-00005e909e7e
+Reference = C8;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 757c2c82-34c5-4145-a487-b56bfed18e26
+Path = /00000000-0000-0000-0000-000061c72728
+Reference = R20;
+ValeurCmp = 100K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7f3b5d34-748e-404f-819c-5f8ef5e1b726
+Path = /0f36f799-fdc0-46d9-a1e8-a0c9a90af156
+Reference = U2;
+ValeurCmp = TLV75533PDBV;
+IdModule  = Yatchy:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 823b655c-ffe4-4e42-9aa9-7cb3407b3e0d
+Path = /e2a12768-fb05-473c-aa19-afe43e9fdb78
+Reference = C23;
+ValeurCmp = 0.1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8727945a-5c6d-4f76-a673-217d094eb8ef
+Path = /17a25a0b-a0f7-4a2d-9a45-c314d598774a
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8c5fe37c-1029-48eb-b09c-f68070e35aba
+Path = /00000000-0000-0000-0000-00005e9375f6
+Reference = R9;
+ValeurCmp = 3;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8d46c24d-5aab-4d34-8432-02c06106cfc0
+Path = /e066fdf5-5927-4706-8a6d-dd40f258d895
+Reference = R2;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9023483a-1686-4394-8983-5b90216382ff
+Path = /00000000-0000-0000-0000-00005d38081e
+Reference = M1;
+ValeurCmp = Vibration_Motor;
+IdModule  = Yatchy:Motor_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = a386dca0-3fc5-4e80-a6af-a208ec079f47
+Path = /00000000-0000-0000-0000-00005b7a199e
+Reference = Q4;
+ValeurCmp = FDN304PZ;
+IdModule  = Yatchy:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = aca1347a-cbf2-4b35-913c-ad8c3ca77852
+Path = /43b591f2-11c1-47a4-b197-5ac8c9d6f1c8
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = af0d694c-2b82-4fa7-bb8f-9646c153d97f
+Path = /c9add9ed-c3b1-4987-b26d-20f217684222
+Reference = JP2;
+ValeurCmp = SolderJumper_2_Bridged;
+IdModule  = Yatchy:SolderJumper_Bridged_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = b714b49f-1294-430f-882a-17ed93b06e7e
+Path = /24244d38-6ee5-4446-9c65-355c80440a89
+Reference = C25;
+ValeurCmp = 4.7uF;
+IdModule  = Yatchy:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b77b1f2d-a233-4d6e-87c1-aaeaba6e056f
+Path = /00000000-0000-0000-0000-00005d37f32a
+Reference = R17;
+ValeurCmp = 1K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = babc9d11-f53c-4509-be5c-ea7056660a17
+Path = /218a0db1-1079-4456-acfe-157801688cb8
+Reference = C26;
+ValeurCmp = 4.7uF;
+IdModule  = Yatchy:C_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = bafa8f6c-c99a-4116-806e-91c0336cd839
+Path = /b907f1bb-697c-4154-b164-3459f86a9af2
+Reference = C21;
+ValeurCmp = 0.1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = bf1ef4b0-e3cd-4b59-a187-142b4b19807e
+Path = /66c6d946-61c8-4d39-b3ed-c2138d33f2b9
+Reference = R5;
+ValeurCmp = 5.1k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c5ba8f0c-0f10-45cb-830a-5ddd3c1c03a4
+Path = /00000000-0000-0000-0000-00005e9104c7
+Reference = C7;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c653efdf-8b4f-4872-92b7-a40d7a3706b5
+Path = /00000000-0000-0000-0000-000060b1bc3e
+Reference = R11;
+ValeurCmp = 300k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cafe0ca0-0b6a-410f-8056-0d28b4c6efea
+Path = /1ad6412a-5489-4837-a8fc-3ea440b66316
+Reference = R21;
+ValeurCmp = 10M;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cca8a07e-7ede-4018-bcf4-066433bdb266
+Path = /07da3928-4e2d-482f-a54b-d5b019df98c3
+Reference = Y2;
+ValeurCmp = 32.768KHz;
+IdModule  = Yatchy:XTAL_9HT10_TXC;
+EndCmp
+
+BeginCmp
+TimeStamp = cd114efa-9871-49cd-88b1-339a401d3c8d
+Path = /00000000-0000-0000-0000-00005e90bc0f
+Reference = C9;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d302b8f2-b616-4d9b-a3c1-d1282cc13b66
+Path = /00000000-0000-0000-0000-000060b20057
+Reference = R18;
+ValeurCmp = 800k;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d4841c2a-a741-4e4a-a7e1-dc34d6cf6ec3
+Path = /87cf6b95-fb76-4c0b-b3da-4cfcd0f8fde2
+Reference = C19;
+ValeurCmp = 19pF;
+IdModule  = Yatchy:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d63e694e-8c22-45a0-a8d1-f5182f4adf99
+Path = /a126ad70-998e-46d7-8447-7ec2009c548a
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d8996525-b96b-44ec-9055-b84116631434
+Path = /00000000-0000-0000-0000-00005b7a2716
+Reference = C12;
+ValeurCmp = 1uF;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = dc7a045d-b59d-48db-ae95-e426936f887b
+Path = /00000000-0000-0000-0000-00005e933b88
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = Yatchy:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e8f14e59-63fd-4805-9343-dff409409ac5
+Path = /00000000-0000-0000-0000-00005e9085c0
+Reference = C6;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e8f27ac9-b3c3-4a26-8991-4d4ac3cca82a
+Path = /00000000-0000-0000-0000-00005e8fd496
+Reference = C2;
+ValeurCmp = 1uF/50V;
+IdModule  = Yatchy:C_0603_1608Metric;
+EndCmp
+
+EndListe

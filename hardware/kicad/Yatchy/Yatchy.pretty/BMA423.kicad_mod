@@ -1,0 +1,360 @@
+(footprint "BMA423"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BMA423-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 3.3 -1.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9a6dbf9c-025b-44b3-8ab9-87e66e9308e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BMA423"
+		(at -2.8 4.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4c24cfd-8b40-4bdb-8f8e-2238cb17a9d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "BMA423"
+		(at -4.15 4.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80ec7dc4-8522-4dbf-a456-52687a0d0501")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "154ba66c-d814-435d-a7bf-d41879b8e886")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Accelerometers Triaxial low-g 12bit Acceleration Sensor"
+		(at -3.65 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d57dbf08-2b7e-4ca6-991d-efe12aca9a47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fffb28f7-0202-4386-83a6-f7c9b0406300")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "262-BMA423"
+		(at -2.85 4.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "555d0e83-8fb1-46d3-9c64-c2011845e015")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMA423?qs=HXFqYaX1Q2xC%252BSgeGoX3mg%3D%3D"
+		(at -3.6 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c14ddb70-7a32-4d73-98c7-9823a54628d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "BOSCH"
+		(at -3.25 4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34ec3c67-d37a-4f82-813e-ad82c2c2b72d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BMA423"
+		(at -2.35 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b366d26-ff80-4e93-8f6f-8322d920a20f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 1.4)
+		(end -0.75 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c83d6a2-b42a-430a-bff6-c9ed8c4d8fc0")
+	)
+	(fp_line
+		(start -0.75 1.4)
+		(end -0.75 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8817450a-afb8-4e1f-b080-ed53a7cfee31")
+	)
+	(fp_line
+		(start -0.75 1.5)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43f50316-4ded-4d94-9756-91f24b73c8e6")
+	)
+	(fp_arc
+		(start -0.75 1.4)
+		(mid -0.7 1.45)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b38abec0-1bb7-4028-a193-259cbd473289")
+	)
+	(fp_arc
+		(start -0.75 1.5)
+		(mid -0.8 1.45)
+		(end -0.75 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94a00c6e-78e1-4e10-a399-903cd1189f93")
+	)
+	(fp_arc
+		(start -0.75 1.5)
+		(mid -0.8 1.45)
+		(end -0.75 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c73ffe4e-d849-43d5-b1d6-bdb7d382f20b")
+	)
+	(fp_line
+		(start -1.35 -1.35)
+		(end 1.35 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14b37769-a8c5-4db7-803f-8cb41806daf0")
+	)
+	(fp_line
+		(start -1.35 1.35)
+		(end -1.35 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7123b5c6-1430-45f1-a609-bea9de7b52b1")
+	)
+	(fp_line
+		(start 1.35 -1.35)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ef5779a-46da-410b-8c1a-187dadba9650")
+	)
+	(fp_line
+		(start 1.35 1.35)
+		(end -1.35 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2452fcf-d671-4483-955e-612fa8af7890")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96444146-dedd-4692-a02d-829c0f45699c")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64418593-fdd6-415b-a026-5fba17545b73")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "626089c8-9898-4f96-a6ad-0675ee2dbe62")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b6ee2a6-cf68-46c8-b44c-721f9d059206")
+	)
+	(pad "1" smd rect
+		(at -0.75 0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f2ab3c5-d65b-4fc5-97e6-ed628fb17e20")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "888e1c71-47ae-41f1-8658-1fb4b88bd240")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae9f7f5b-aeee-4ebe-b00b-8c90f302eb9b")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c01637a-f155-4712-96a5-e98b06354d2d")
+	)
+	(pad "5" smd rect
+		(at 0.875 0.25 90)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e34f8d8b-65e3-4894-bd56-efcef1fdb1e8")
+	)
+	(pad "6" smd rect
+		(at 0.875 -0.25 90)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7786b14a-69fe-41aa-a876-1204db5097a2")
+	)
+	(pad "7" smd rect
+		(at 0.75 -0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1b652de-5d7d-4aaf-a6c8-1ee71ef324ad")
+	)
+	(pad "8" smd rect
+		(at 0.25 -0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2df097a-0a5a-4fab-a743-1f31a9441c56")
+	)
+	(pad "9" smd rect
+		(at -0.25 -0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d8bf4ad7-5492-4279-b9db-0cd823eba015")
+	)
+	(pad "10" smd rect
+		(at -0.75 -0.875)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3af5b411-3b1a-4c9d-9776-9c0bbbfbe26d")
+	)
+	(pad "11" smd rect
+		(at -0.875 -0.25 90)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "16ebebd0-e7ac-47f5-bf28-6e9b21716e8e")
+	)
+	(pad "12" smd rect
+		(at -0.875 0.25 90)
+		(size 0.3 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad237ed0-1698-4c61-a969-7b9ded9c191f")
+	)
+	(model "BMA423.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

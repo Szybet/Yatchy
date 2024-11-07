@@ -1,0 +1,103 @@
+(footprint "mod_Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.04 -6.53 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e06b03ed-8e3c-453a-ad2f-a72908075e2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MOD_CONN"
+		(at 0 5.88 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "60480c5c-3e9d-4360-8a68-03e4357791b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Yatchy:mod_Connector"
+		(at 0 4.88 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4a12575-7a94-40af-a87b-2306d0c3ed6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5b91d32-9e6a-499b-a356-4c1a8da11c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f18847d5-42e1-4ddf-8c48-e9df515af86f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.225 -0.48)
+		(end 0.225 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "636babb1-281a-417a-af6e-a6ae9e4ce2f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c66be2ca-f076-4cb5-b13a-988f0f640aed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0.01)
+		(size 0.5 0.5)
+		(drill 0.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "0f7f5a68-ec18-492b-8650-07dcb9134adb")
+	)
+)

@@ -1,0 +1,277 @@
+(footprint "SuperSOT-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf")
+	(tags "SuperSOT-3 SSOT-3")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74ad2126-8276-43e4-b20a-54f06b315397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FDN304PZ"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "0edd3922-d51d-4624-9f61-3d227ea8456a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Watchy:SuperSOT-3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a8a305e-ec03-40be-9cf7-103c5a3e002e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4718da03-cf4e-48d7-a0ab-f7724a77fe67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b7e8ee3-46e5-499d-a5b6-3256460aa061")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.18 -1.6)
+		(end 0.85 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db93cb44-5bee-4e4a-813c-a4a496096232")
+	)
+	(fp_line
+		(start -0.18 1.6)
+		(end 0.85 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "548b64a2-c338-4356-8cb1-7bd76898327a")
+	)
+	(fp_line
+		(start 0.85 -0.77)
+		(end 0.85 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99b7e684-883c-4dba-a1b2-85947a4cc3ec")
+	)
+	(fp_line
+		(start 0.85 1.6)
+		(end 0.85 0.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab6ef83c-07a9-4764-a44c-6a0668d184e8")
+	)
+	(fp_line
+		(start -2.05 -1.7)
+		(end -2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a0bb2f1-9708-4126-a143-b5fcf08cd1e8")
+	)
+	(fp_line
+		(start -2.05 -1.7)
+		(end 2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ecbcf65-0947-498c-942f-0f20cc8b4086")
+	)
+	(fp_line
+		(start 2.05 1.7)
+		(end -2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e0d1a66-9262-4dbe-8ab1-b00f1d2e9c6f")
+	)
+	(fp_line
+		(start 2.05 1.7)
+		(end 2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d9b8a77-6df6-4cef-9e5c-e77a9b8185b3")
+	)
+	(fp_line
+		(start -0.7 -0.9)
+		(end -0.15 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e3e1efa-4681-4ecd-831e-9eaf62eaf376")
+	)
+	(fp_line
+		(start -0.7 1.45)
+		(end -0.7 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70eab50a-6cff-45bd-9b85-4de3c181d9da")
+	)
+	(fp_line
+		(start -0.15 -1.45)
+		(end 0.7 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5a62973-c39e-49ee-8999-147b6ffefd13")
+	)
+	(fp_line
+		(start 0.7 -1.45)
+		(end 0.7 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "903ea5bf-742d-4e6c-b305-1fba48c9234e")
+	)
+	(fp_line
+		(start 0.7 1.45)
+		(end -0.7 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "559422fd-56b7-4c6e-a49a-4fcd867c116d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "8a3ccdf1-1500-4824-8548-31ebdf827902")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.95)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fc62e6f1-04d7-4454-80e5-4f32f619ce9c")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0.95)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "25425cbe-6718-4647-82b9-a87a84e34b1d")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 0)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1191ea0c-21ab-4dde-80f5-1927caf48b02")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SuperSOT-3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
