@@ -52,6 +52,9 @@ Yatchy features, compared to 2.0 watchy:
 
 </details>
 
+## Hardware sources, buying reselling, license
+Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
+
 # Community
 
 <a href="https://discord.gg/6PUmRXZRGD">Join the *atchy community on discord</a>
