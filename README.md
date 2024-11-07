@@ -26,6 +26,7 @@ Yatchy features, compared to 2.0 watchy:
 - Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
 - Following all the specs of the various IC's - on the watchy it was just Yolo no capacitors here and there
+- More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better
 
 </details>
 
