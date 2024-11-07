@@ -39,3 +39,5 @@ So all this talking is cool but it's just on paper, I can't enforce it, let's be
 
 ## The source files
 In the kicad folder inside this directory are the design files for the yatchy v1, not yet tested
+
+they (PCB's) are also a bit messy, not fully profesionall, but they do the job, I hope, as I will order them
