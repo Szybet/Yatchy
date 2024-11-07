@@ -35,4 +35,4 @@ First some explanation:
 
 Yatchy uses esp32c6 which has a lpcore which allows for updating time on the screen in a more efficient way, in a seperate program.
 
-So all this talking is cool but it's just on paper, I can't enforce it, let's be real. That's why I will lock the full source code of the Yatchy lp program until I make back of what I invested. It costed more than I hoped for. Yatchy can still fully function without the lp core, just the battery life will be worse. I will share the source code partially to all yatchy users (also from other potential sellers) to allows to modify it, like the font used.
+So all this talking is cool but it's just on paper, I can't enforce it, let's be real. That's why I will lock the full source code of the Yatchy lp program until I make back of what I invested. It costed more than I hoped for. Yatchy can still fully function without the lp core, just the battery life will be worse. I will share the source code partially to all yatchy users (also from other potential sellers) to allow to modify it, like the font used. Then I will simply compile it for them.
