@@ -5,7 +5,7 @@ This work is licensed under a [Creative Commons (4.0 International License) Attr
 Don't scream "IT'S NOT OPEN SOURCE", let me explain myself.
 
 - First, this work is not a watchy fork, it's a complete redesign obviously inspired by the watchy form factor, but nothing more.
-- I don't want SQFMI to steal this design and sell it. Not even If I could profit of it. His bad software, bad communication, sometimes bad and questionable hardware decisions have killed so much potential of the watchy.
+- I don't want SQFMI to steal this design and sell it. Not even if I could profit of it. His bad software, bad communication, sometimes bad and questionable hardware decisions have killed so much potential of the watchy.
 - I don't want someone to just make money off it and give nothing back to the project. With that said, calm down, more on that in the commercial section below.
 - I don't want for someone to rename it and take the credit for the hard work.
 
