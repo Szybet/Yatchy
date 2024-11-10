@@ -55,7 +55,7 @@ Yatchy features, compared to 2.0 watchy:
   <summary><h2>Flaws</h2></summary>
 
 - No battery connector, the module pads are small - so it's not for everyone, harder to use / assembly (solder!) for beginers
-- It's watchy like but not watchy compatible, the size and form factor is the same but the obvious obstacle is USBC, even with it the buttons are different and placed a little off
+- It's watchy like but not watchy case compatible, the size and form factor is the same but the obvious obstacle is USBC, even with it the buttons are different and placed a little off to save some space
 - It's a 4 layer PCB, so a bit more costly
 - No easy hard reset option, you will need to short pins, but if you need to do it, then you made something really wrong. <sub>When developing the Yatchy, I only once needed a full reset</sub>
 - A complicated license
