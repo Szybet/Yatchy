@@ -15,12 +15,19 @@ Yatchy features, compared to 2.0 watchy:
 
 <sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's not even open source, it has many flaws so I don't even compare to it</sub>
 
+#### Key points:
+- USBC instead of micro usb
+- Better buttons, they won't break easily
+- Better battery life
+- Hardware hackable
+- Fixed many issues and improved minor things
 
+## More detail
 <details>
   <summary><h2>For regular users</h2></summary>
 
 - Heavy increase in battery life, even with the screen updating every minute <sub>(The esp32c6 has a riscv lp core, which i connected to the screen, which means the device never really wakes up fully to only update the screen, not only that i fixed sqfmi flaws (Using 2 voltage dividers for example) I also use the external crystal clock for the RTC which means no RTC IC... and many more such things)</sub>
-- Better buttons, more solid, shouldn't and probably won't break that much if at all
+- Better buttons, more solid, shouldn't and probably won't break that much if at all. They are also less noisy.
 - Solid USB-C port <sub>(It's THT soldered)</sub>
 - no more usb compability problems <sub>(Because i use native esp32c6 jtag programming)</sub>
 - better detection of charging <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
