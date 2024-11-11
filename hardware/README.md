@@ -9,7 +9,7 @@ Don't scream "IT'S NOT OPEN SOURCE", let me explain myself.
 - I don't want someone to just make money off it and give nothing back to the project. With that said, calm down, more on that in the commercial section below.
 - I don't want for someone to rename it and take the credit for the hard work.
 
-Is it too much to ask for? If there is a better license that fits my needs, let me know.
+Is it too much to ask for? The whole issue above I have is very known in the open source world, you can see it everywhere around us, here is [Jeff](https://youtu.be/4aaF2HgTVe8?t=84) talking about it. If there appears a open source license which fixes this issue, I will switch to it. 
 
 Oh did I mention **it's is open source anyway?** I share the full source, the schematic, the PCB source files, the needed* (more on it below) software. It's just not the pure open source definition, but the literal interpretation of it. Element of open source like contributing, forking etc. are still allowed and welcome, but with the restrictions above.
 
