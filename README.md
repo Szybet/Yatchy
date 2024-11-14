@@ -6,7 +6,7 @@
 </p>
 
 <p float="left" align="middle">
-  <img src="/img/Yatchy.png" width="340,5" height="384"/>
+  <img src="/img/Yatchy1.png" width="340,5" height="384"/>
 </p>
 
 Project under "construction", nothing is final yet, but most is probably
@@ -32,7 +32,7 @@ Yatchy features, compared to 2.0 watchy:
 - no more usb compability problems <sub>(Because i use native esp32c6 jtag programming)</sub>
 - better detection of charging <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
 - support for more wireless protocols, home automation ones, wifi 6 too
-- Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor
+- ~~Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor~~ <sub>JLCPCB decided to treat it as a seperate design and charge double, so I removed it. Stupid.</sub>
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
 - Following all the specs of the various IC's - on the watchy it was just Yolo no capacitors here and there
 - More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better
