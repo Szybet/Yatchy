@@ -11,9 +11,7 @@
 
 Project under "construction", nothing is final yet, but most is probably
 
-Yatchy features, compared to 2.0 watchy:
-
-<sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's not even open source, it has many flaws so I don't even compare to it</sub>
+Yatchy is a full redesign, from the ground up of the well know [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the wasted potential of it.
 
 #### Key points:
 - USBC instead of micro usb
@@ -22,6 +20,10 @@ Yatchy features, compared to 2.0 watchy:
 - Hardware hackable
 - Fixed many issues and improved minor things
 
+Yatchy features, compared to 2.0 watchy:
+
+<sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's not even open source, it has many flaws so I don't even compare to it</sub>
+
 ## More detail
 <details>
   <summary><h2>For regular users</h2></summary>
@@ -29,8 +31,8 @@ Yatchy features, compared to 2.0 watchy:
 - Heavy increase in battery life, even with the screen updating every minute <sub>(The esp32c6 has a riscv lp core, which i connected to the screen, which means the device never really wakes up fully to only update the screen, not only that i fixed sqfmi flaws (Using 2 voltage dividers for example) I also use the external crystal clock for the RTC which means no RTC IC... and many more such things)</sub>
 - Better buttons, more solid, shouldn't and probably won't break that much if at all. They are also less noisy.
 - Solid USB-C port <sub>(It's THT soldered)</sub>
-- no more usb compability problems <sub>(Because i use native esp32c6 jtag programming)</sub>
-- better detection of charging <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
+- no more usb compability problems <sub>(Because the esp32c6 uses native jtag programming)</sub>
+- better detection of charging, charge finishing. <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
 - support for more wireless protocols, home automation ones, wifi 6 too
 - ~~Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor~~ <sub>JLCPCB decided to treat it as a seperate design and charge double, so I removed it. Stupid.</sub>
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
