@@ -1,6 +1,5 @@
 [target.riscv32imac-unknown-none-elf]
 runner = "espflash flash --before no-reset --monitor"
-# runner = "espflash flash --monitor"
 
 [build]
 target = "riscv32imac-unknown-none-elf"

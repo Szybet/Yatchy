@@ -33,6 +33,11 @@ once_cell = { version = "1.19.0", default-features = false, features = [
     "race",
 ] }
 
+[features]
+default = ["uart"]
+usb_jtag = []
+uart = []
+
 [profile.release]
 opt-level = "z"
 codegen-units = 1

@@ -5,9 +5,11 @@
 
 use actions::{check_actions, manage_action, reset_actions};
 use core::{fmt::Write, mem::MaybeUninit};
+use esp_hal_low::gpio::any_pin::AnyPin;
+use esp_hal_low::uart::Uart;
 use esp_println::logger::{init_logger, init_logger_from_env};
 use flex_io::FlexIo;
-use gpio_action::{gpio_reset};
+use gpio_action::gpio_reset;
 use heapless::{String, Vec};
 use log::{debug, error, info};
 use static_cell::StaticCell;
@@ -112,13 +114,39 @@ async fn main(_spawner: Spawner) {
     );
     let mut io = Io::new(peripherals.GPIO, peripherals.IO_MUX);
 
-    let mut gpios = FlexIo::new(io);
+    let mut gpios = FlexIo {
+        current_output: None,
+        gpio0: Flex::new(AnyPin::new(io.pins.gpio0)),
+        gpio1: Flex::new(AnyPin::new(io.pins.gpio1)),
+        gpio2: Flex::new(AnyPin::new(io.pins.gpio2)),
+        gpio3: Flex::new(AnyPin::new(io.pins.gpio3)),
+        gpio4: Flex::new(AnyPin::new(io.pins.gpio4)),
+        gpio5: Flex::new(AnyPin::new(io.pins.gpio5)),
+        gpio6: Flex::new(AnyPin::new(io.pins.gpio6)),
+        gpio7: Flex::new(AnyPin::new(io.pins.gpio7)),
+        gpio10: Flex::new(AnyPin::new(io.pins.gpio10)),
+        gpio11: Flex::new(AnyPin::new(io.pins.gpio11)),
+        gpio14: Flex::new(AnyPin::new(io.pins.gpio14)),
+        gpio15: Flex::new(AnyPin::new(io.pins.gpio15)),
+        gpio18: Flex::new(AnyPin::new(io.pins.gpio18)),
+        gpio19: Flex::new(AnyPin::new(io.pins.gpio19)),
+        gpio20: Flex::new(AnyPin::new(io.pins.gpio20)),
+        gpio21: Flex::new(AnyPin::new(io.pins.gpio21)),
+        gpio22: Flex::new(AnyPin::new(io.pins.gpio22)),
+        gpio23: Flex::new(AnyPin::new(io.pins.gpio23)),
+    };
+
     gpio_reset(&mut gpios).await;
     embassy_time::Timer::after_millis(1000).await; // To make sure all pins are low
 
     info!("Initializing usb serial");
     // https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/usb_serial.rs
+    #[cfg(feature = "uart")]
+    let mut serial = Uart::new(peripherals.UART0, &clocks, io.pins.gpio16, io.pins.gpio17).unwrap();
+
+    #[cfg(feature = "usb_jtag")]
     let (mut tx, mut rx) = UsbSerialJtag::new_async(peripherals.USB_DEVICE).split();
+
     let mut rbuf = [0u8; MAX_BUFFER_SIZE];
     let mut string_buffer: heapless::Vec<u8, MAX_BUFFER_SIZE> = heapless::Vec::new();
 
@@ -128,11 +156,17 @@ async fn main(_spawner: Spawner) {
         //debug!("Iterating...");
         // Read from serial until space is detected
         let mut is_newline = false;
+        #[cfg(feature = "usb_jtag")]
         let r = rx.read_byte();
+        #[cfg(feature = "uart")]
+        let r = serial.read_byte();
         if let Ok(byte) = r {
             string_buffer.push(byte).unwrap();
             debug!("Received character: {}", byte);
+            #[cfg(feature = "usb_jtag")]
             tx.write_char(byte as char).unwrap();
+            #[cfg(feature = "uart")]
+            serial.write_bytes(&[byte]).unwrap();
             // Cariage return
             // https://www.asciitable.com/
             if byte == 13 {
