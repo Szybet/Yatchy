@@ -6,7 +6,6 @@ use esp_hal_low::gpio::{self, Flex, GpioPin, Io};
 ESP32-C6 has five strapping pins:
 • MTMS
 • MTDI
-• GPIO8
 • GPIO9
 • GPIO15
 */
@@ -21,7 +20,6 @@ pub struct FlexIo<'a> {
     pub gpio5: Flex<'a, AnyPin<'a>>,
     pub gpio6: Flex<'a, AnyPin<'a>>,
     pub gpio7: Flex<'a, AnyPin<'a>>,
-    pub gpio8: Flex<'a, AnyPin<'a>>,
     pub gpio10: Flex<'a, AnyPin<'a>>,
     pub gpio11: Flex<'a, AnyPin<'a>>,
     pub gpio14: Flex<'a, AnyPin<'a>>,
@@ -46,7 +44,6 @@ impl<'a> FlexIo<'a> {
             gpio5: Flex::new(AnyPin::new(io.pins.gpio5)),
             gpio6: Flex::new(AnyPin::new(io.pins.gpio6)),
             gpio7: Flex::new(AnyPin::new(io.pins.gpio7)),
-            gpio8: Flex::new(AnyPin::new(io.pins.gpio8)),
             gpio10: Flex::new(AnyPin::new(io.pins.gpio10)),
             gpio11: Flex::new(AnyPin::new(io.pins.gpio11)),
             gpio14: Flex::new(AnyPin::new(io.pins.gpio14)),
@@ -70,7 +67,6 @@ impl<'a> FlexIo<'a> {
             5 => Some(&mut self.gpio5),
             6 => Some(&mut self.gpio6),
             7 => Some(&mut self.gpio7),
-            8 => Some(&mut self.gpio8),
             10 => Some(&mut self.gpio10),
             11 => Some(&mut self.gpio11),
             14 => Some(&mut self.gpio14),
