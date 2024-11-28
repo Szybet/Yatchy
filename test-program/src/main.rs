@@ -69,7 +69,6 @@ pub enum gpioAction {
     gpio5,
     gpio6,
     gpio7,
-    gpio8,
     //io9, // gpio 9! This pin must be tested before even connecting to usb
     gpio10, // probably TXD0
     gpio11, // probbaly RXD0
@@ -93,7 +92,7 @@ pub enum currentAction {
 
 #[main]
 async fn main(_spawner: Spawner) {
-    init_logger(log::LevelFilter::Info);
+    init_logger(log::LevelFilter::Debug);
     //init_logger(log::LevelFilter::Debug);
     info!("Heap init");
     heap_init();
@@ -177,8 +176,6 @@ async fn main(_spawner: Spawner) {
                     cur_act = Some(currentAction::Gpio(6));
                 } else if action == "gpio7" {
                     cur_act = Some(currentAction::Gpio(7));
-                } else if action == "gpio8" {
-                    cur_act = Some(currentAction::Gpio(8));
                 } else if action == "gpio10" {
                     cur_act = Some(currentAction::Gpio(10));
                 } else if action == "gpio11" {
