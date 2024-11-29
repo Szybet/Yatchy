@@ -114,6 +114,11 @@ async fn main(_spawner: Spawner) {
     );
     let mut io = Io::new(peripherals.GPIO, peripherals.IO_MUX);
 
+    // This disables USB JTAG interface
+    // https://github.com/esp-rs/esp-hal/issues/279
+    #[cfg(feature = "uart")]
+    peripherals.USB_DEVICE.conf0().modify(|_,w| w.usb_pad_enable().clear_bit());
+
     let mut gpios = FlexIo {
         current_output: None,
         gpio0: Flex::new(AnyPin::new(io.pins.gpio0)),
