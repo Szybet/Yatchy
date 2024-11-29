@@ -22,6 +22,10 @@ pub struct FlexIo<'a> {
     pub gpio7: Flex<'a, AnyPin<'a>>,
     pub gpio10: Flex<'a, AnyPin<'a>>,
     pub gpio11: Flex<'a, AnyPin<'a>>,
+    #[cfg(feature = "uart")]
+    pub gpio12: Flex<'a, AnyPin<'a>>,
+    #[cfg(feature = "uart")]
+    pub gpio13: Flex<'a, AnyPin<'a>>,
     pub gpio14: Flex<'a, AnyPin<'a>>,
     pub gpio15: Flex<'a, AnyPin<'a>>,
     pub gpio18: Flex<'a, AnyPin<'a>>,
@@ -33,30 +37,6 @@ pub struct FlexIo<'a> {
 }
 
 impl<'a> FlexIo<'a> {
-    pub fn new(io: Io) -> Self {
-        FlexIo {
-            current_output: None,
-            gpio0: Flex::new(AnyPin::new(io.pins.gpio0)),
-            gpio1: Flex::new(AnyPin::new(io.pins.gpio1)),
-            gpio2: Flex::new(AnyPin::new(io.pins.gpio2)),
-            gpio3: Flex::new(AnyPin::new(io.pins.gpio3)),
-            gpio4: Flex::new(AnyPin::new(io.pins.gpio4)),
-            gpio5: Flex::new(AnyPin::new(io.pins.gpio5)),
-            gpio6: Flex::new(AnyPin::new(io.pins.gpio6)),
-            gpio7: Flex::new(AnyPin::new(io.pins.gpio7)),
-            gpio10: Flex::new(AnyPin::new(io.pins.gpio10)),
-            gpio11: Flex::new(AnyPin::new(io.pins.gpio11)),
-            gpio14: Flex::new(AnyPin::new(io.pins.gpio14)),
-            gpio15: Flex::new(AnyPin::new(io.pins.gpio15)),
-            gpio18: Flex::new(AnyPin::new(io.pins.gpio18)),
-            gpio19: Flex::new(AnyPin::new(io.pins.gpio19)),
-            gpio20: Flex::new(AnyPin::new(io.pins.gpio20)),
-            gpio21: Flex::new(AnyPin::new(io.pins.gpio21)),
-            gpio22: Flex::new(AnyPin::new(io.pins.gpio22)),
-            gpio23: Flex::new(AnyPin::new(io.pins.gpio23)),
-        }
-    }
-
     pub fn get_pin(&mut self, index: u32) -> Option<&mut Flex<'a, AnyPin<'a>>> {
         match index {
             0 => Some(&mut self.gpio0),
@@ -69,6 +49,10 @@ impl<'a> FlexIo<'a> {
             7 => Some(&mut self.gpio7),
             10 => Some(&mut self.gpio10),
             11 => Some(&mut self.gpio11),
+            #[cfg(feature = "uart")]
+            12 => Some(&mut self.gpio12),
+            #[cfg(feature = "uart")]
+            13 => Some(&mut self.gpio13),
             14 => Some(&mut self.gpio14),
             15 => Some(&mut self.gpio15),
             18 => Some(&mut self.gpio18),

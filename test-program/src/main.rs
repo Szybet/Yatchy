@@ -126,6 +126,10 @@ async fn main(_spawner: Spawner) {
         gpio7: Flex::new(AnyPin::new(io.pins.gpio7)),
         gpio10: Flex::new(AnyPin::new(io.pins.gpio10)),
         gpio11: Flex::new(AnyPin::new(io.pins.gpio11)),
+        #[cfg(feature = "uart")]
+        gpio12: Flex::new(AnyPin::new(io.pins.gpio12)),
+        #[cfg(feature = "uart")]
+        gpio13: Flex::new(AnyPin::new(io.pins.gpio13)),
         gpio14: Flex::new(AnyPin::new(io.pins.gpio14)),
         gpio15: Flex::new(AnyPin::new(io.pins.gpio15)),
         gpio18: Flex::new(AnyPin::new(io.pins.gpio18)),
@@ -214,6 +218,24 @@ async fn main(_spawner: Spawner) {
                     cur_act = Some(currentAction::Gpio(10));
                 } else if action == "gpio11" {
                     cur_act = Some(currentAction::Gpio(11));
+                } else if action == "gpio12" {
+                    #[cfg(feature = "uart")]
+                    {
+                        cur_act = Some(currentAction::Gpio(12));
+                    }
+                    #[cfg(not(feature = "uart"))]
+                    {
+                        error!("You dummy, this gpio is used for usb communication, which you are using now!");
+                    }
+                } else if action == "gpio13" {
+                    #[cfg(feature = "uart")]
+                    {
+                        cur_act = Some(currentAction::Gpio(13));
+                    }
+                    #[cfg(not(feature = "uart"))]
+                    {
+                        error!("You dummy, this gpio is used for usb communication, which you are using now!");
+                    }
                 } else if action == "gpio14" {
                     cur_act = Some(currentAction::Gpio(14));
                 } else if action == "gpio15" {
