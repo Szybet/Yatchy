@@ -12,6 +12,10 @@ pub async fn gpio_check(io: &mut FlexIo<'_>) {
             }
         }
         if let Some(in_pin) = io.get_pin(pin) {
+            // Pin 13 is always high, even if we disabled JTAG. That's why we ignore the error
+            if pin == 13 {
+                continue;
+            }
             if in_pin.is_high() {
                 error!("Gpio {} is high!", pin);
             }
