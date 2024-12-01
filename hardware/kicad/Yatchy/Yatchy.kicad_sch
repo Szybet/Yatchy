@@ -13829,7 +13829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S8050"
+		(property "Value" "BC817-25.215"
 			(at 55.6514 218.313 0)
 			(effects
 				(font
