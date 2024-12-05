@@ -9,7 +9,7 @@
   <img src="/img/Yatchy1.png" width="340,5" height="384"/>
 </p>
 
-Project under "construction", nothing is final yet, but most is probably
+Project under "construction", nothing is final yet, but most is probably. The released PCB is final v1, but the components (values of them, models) are not, so wait if you plan to build your own.
 
 Yatchy is a full redesign, from the ground up of the well know [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the wasted potential of it.
 
