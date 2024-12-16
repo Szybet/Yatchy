@@ -28,3 +28,5 @@ Both drift more, as this test took less time. Yatchy drifts more than I thought 
 
 ## End conclusions & Future
 It's a bit worse than I thought, but it's okay, but you should decide for your own. I will probably in the future use 5ppm quartz instead of 20ppm ones. The 5 ppm are harder to source, but are 4 times better than the 20ppm ones (Any 32khz quartz will fit, it just needs to be 12.5pF)
+
+If you feel like it, you could just create a module / do some hacky soldering an attach a modern rtc ic to yatchy via the module pins and use that ;)
