@@ -11,7 +11,22 @@ Don't scream "IT'S NOT OPEN SOURCE", let me explain myself.
 
 Is it too much to ask for? The whole issue above I have is very known in the open source world, you can see it everywhere around us, here is [Jeff](https://youtu.be/4aaF2HgTVe8?t=84) talking about it. If there appears a open source license which fixes this issue, I will switch to it. 
 
-Oh did I mention **it's is open source anyway?** I share the full source, the schematic, the PCB source files, the needed* (more on it below) software. It's just not the pure open source definition, but the literal interpretation of it. Element of open source like contributing, forking etc. are still allowed and welcome, but with the restrictions above.
+Oh did I mention **it's is open source anyway?\*\*\*** I share the full source, the schematic, the PCB source files, the needed* (more on it below) software. It's just not the pure open source definition, but the literal interpretation of it. Element of open source like contributing, forking etc. are still allowed and welcome, but with the restrictions above.
+
+<details>
+  <summary>Further thoughts about it:</summary>
+
+On https://opensource.org/osd we can see, in the first point "Free Redistribution" and well, first "as a component" hardware can't be a component really, so this point doesn't apply to hardware. The whole point doesn't work for hardware, we know how the world works, it works for software, that's why [InkWatchy](https://github.com/Szybet/InkWatchy) is GPL3. Let's search further, on https://www.oshwa.org/faq/#what-license-to-use we can see the question "Won’t people rip me off?" exactly what I have been searching for! The answer is "Maybe"... ugh... Well their explanation is good but a maybe is too much for me... There is also that: https://mifactori.de/non-commercial-is-not-open-source/ so the entire situation is a joke for me. I can't have a "open source" hardware license without someone "Maybe" ripping me off. So it looks like that:
+
+What I want from "Open source":
+- To allow people modify, build their own from scratch, even sell the design to some extend, do deep repairs etc. (Which I do, but I'm forced to use the `Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike` license.)
+
+What I don't want:
+- People ripping me off
+
+Sad, it just looks like someone long time ago took a software license, applied it to hardware which doesn't work in a real work and started calling out everyone "Uh oh, it's actually not open source because you are not allowing people to ripp you off"
+
+</details>
 
 ## The design of the Yatchy
 Yatchy was designed to:
