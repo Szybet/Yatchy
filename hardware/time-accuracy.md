@@ -2,6 +2,10 @@ Test devices:
 - watchy v2 with PCF8536 (which in my experience worked better than for other v2 users) 
 - yatchy with 20 ppm quartz
 
+Further notes:
+- This test is just me making `currentSeconds - ntpCorrectSeconds` in clock debug menu, no fancy scientific stuff
+- There are no drift corrections applied, they would help with the stable temperature test but not with the changing temperature test.
+
 ## In room temperature
 Test time: 1d 9h 27m
 
