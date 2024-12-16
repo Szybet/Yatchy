@@ -24,7 +24,7 @@ What I want from "Open source":
 What I don't want:
 - People ripping me off
 
-Sad, it just looks like someone long time ago took a software license, applied it to hardware which doesn't work in a real work and started calling out everyone "Uh oh, it's actually not open source because you are not allowing people to ripp you off"
+Sad, it just looks like someone long time ago took a software license, applied it to hardware which doesn't work in the real world and started calling out everyone "Uh oh, it's actually not open source because you are not allowing people to ripp you off"
 
 </details>
 
