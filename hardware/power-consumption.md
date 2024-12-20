@@ -1,0 +1,37 @@
+Ok, first, measuring power at such low values is extremely hard, temperature, humidity can affect the values. Not only that, your touch, sight, planet position, random things can affect the results. What I'm trying to say, it's extremely hard, those are not 100% scientific values. But I took them many times to make sure they are similar and they have been taken on the nordic power profiler kit II, so it's valid enough I think.
+
+The best example of problems I'm facing is that I used some nail polish to make it more water resistant, this improved the power consumption by -20uA. It could be that, my best ques at least... It's really random and hard
+
+Some important things first:
+- Those are only during time updates, not interacting with the watch. Any interaction will obviously drain a lot of battery, so the final battery consumption will be heavily based how much you just look at the time or just interact with the watch
+- The `.doc` files in this dir can be used to calculate the power consumption for your settings, battery. But to understand what is going on there, first you need to read the rest of this document.
+- Those files are chaotic, I know, I don't care, they do their job
+
+Devices used:
+- Yatchy v1 without an accelerometer. If you want to "simulate" adding of the acc, add a few uA to the full sleep value
+- Watchy v2, regular one.
+
+Description of functioning of those devices
+
+Yatchy:
+- "Regular lp core time update" Is the most regular time update, it happens most often, almost every minute
+- "First time update lp core" Happens after "hp core update"
+- "hp core update" Is when the main program, in this case InkWatchy is launched. You can control how often this happens, at default it's every 29 minutes so 2 times an hour. It takes the most amount of battery, but it's important as it updates other things on the watch, not only the time.
+
+Watchy:
+- Here it's just "hp core update" all the time, as Watchy v2 (or even v3) can't use the lp/ulp core to update the time
+
+Now some images that explain the values in the docs
+# Yatchy
+
+Full sleep
+![image](https://github.com/user-attachments/assets/ff78eaad-d287-4639-84dc-20dbe2035dbc)
+
+Lp core regular time update
+![image](https://github.com/user-attachments/assets/cb023cbb-6f17-4412-8198-11fd53870f8d)
+
+Lp core first time update
+![image](https://github.com/user-attachments/assets/a6857df6-64bd-4416-a049-45af35411d41)
+
+Hp core wakeup (In the future, it could be 1s smaller)
+![image](https://github.com/user-attachments/assets/0e05d273-ec75-4e86-9856-9d4da2074eb5)
