@@ -1,3 +1,7 @@
+# Other related docs:
+1. [Power consumption](https://github.com/Szybet/Yatchy/tree/main/hardware/power-consumption)
+2. [Time accuracy](https://github.com/Szybet/Yatchy/blob/main/hardware/time-accuracy.md)
+
 <sub>Read all of it!</sub>
 ## License
 This work is licensed under a [Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike](https://creativecommons.org/licenses/by-nc-sa/4.0/)
