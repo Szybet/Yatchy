@@ -5,7 +5,7 @@ The best example of problems I'm facing is that I used some nail polish to make 
 Some important things first:
 - Yatchy obviously uses the lp core
 - Those are only during time updates, not interacting with the watch. Any interaction will obviously drain a lot of battery, so the final battery consumption will be heavily based how much you just look at the time or just interact with the watch
-- The `.doc` files in this dir can be used to calculate the power consumption for your settings, battery. But to understand what is going on there, first you need to read the rest of this document.
+- The `.doc` files in this dir can be used to calculate the power consumption for your settings, battery. But to understand what is going on there, first you need to read the rest of this document. Oh and the docs screenshoots are at the bottom of this document if you don't want to change anything but you are too lazy to look it up
 - Those files are chaotic, I know, I don't care, they do their job
 - For watchyv2-calculations.ods to match this: https://github.com/Szybet/InkWatchy/wiki/InkWatchy-battery-life-measurements you need to take into account that the measurments there had a night delay, while those calculations don't. To make those results match, set the wakeups in one hour to 43. Yatchy doesn't need such optimisations, that's why I skip them ;)
 
@@ -48,3 +48,10 @@ Umm this looks a bit much, well, power consumption magic, maybe my connections i
 
 Hp core wakeup (It matches in timing the one from Yatchy & 
 ![image](https://github.com/user-attachments/assets/a7943368-8797-48e2-aaf5-8506cdde526c)
+
+## SS
+yatchy calculations:
+![image](https://github.com/user-attachments/assets/ef2ed400-6937-4ef2-9c66-0ff1e4b3c7ff)
+watchy calculations:
+![image](https://github.com/user-attachments/assets/e429c763-7090-4ff3-b6dc-d07b69283999)
+
