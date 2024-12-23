@@ -34,6 +34,10 @@ What I don't want:
 
 Sad, it just looks like someone long time ago took a software license, applied it to hardware which doesn't work in the real world and started calling out everyone "Uh oh, it's actually not open source because you are not allowing people to ripp you off"
 
+Rant end, here is what you are left with:
+
+A device that is not open source from the strict definition, but has the bare source for replication available, with elements of open source allowed and the author is open about this all.
+
 </details>
 
 ## The design of the Yatchy
