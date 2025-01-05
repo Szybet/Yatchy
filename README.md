@@ -73,5 +73,6 @@ It's fully supported by [InkWatchy](https://github.com/Szybet/InkWatchy). Maybe 
 Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 
 # Community
+For any questions, feel free to ask in github issues or in this discord server:
 
-<a href="https://discord.gg/6PUmRXZRGD">Join the *atchy community on discord</a>
+<a href="https://discord.gg/6PUmRXZRGD">*atchy community on discord</a>
