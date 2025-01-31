@@ -9,9 +9,7 @@
   <img src="/img/Yatchy1.png" width="340,5" height="384"/>
 </p>
 
-Project under "construction", nothing is final yet, but most is probably. The released PCB is final v1, but the components (values of them, models) are not, so wait if you plan to build your own.
-
-Yatchy is a full redesign, from the ground up of the well know [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the wasted potential of it.
+Yatchy is a full redesign, from the ground up of the well known [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the wasted potential of it.
 
 #### Key points:
 - USBC instead of micro usb
@@ -57,10 +55,10 @@ Yatchy features, compared to 2.0 watchy:
 <details>
   <summary><h2>Flaws</h2></summary>
 
-- No battery connector, the module pads are small - so it's not for everyone, harder to use / assembly (solder!) for beginers
+- No battery connector, the module pads are small - so it's not for everyone, harder to use / assembly (solder!) for beginners
 - There is no dedicated place for the motor, it's just Yolo on the components with some glue. Soldering the motor cables also is not easy
 - It's watchy like but not watchy case compatible, the size and form factor is the same but the obvious obstacle is USBC, even with it the buttons are different and placed a little off to save some space
-- It's a 4 layer PCB, so a bit more costly
+- It's a 4 layer PCB, so a bit more costly (With JLCPCB it's still cheap)
 - No easy hard reset option, you will need to short pins, but if you need to do it, then you made something really wrong. <sub>When developing the Yatchy, I only once needed a full reset</sub>
 - A complicated license
 
