@@ -39,6 +39,13 @@ Rant end, here is what you are left with:
 
 A device that is not open source from the strict definition, but has the bare source for replication available, with elements of open source allowed and the author is open about this all.
 
+* * *
+
+It's not only me having this opinion, other makers also share it:
+- https://github.com/o7-machinehum/flipper-blackhat-a33#license
+
+:)
+
 </details>
 
 ## The design of the Yatchy
