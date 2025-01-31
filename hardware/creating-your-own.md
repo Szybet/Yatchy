@@ -1,4 +1,4 @@
-# Ordering components
+# Ordering components & Price
 There is a spreadsheet for it: https://github.com/Szybet/Yatchy/blob/main/hardware/components-calc.ods
 
 You need to adjust all values for yourself, after that it will give you a approximation of how much will it cost. Why it's not precise?
