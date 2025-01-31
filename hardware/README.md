@@ -1,6 +1,7 @@
 # Other related docs:
 1. [Power consumption](https://github.com/Szybet/Yatchy/tree/main/hardware/power-consumption)
 2. [Time accuracy](https://github.com/Szybet/Yatchy/blob/main/hardware/time-accuracy.md)
+3. [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)
 
 <sub>Read all of it!</sub>
 ## License
@@ -58,6 +59,8 @@ But if you plan to create a Yatchy for yourself (because you have the skills req
 So "Commercial use" for the yatchy is using it as a cash grab, without giving anything back, which is not allowed.
 
 If you plan to really mass produce them, then we should talk I ques.
+
+**So you want to create your own? There is a doc for that: [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)**
 
 ## The ability to enforce the license
 First some explanation:
