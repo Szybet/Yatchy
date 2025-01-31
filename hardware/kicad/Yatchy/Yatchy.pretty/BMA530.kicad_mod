@@ -6,7 +6,7 @@
 	(descr "BMA530-1")
 	(tags "Accelerometer")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.2 -2.2 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "9d52bf68-5b2e-4a6b-a0b6-f58c51e95147")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "BMA530"
-		(at 0 0 0)
+		(at 0.2 -2.4 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "c7c18cfe-a8d9-4635-8f5e-491a279163c2")
@@ -144,47 +144,16 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.9 -0.6)
-		(end -0.9 -0.6)
+	(fp_circle
+		(center -0.9 -0.808579)
+		(end -0.758579 -0.808579)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "e2478bd5-0c30-4305-a27b-4b31f07d789c")
-	)
-	(fp_line
-		(start -0.8 -0.6)
-		(end -0.8 -0.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6d96a2e1-e251-4752-a30d-25f5a41202b1")
-	)
-	(fp_arc
-		(start -0.9 -0.6)
-		(mid -0.85 -0.65)
-		(end -0.8 -0.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "efe06fe1-fb1d-48a1-bf5a-7c895844c226")
-	)
-	(fp_arc
-		(start -0.8 -0.6)
-		(mid -0.85 -0.55)
-		(end -0.9 -0.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b6ce1a68-4c7d-413e-8a85-f9e7405be653")
+		(uuid "f85587c4-f4e6-4a2a-86fb-793ac7851cdc")
 	)
 	(fp_rect
 		(start -0.6 -0.75)

@@ -132,8 +132,8 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -1.38666 -1)
-		(end -1.38666 -0.98666)
+		(center -1.35 -1.2)
+		(end -1.35 -1.1)
 		(stroke
 			(width 0.2)
 			(type solid)
