@@ -22,7 +22,7 @@ Yatchy features, compared to 2.0 watchy:
 
 <sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's design files are not released, only the schematic, also it has many flaws so I don't even compare to it</sub>
 
-## More detail
+## More details
 <details>
   <summary><h2>For regular users</h2></summary>
 
