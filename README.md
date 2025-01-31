@@ -2,7 +2,7 @@
   Yatchy
 </h1>
 <p align="center">
-  <b>Y</b>our W<b>atchy</b>, with all the flaws of the original fixed
+  <b>Y</b>our W<b>atchy</b>, fixed and improved
 </p>
 
 <p float="left" align="middle">
@@ -34,7 +34,6 @@ Yatchy features, compared to 2.0 watchy:
 - support for more wireless protocols, home automation ones, wifi 6 too
 - ~~Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor~~ <sub>JLCPCB decided to treat it as a seperate design and charge double, so I removed it. Stupid.</sub>
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
-- Following all the specs of the various IC's - on the watchy it was just Yolo no capacitors here and there
 - More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better
 
 </details>
@@ -42,9 +41,9 @@ Yatchy features, compared to 2.0 watchy:
 <details>
   <summary><h2>For advanced users</h2></summary>
 
-- A module area, with almost all exposed pins from the esp, power lines, and many gpio pins thanks to the expander IC - You can create your own, increase the capability of you yatchy without modifying everything inside - solar panel module, encoder instead of the button, sd card module, frontlight module, torchlight module, speaker module, microphone module, some environmental sensors. The only limitation is your imagination (And the size of the module)
-- the low power core while using the high power core could be used to write portable apps for the yatchy <sub>(but we could achieve that with lua anyway I think)</sub>
-- All the components are newer, still available and produced. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
+- **A module area**, with almost all exposed pins from the esp, power lines, and many gpio pins thanks to the expander IC - You can create your own module, increase the capability of you yatchy without modifying everything inside - solar panel module, encoder instead of the button, sd card module, frontlight module, torchlight module, speaker module, microphone module, some environmental sensors. The only limitation is your imagination (And the size of the module)
+   - The default module (In the picture above) allows for for attaching small things without the need for a custom PCB
+- All the components are newer, still available and produced. They are also listed, with links to mauser / tme. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
 - All QFN packages IC's on the board have increased pad sizes, so if you are skilled enough to solder QFN packages, here it will be easier
 - I used traces teardrops, so more solid traces & pads
 - A [hardware test program](https://github.com/Szybet/Yatchy/tree/main/test-program), which allows testing if all the pads of the esp32c6, which is the hardest part to solder are soldered correctly
