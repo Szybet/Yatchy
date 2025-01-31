@@ -15,7 +15,7 @@ If you feel extra insecure and you don't trust me (You shouldn't) check the kica
 
 For me, the cost is arround 70-80$, without the labour and things like solder / flux
 
-Also to note, mauser is not required, I was able to buy everything with TME + falstad. Also digikey looks like it has all the components
+Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
 
 # Ordering the PCB
 TODO: if someone requests this wiki I will create it
