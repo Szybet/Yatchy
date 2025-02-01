@@ -1,6 +1,7 @@
 # Other related docs:
 1. [Power consumption](https://github.com/Szybet/Yatchy/tree/main/hardware/power-consumption)
 2. [Time accuracy](https://github.com/Szybet/Yatchy/blob/main/hardware/time-accuracy.md)
+3. [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)
 
 <sub>Read all of it!</sub>
 ## License
@@ -38,6 +39,13 @@ Rant end, here is what you are left with:
 
 A device that is not open source from the strict definition, but has the bare source for replication available, with elements of open source allowed and the author is open about this all.
 
+* * *
+
+It's not only me having this opinion, other makers also share it:
+- https://github.com/o7-machinehum/flipper-blackhat-a33#license
+
+:)
+
 </details>
 
 ## The design of the Yatchy
@@ -58,6 +66,8 @@ But if you plan to create a Yatchy for yourself (because you have the skills req
 So "Commercial use" for the yatchy is using it as a cash grab, without giving anything back, which is not allowed.
 
 If you plan to really mass produce them, then we should talk I ques.
+
+**So you want to create your own? There is a doc for that: [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)**
 
 ## The ability to enforce the license
 First some explanation:
