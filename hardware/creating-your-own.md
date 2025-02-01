@@ -26,6 +26,14 @@ There is no dedicated place for the vibration motor. So it's simply yeet it on t
 1. Install kicad version 8.0.6 or later
 2. Install this plugin https://github.com/bouni/kicad-jlcpcb-tools
 3. Clone the repo / open the pcb project so you will see something like this (PCB on the pic is outdated)
+- Of you don't understand the above, here is a step by step:
+   - Get all the files from this repo, for example like this (Download zip)
+
+![image](https://github.com/user-attachments/assets/5bdac971-abd1-4370-ba58-c796bbdb6b8d)
+
+   - Extract it
+   - Open in kicad the file "Yatchy.kicad_pro"
+   - Then in kicad open the pcb file
 
 ![image](https://github.com/user-attachments/assets/7a05e957-d8bc-4559-ab97-ff867b3ab0d9)
 
