@@ -1,3 +1,5 @@
+**A reminder, all of this is provided without any warranty. If something goes wrong and the PCB is bad, wrong components, not my fault**
+
 # Ordering components & Price
 There is a spreadsheet for it: https://github.com/Szybet/Yatchy/blob/main/hardware/components-calc.ods
 
@@ -18,7 +20,41 @@ For me, the cost is arround 70-80$, without the labour and things like solder / 
 Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
 
 # Ordering the PCB
-TODO: if someone requests this wiki I will create it
+1. Install kicad version 8.0.6 or later
+2. Install this plugin https://github.com/bouni/kicad-jlcpcb-tools
+3. Clone the repo / open the pcb project so you will see something like this (PCB on the pic is outdated)
+
+![image](https://github.com/user-attachments/assets/7a05e957-d8bc-4559-ab97-ff867b3ab0d9)
+
+4. Click this:
+
+![image](https://github.com/user-attachments/assets/2e523c5f-6c82-4cd1-8e32-61e2babe8718)
+
+5. Click this
+
+![image](https://github.com/user-attachments/assets/b5acc341-297b-4d69-944a-330b62cc5b5f)
+
+6. Now in the logs you will see where the magic zip file is
+
+![image](https://github.com/user-attachments/assets/774431bb-d07c-4ec0-a7ff-8e8abeb8abb4)
+
+7. Log into JLCPCB with an account
+8. Go to https://jlcpcb.com/ and add the zip file
+
+![image](https://github.com/user-attachments/assets/a6013d2f-5d88-40d1-97f8-891410bbb9ff)
+
+9. You should see something like this
+
+![image](https://github.com/user-attachments/assets/2b82a1f1-587e-45ee-a7ef-7403bf918025)
+
+10. Now make sure those settings are matched:
+- Layers: 4
+- PCB Thickness: 1.0mm
+- Mark on PCB: Remove mark (If it charges you more money for this option, then just switch back to Order number)
+
+The rest defaults should be fine, but you can explore and check if everything is fine. A huge red flag is when it costs a lot (>12$ let's say), it shouldn't.
+
+Now repeat the process with the module you want to attach, then order them rogether
 
 # Assembling Yatchy
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
