@@ -65,7 +65,7 @@ There is no dedicated place for the vibration motor. So it's simply yeet it on t
 
 The rest defaults should be fine, but you can explore and check if everything is fine. A huge red flag is when it costs a lot (>12$ let's say), it shouldn't.
 
-Now repeat the process with the module you want to attach, then order them rogether
+Now repeat the process with the module you want to attach, then order them rogether (The default module is here: https://github.com/Szybet/Yatchy/tree/main/hardware/kicad/modules/default)
 
 # Assembling Yatchy
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
