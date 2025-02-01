@@ -19,6 +19,9 @@ For me, the cost is arround 70-80$, without the labour and things like solder / 
 
 Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
 
+### Motor
+There is no dedicated place for the vibration motor. So it's simply yeet it on top of components (Isolation in between!). Also a small one is advised. I bought these ones: https://aliexpress.com/item/1005004948677826.html smallest ones I could find, they work, they do their job
+
 # Ordering the PCB
 1. Install kicad version 8.0.6 or later
 2. Install this plugin https://github.com/bouni/kicad-jlcpcb-tools
