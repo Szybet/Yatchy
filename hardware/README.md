@@ -84,4 +84,6 @@ In the kicad folder inside this directory are the design files for the yatchy v1
 
 they (PCB's) are also a bit messy, not fully profesionall, but they do the job, I hope, as I will order them
 
+the read-only folder contains the schematic in pdf form. It may be outdated.
+
 Yes, the source files reference watchy in a few places, that's because the name "Yatchy" came after, at first this project was planned to be a small watchy fork.
