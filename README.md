@@ -2,7 +2,7 @@
   Yatchy
 </h1>
 <p align="center">
-  <b>Y</b>our W<b>atchy</b>, fixed and improved
+  <b>Y</b>our W<b>atchy</b>, fixed and improved, even made modular
 </p>
 
 <p float="left" align="middle">
