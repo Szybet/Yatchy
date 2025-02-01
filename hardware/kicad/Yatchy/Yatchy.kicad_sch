@@ -7225,89 +7225,6 @@
 				)
 			)
 		)
-		(symbol "Watchy:mouse_bite"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.794 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mouse_bite_0_1"
-				(circle
-					(center 0 -2.54)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 21.59 29.21)
@@ -8520,16 +8437,6 @@
 			(type default)
 		)
 		(uuid "5518bc4f-0dc1-4efb-8ef6-dc562cc1d991")
-	)
-	(polyline
-		(pts
-			(xy 349.25 88.9) (xy 349.25 12.7)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5597cf04-4447-424a-afd7-e344fdc5e828")
 	)
 	(wire
 		(pts
@@ -10196,17 +10103,6 @@
 			(justify left bottom)
 		)
 		(uuid "6a41031e-2daa-4a41-b2be-ad4d7e99e11b")
-	)
-	(text "Mouse Bites\n"
-		(exclude_from_sim no)
-		(at 344.424 88.138 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "720777f6-0b5a-4750-af17-3a7133dd17a3")
 	)
 	(text "18pF should be fineee"
 		(exclude_from_sim no)
@@ -17513,69 +17409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Watchy:mouse_bite")
-		(at 337.82 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cbe1d55-28fc-4887-886f-1e7dea745c4d")
-		(property "Reference" "U6"
-			(at 335.534 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 339.09 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Yatchy:mouse-bite-3mm-slot"
-			(at 337.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Watchy"
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Watchy:Conn_01x01_Socket")
 		(at 313.69 59.69 0)
 		(unit 1)
@@ -20141,69 +19974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Watchy:mouse_bite")
-		(at 337.82 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a3a26ce-a010-4ba3-9b1c-dc1b283880da")
-		(property "Reference" "U4"
-			(at 335.534 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 339.09 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Yatchy:mouse-bite-3mm-slot"
-			(at 337.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Watchy:USB4730-GF-A-KIT")
 		(at 125.73 195.58 0)
 		(unit 1)
@@ -20838,69 +20608,6 @@
 			(project "Watchy"
 				(path "/f041cf41-3a16-4080-b1fe-997266120697"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Watchy:mouse_bite")
-		(at 337.82 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7efab286-222b-485f-a854-51a50a978dc0")
-		(property "Reference" "U8"
-			(at 335.534 28.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 339.09 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Yatchy:mouse-bite-3mm-slot"
-			(at 337.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Watchy"
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -21703,69 +21410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Watchy:mouse_bite")
-		(at 337.82 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0bb7479-0300-430c-bd3d-67fb3ad9afd2")
-		(property "Reference" "U5"
-			(at 335.534 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 339.09 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Yatchy:mouse-bite-3mm-slot"
-			(at 337.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Watchy"
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Watchy:R")
 		(at 73.66 142.24 180)
 		(unit 1)
@@ -21827,69 +21471,6 @@
 			(project "Watchy"
 				(path "/f041cf41-3a16-4080-b1fe-997266120697"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Watchy:mouse_bite")
-		(at 337.82 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a24d1962-0c2b-4338-b94d-e245e1f54ac3")
-		(property "Reference" "U7"
-			(at 335.534 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 339.09 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Yatchy:mouse-bite-3mm-slot"
-			(at 337.82 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Watchy"
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "U7")
 					(unit 1)
 				)
 			)
