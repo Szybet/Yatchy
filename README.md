@@ -18,11 +18,25 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 - Hardware hackable
 - Fixed many issues and improved minor things
 
+<details>
+  <summary><h3>Pictures of my prototype</h3></summary>
+
+
+
+- <sub>The battery is on the side because it's easier for me to measure power consumption</sub>
+- <sub>The glue is for the vibration motor which is detached in the picture</sub>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3ae1a087-5366-4c8e-a037-5b8754a2d5d1" width="45%" style="display:inline-block; margin-right: 5px;">
+  <img src="https://github.com/user-attachments/assets/8258f4e3-1292-4f11-8b0e-b0b4048dbdf4" width="45%" style="display:inline-block;">
+</p>
+
+</details>
+
 Yatchy features, compared to 2.0 watchy:
 
 <sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's design files are not released, only the schematic, also it has many flaws so I don't even compare to it</sub>
 
-## More details
 <details>
   <summary><h2>For regular users</h2></summary>
 
