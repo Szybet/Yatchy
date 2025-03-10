@@ -14,7 +14,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 #### Key points:
 - USBC instead of micro usb
 - Better buttons, they won't break easily
-- Better battery life
+- [Better battery life](https://github.com/Szybet/Yatchy/blob/main/hardware/power-consumption/README.md)
 - Hardware hackable
 - Fixed many issues and improved minor things
 
