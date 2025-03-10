@@ -77,6 +77,57 @@ Yatchy uses esp32c6 which has a lpcore which allows for updating time on the scr
 
 So all this talking is cool but it's just on paper, I can't enforce it, let's be real. That's why I will lock the full source code of the Yatchy lp program until I make back of what I invested. It costed more than I hoped for. Yatchy can still fully function without the lp core, just the battery life will be worse. I will share the source code partially to all yatchy users (also from other potential sellers) to allow to modify it, like the font used. Then I will simply compile it for them.
 
+<details>
+  <summary>Another, more technical explanation</summary>
+
+The ESP32-C6 in Yatchy has an LP core, which is a coprocessor optimized for efficiency and runs in RTC memory. It has a maximum of 16KB of memory (without any allocation) or just 8KB for easy compatibility with Watchy firmware, which uses the other 8KB.  
+
+I wrote a program in Rust for this core that displays the time on the screen. This required setting up or modifying:  
+- Getting Rust to run on it  
+- Log mechanics (to monitor what's happening, disabled in release)  
+- RTC memory handling (basic communication with the HP core, i.e., the main program)  
+- RTC register access to retrieve time  
+- Software SPI (since there's no native SPI)  
+- Display driver  
+- Minimalist font rendering via partial updates with a small buffer  
+- HPCore wakeup  
+
+All of this fits in just 8KB (technically 7KB).  
+
+It was quite a bit of work, and no one else has done it before. However, for reasons I outlined in my repo—mainly to prevent others from copying the design and selling it without giving anything back—I plan to release only the font rendering part. For example:  
+
+```rust
+pub fn draw_zero(fb: &mut wepd::Framebuffer<NUMBER_WIDTH, NUMBER_HEIGHT>) {
+    let start = Point::new(6, 4);
+    let right_top = Point::new(26, 4);
+    let right_t = Point::new(29, 10);
+    let right_b = Point::new(29, 38);
+    let right_bottom = Point::new(26, 44);
+    let left_bottom = Point::new(6, 44);
+    let left = Point::new(3, 38);
+    let left_top = Point::new(3, 10);
+
+    let points = [
+        start,
+        right_top,
+        right_t,
+        right_b,
+        right_bottom,
+        left_bottom,
+        left,
+        left_top,
+        start,
+    ];
+    draw_lines(&points, fb);
+}
+```
+
+You can modify it as you like, and tweaking some constants at the top will allow further adjustments, like changing letter positions.  
+
+Oh, and once I recover the money I invested in developing Yatchy, I'll release everything publicly—no questions asked.
+  
+</details>
+
 ## The source files
 Kicad version 8.0.6 is suggested.
 
