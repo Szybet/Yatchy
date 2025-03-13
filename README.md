@@ -83,6 +83,9 @@ It's fully supported by [InkWatchy](https://github.com/Szybet/InkWatchy). Maybe 
 ## Hardware sources, buying, reselling, license, battery life, time accuracy
 Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 
+## Cases, 3D files of the pcb
+[Cases here](https://github.com/Szybet/Yatchy/tree/main/3D/cases) and [pcb 3D model here](https://github.com/Szybet/Yatchy/tree/main/3D/pcb)
+
 # Community
 For any questions, feel free to ask in github issues or in this discord server:
 
