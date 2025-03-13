@@ -8,6 +8,17 @@ If you create your own model, fork one, or anything else, please (in addition to
   <img src="Szybet-side/img/case.gif" width="300px" style="display:inline-block;">
 </p>
 
+<details>
+<summary>Fit and dissasembly demo</summary>
+  
+<p align="center">
+
+https://github.com/user-attachments/assets/d5af4c48-378c-4553-9d58-3c49acbb4d74
+
+</p>
+
+</details>
+
 Notes:
 - Yes, it's designed for the battery to be on the side (and more space for module hackery), yes you can modify it for your needs
 - The top snaps into the bottom case, no screws, it's tight and easy to dismantle
