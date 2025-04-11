@@ -86,6 +86,8 @@ Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 ## Cases, 3D files of the pcb
 [Cases here](https://github.com/Szybet/Yatchy/tree/main/3D/cases) and [pcb 3D model here](https://github.com/Szybet/Yatchy/tree/main/3D/pcb)
 
+## [FAQ](https://github.com/Szybet/Yatchy/blob/main/faq.md)
+
 # Community
 For any questions, feel free to ask in github issues or in this discord server:
 
