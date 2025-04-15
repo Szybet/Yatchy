@@ -27,6 +27,7 @@ Notes:
 - The motor cover is for this motor: https://pl.aliexpress.com/item/1005004948677826.html?gatewayAdapt=glo2pol
 - The module led cover is for the led to redirect the light to the side. I used a silver marker for better effect
 - The side battery case has many files in it, they all should be printed as they are
+- Needs strong layer adhesion, otherwise it will break near the edges. Some glue on the inside or transparent PETG does the job
 
 License:
 
