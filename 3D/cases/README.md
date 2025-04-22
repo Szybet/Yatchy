@@ -44,6 +44,6 @@ License:
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
 - Yes, it's a simple brick, based on the side case, it's a base for modifying it for other cases with the battery inside
-- The tecture on the corners is for making them stronger, less breakable
+- The texture on the corners is for making them stronger, less breakable
 - The strap still has cutouts for attaching something to them
 - If the battery is inserted in a wrong way and the cables will touch the buttons, they might get stuck
