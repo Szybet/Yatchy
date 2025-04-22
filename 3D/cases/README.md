@@ -32,3 +32,18 @@ Notes:
 License:
 
 [Creative Commons (4.0 International License) Attribution—Noncommercial—Share Alike](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### Szybet's brick case
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Szybet-brick/img/front.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/side.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/top.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/render.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
+
+Notes:
+- This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
+- Yes, it's a simple brick, based on the side case, it's a base for modifying it for other cases with the battery inside
+- The tecture on the corners is for making them stronger, less breakable
+- The strap still has cutouts for attaching something to them
+- If the battery is inserted in a wrong way and the cables will touch the buttons, they might get stuck
