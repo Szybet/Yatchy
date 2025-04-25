@@ -1,4 +1,4 @@
-**A reminder, all of this is provided without any warranty. If something goes wrong and the PCB is bad, wrong components, not my fault**
+## **A reminder, all of this is provided without any warranty. If something goes wrong and the PCB is bad, wrong components, not my fault**
 
 # Ordering components & Price
 There is a spreadsheet for it: https://github.com/Szybet/Yatchy/blob/main/hardware/components-calc.ods
