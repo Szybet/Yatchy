@@ -94,8 +94,9 @@ pub enum currentAction {
 
 #[main]
 async fn main(_spawner: Spawner) {
-    init_logger(log::LevelFilter::Debug);
-    //init_logger(log::LevelFilter::Debug);
+    init_logger(log::LevelFilter::Info);
+    // init_logger(log::LevelFilter::Debug);
+    
     info!("Heap init");
     heap_init();
 
@@ -190,6 +191,7 @@ async fn main(_spawner: Spawner) {
             }
         }
 
+        #[cfg(feature = "init_test")]
         check_actions(&mut gpios).await;
 
         if started_typing && !is_newline {
