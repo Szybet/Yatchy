@@ -141,7 +141,9 @@ async fn main(_spawner: Spawner) {
         gpio19: Flex::new(AnyPin::new(io.pins.gpio19)),
         gpio20: Flex::new(AnyPin::new(io.pins.gpio20)),
         gpio21: Flex::new(AnyPin::new(io.pins.gpio21)),
+        #[cfg(feature = "i2c")]
         gpio22: Flex::new(AnyPin::new(io.pins.gpio22)),
+        #[cfg(feature = "i2c")]
         gpio23: Flex::new(AnyPin::new(io.pins.gpio23)),
     };
 
@@ -254,9 +256,23 @@ async fn main(_spawner: Spawner) {
                 } else if action == "gpio21" {
                     cur_act = Some(currentAction::Gpio(21));
                 } else if action == "gpio22" {
-                    cur_act = Some(currentAction::Gpio(22));
+                    #[cfg(feature = "i2c")]
+                    {
+                        cur_act = Some(currentAction::Gpio(22));
+                    }
+                    #[cfg(not(feature = "i2c"))]
+                    {
+                        error!("i2c bad me not like");
+                    }
                 } else if action == "gpio23" {
-                    cur_act = Some(currentAction::Gpio(23));
+                    #[cfg(feature = "i2c")]
+                    {
+                        cur_act = Some(currentAction::Gpio(23));
+                    }
+                    #[cfg(not(feature = "i2c"))]
+                    {
+                        error!("i2c bad me not like");
+                    }
                 } else if action == "self_check_gpio" {
                     info!("Starting self checking gpio");
                     cur_act = Some(currentAction::SelfCheckGpio());

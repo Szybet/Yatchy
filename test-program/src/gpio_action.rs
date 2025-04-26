@@ -16,6 +16,9 @@ pub async fn gpio_check(io: &mut FlexIo<'_>) {
             if pin == 13 {
                 continue;
             }
+            if pin == 6 {
+                continue;
+            }
             if in_pin.is_high() {
                 error!("Gpio {} is high!", pin);
             }
