@@ -32,7 +32,9 @@ pub struct FlexIo<'a> {
     pub gpio19: Flex<'a, AnyPin<'a>>,
     pub gpio20: Flex<'a, AnyPin<'a>>,
     pub gpio21: Flex<'a, AnyPin<'a>>,
+    #[cfg(feature = "i2c")]
     pub gpio22: Flex<'a, AnyPin<'a>>,
+    #[cfg(feature = "i2c")]          
     pub gpio23: Flex<'a, AnyPin<'a>>,
 }
 
@@ -59,8 +61,10 @@ impl<'a> FlexIo<'a> {
             19 => Some(&mut self.gpio19),
             20 => Some(&mut self.gpio20),
             21 => Some(&mut self.gpio21),
+            #[cfg(feature = "i2c")]
             22 => Some(&mut self.gpio22),
-            23 => Some(&mut self.gpio23),            
+            #[cfg(feature = "i2c")]          
+            23 => Some(&mut self.gpio23),
             _ => None,
         }
     }

@@ -37,6 +37,7 @@ once_cell = { version = "1.19.0", default-features = false, features = [
 default = ["uart"]
 usb_jtag = []
 uart = []
+i2c = []
 
 [profile.release]
 opt-level = "z"
