@@ -31,6 +31,10 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
   <img src="https://github.com/user-attachments/assets/8258f4e3-1292-4f11-8b0e-b0b4048dbdf4" width="45%" style="display:inline-block;">
 </p>
 
+<sub>A cleaner soldering job, with some other components (compability!)<sub>, yes, I know there is a short on the flex cable, it fell off when cleaning after the picture</sub></sub>
+![image](https://github.com/user-attachments/assets/230947a2-5d99-478a-9cd9-84caa8b0bce0)
+
+
 </details>
 
 Yatchy features, compared to 2.0 watchy:
