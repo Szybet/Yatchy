@@ -9,6 +9,7 @@ No place for it really, it was more important to optimise the module area than f
 I don't know, depends on your skill, a madman will need a lighter and a metal rod with some tin ore to do it \s
 
 But seriously, here is my gear I use, but keep in mind:
+- Read the hardware wiki to know what skill you need, what to expect etc.
 - It's old, there are for sure better alternatives today
 - I'm no expert, so still the point above, there are probably better alternatives (give me some tips if you know better, but look at the point below)
 - I prefer, lightly put, to pay less, a lot less when available, but I also prefer long lasting tools. The triangle is my enemy.
