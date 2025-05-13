@@ -2,9 +2,9 @@
 or at least sometimes
 
 ### Contents
-1. [Why no spot for the vibration motor?](https://github.com/Szybet/Yatchy/edit/main/faq.md#1-why-no-spot-for-the-vibration-motor)
-2. [What soldering gear do I need?](https://github.com/Szybet/Yatchy/edit/main/faq.md#2-what-soldering-gear-do-i-need)
-3. [Docs are too long, I did not read them, Where can I buy a Yatchy?](https://github.com/Szybet/Yatchy/edit/main/faq.md#3-docs-are-too-long-i-did-not-read-them-where-can-i-buy-a-yatchy)
+1. [Why no spot for the vibration motor?](https://github.com/Szybet/Yatchy/blob/main/faq.md#1-why-no-spot-for-the-vibration-motor)
+2. [What soldering gear do I need?](https://github.com/Szybet/Yatchy/blob/main/faq.md#2-what-soldering-gear-do-i-need)
+3. [Docs are too long, I did not read them, Where can I buy a Yatchy?](https://github.com/Szybet/Yatchy/blob/main/faq.md#3-docs-are-too-long-i-did-not-read-them-where-can-i-buy-a-yatchy)
 
 #### 1. Why no spot for the vibration motor?
 
