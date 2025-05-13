@@ -3,6 +3,10 @@
 # Ordering components & Price
 There is a spreadsheet for it: https://github.com/Szybet/Yatchy/blob/main/hardware/components-calc.ods
 
+**I already miscalculated the components in this spreadsheet a few times, so here is another disclaimer for you:**
+![image](https://github.com/user-attachments/assets/6a74510d-f3cd-4ae4-a6da-d6a2e2a5fdbd)
+While it's scary, simply checking with the latest Kicad files is a good idea anyway.
+
 You need to adjust all values for yourself, after that it will give you a approximation of how much will it cost. Why it's not precise?
 - Sometimes you need to order 1 component where the minimum is 5, so you order 5 (That's the case with pcb's)
 - Sometimes it's advised to buy spare components if you screw something up (I Usually buy spares for all of them)
@@ -13,7 +17,7 @@ You need to adjust all values for yourself, after that it will give you a approx
 
 So it's save to say it's precise up to +-15$, maybe even 20$
 
-If you feel extra insecure and you don't trust me (You shouldn't) check the kicad files if the document misses a component
+If you feel extra insecure and you don't trust me **(You shouldn't)** check the kicad files if the document misses a component
 
 For me, the cost is arround 70-80$, without the labour and things like solder / flux
 
@@ -69,3 +73,6 @@ Now repeat the process with the module you want to attach, then order them roget
 
 # Assembling Yatchy
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
+
+## Binner.io
+I started using Binner.io, if you want to manage your Yatchy parts in it, [here](https://github.com/Szybet/Yatchy/blob/main/hardware/BinnerParts.xlsx) is the export with all the parts. Yes, it could be outdated.
