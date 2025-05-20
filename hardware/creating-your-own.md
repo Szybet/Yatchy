@@ -23,6 +23,13 @@ For me, the cost is arround 70-80$, without the labour and things like solder / 
 
 Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
 
+### Choosing alternative components
+If you want to choose alternative components (we are talking about capacitors / resistors, for transistors etc. you are on your own) follow this:
+1. Follow the excel file, not the BOM file.
+2. Generally, 5% tolerance is good, but there are exceptions:
+- For the quartz capacitors, get the max possible tolerance (1%?)
+- For screen circuit things, get better tolerances if it doesn't cost you much, because if something will not work, it will be hell to debug
+
 ### Motor
 There is no dedicated place for the vibration motor. So it's simply yeet it on top of components (Isolation in between!). Also a small one is advised. I bought these ones: https://aliexpress.com/item/1005004948677826.html smallest ones I could find, they work, they do their job
 
