@@ -77,7 +77,7 @@ Yatchy uses esp32c6 which has a lpcore which allows for updating time on the scr
 
 So all this talking is cool but it's just on paper, I can't enforce it, let's be real. That's why I will lock the full source code of the Yatchy lp program until I make back of what I invested. It costed more than I hoped for. Yatchy can still fully function without the lp core, just the battery life will be worse. I will share the source code partially to all yatchy users (also from other potential sellers) to allow to modify it, like the font used. Then I will simply compile it for them. **Yes, it could be converted into a binary library with a header api**, it was simply not done yet as the program is complicated and has a complicated structure. So that scenario is upon a possible request
 
-More details [here](https://github.com/Szybet/Yatchy/edit/main/hardware/lpcore.md)
+More details [here](https://github.com/Szybet/Yatchy/blob/main/hardware/lpcore.md)
 
 ## The source files
 Kicad version 8.0.6 is suggested.
