@@ -50,7 +50,7 @@ pub fn draw_zero(fb: &mut wepd::Framebuffer<NUMBER_WIDTH, NUMBER_HEIGHT>) {
 
 But thanks to a [contribution from someone](https://github.com/themkoi) there is now svg to code above automatic conversion, so there are many fonts and they are easier to modify and add. They also look better now, as someone tinkered more with them.
 
-### Creating your own
+### Creating your own font
 (for your own watchface, or simply to adjust for inkfield)
 
 The svg files are up to request, but there are some thing to keep in mind while modifying them:
