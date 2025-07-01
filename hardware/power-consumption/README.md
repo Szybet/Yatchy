@@ -4,7 +4,13 @@ Ok, first, measuring power at such low values is extremely hard, temperature, hu
 
 The best example of problems I'm facing is that I used some nail polish to make it more water resistant, this improved the power consumption by -20uA. It could be that, my best ques at least... It's really random and hard
 
-Some important things first:
+[Here](https://github.com/Szybet/Yatchy/blob/main/hardware/power-consumption/Where%20is%20my%20current%20-%20The%20game.pdf) you can see my latest fight with the demons of power consumption, the enemy who stabbed me from the back was... the LED diode (But I fixed it, now it's a lot better).
+
+Also, a funny video demonstrating how measuring such low currents is hard, it's just my hand, no magnets or anything
+
+https://github.com/user-attachments/assets/14860d4f-65ae-4cec-a94b-b5c265fb9386
+
+Now that we know to not worship those results, some important things first:
 - Yatchy obviously uses the lp core
 - Those are only during time updates, not interacting with the watch. Any interaction will obviously drain a lot of battery, so the final battery consumption will be heavily based how much you just look at the time or just interact with the watch
 - The `.doc` files in this dir can be used to calculate the power consumption for your settings, battery. But to understand what is going on there, first you need to read the rest of this document. **Oh and the docs screenshoots are at the bottom of this document if you don't want to change anything but you are too lazy to look it up**
