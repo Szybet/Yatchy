@@ -3,6 +3,10 @@
 # Ordering components & Price
 There is a spreadsheet for it: https://github.com/Szybet/Yatchy/blob/main/hardware/components-calc.ods
 
+**I already miscalculated the components in this spreadsheet a few times, so here is another disclaimer for you:**
+![image](https://github.com/user-attachments/assets/6a74510d-f3cd-4ae4-a6da-d6a2e2a5fdbd)
+While it's scary, simply checking with the latest Kicad files is a good idea anyway.
+
 You need to adjust all values for yourself, after that it will give you a approximation of how much will it cost. Why it's not precise?
 - Sometimes you need to order 1 component where the minimum is 5, so you order 5 (That's the case with pcb's)
 - Sometimes it's advised to buy spare components if you screw something up (I Usually buy spares for all of them)
@@ -13,11 +17,18 @@ You need to adjust all values for yourself, after that it will give you a approx
 
 So it's save to say it's precise up to +-15$, maybe even 20$
 
-If you feel extra insecure and you don't trust me (You shouldn't) check the kicad files if the document misses a component
+If you feel extra insecure and you don't trust me **(You shouldn't)** check the kicad files if the document misses a component
 
 For me, the cost is arround 70-80$, without the labour and things like solder / flux
 
 Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
+
+### Choosing alternative components
+If you want to choose alternative components (we are talking about capacitors / resistors, for transistors etc. you are on your own) follow this:
+1. Follow the excel file, not the BOM file.
+2. Generally, 5% tolerance is good, but there are exceptions:
+- For the quartz capacitors, get the max possible tolerance (1%?)
+- For screen circuit things, get better tolerances if it doesn't cost you much, because if something will not work, it will be hell to debug
 
 ### Motor
 There is no dedicated place for the vibration motor. So it's simply yeet it on top of components (Isolation in between!). Also a small one is advised. I bought these ones: https://aliexpress.com/item/1005004948677826.html smallest ones I could find, they work, they do their job
@@ -69,3 +80,6 @@ Now repeat the process with the module you want to attach, then order them roget
 
 # Assembling Yatchy
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
+
+## Binner.io
+I started using Binner.io, if you want to manage your Yatchy parts in it, [here](https://github.com/Szybet/Yatchy/blob/main/hardware/BinnerParts.xlsx) is the export with all the parts. Yes, it could be outdated.

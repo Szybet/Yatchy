@@ -1,6 +1,8 @@
 # Yatchy cases
 If you create your own model, fork one, or anything else, please (in addition to putting it in your repository, on a 3D model website, if you feel like it, etc.) contribute it here so it won't get lost in the ether of poor search engines. Sharing files that can be modified easily (STEPs, not STLs) is also suggested, but not required.
 
+### The files are in the folders in this directory
+
 ## Szybet's side case
 <p align="center">
   <img src="Szybet-side/img/front.jpg" width="300px" style="display:inline-block; margin-right: 5px;">

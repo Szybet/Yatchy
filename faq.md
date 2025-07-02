@@ -1,11 +1,16 @@
 ## Frequently Asked Questions
 or at least sometimes
 
+### Contents
+1. [Why no spot for the vibration motor?](https://github.com/Szybet/Yatchy/blob/main/faq.md#1-why-no-spot-for-the-vibration-motor)
+2. [What soldering gear do I need?](https://github.com/Szybet/Yatchy/blob/main/faq.md#2-what-soldering-gear-do-i-need)
+3. [Docs are too long, I did not read them, Where can I buy a Yatchy?](https://github.com/Szybet/Yatchy/blob/main/faq.md#3-docs-are-too-long-i-did-not-read-them-where-can-i-buy-a-yatchy)
+
 #### 1. Why no spot for the vibration motor?
 
 No place for it really, it was more important to optimise the module area than for the motor. As yatchy is assembled by hand, it can be placed anywhere, or integrated into the side of the case, or just use as a buzzer TLDR: for hackability (both for the choosing of the motor / buzzer up to the way of designing the case, placing it where you want) and other priorities, as the cases I design have enough space (in one battery is on the strap, in the other its simply a brick case) its simply put on top of components
 
-#### What soldering gear do I need?
+#### 2. What soldering gear do I need?
 I don't know, depends on your skill, a madman will need a lighter and a metal rod with some tin ore to do it \s
 
 But seriously, here is my gear I use, but keep in mind:
@@ -77,3 +82,16 @@ Also I won't mention things that are more general like tweezers, digital multime
 <img src="https://github.com/user-attachments/assets/bbcdd6b4-15f5-4387-88b4-0a2d0880e235" alt="image" width="300"/>
 
 Sum: 690 zł, 182$, could be worse
+
+#### 3. Docs are too long, I did not read them, Where can I buy a Yatchy?
+Yes it's a TLDR, read all the docs for more explanation.
+
+As for 13.05.2025
+
+Currently, Yatchies cannot be purchased directly due to technical and financial constraints. I occasionally sell a limited number, but availability is quite restricted.
+
+In the future, there may be additional sellers.
+
+To summarize, if you are interested in acquiring a Yatchy, keep an eye on the discord server and consider obtaining the Yatchy role for notifications. Those who have expressed interest in the relevant thread will be considered in chronological order.
+
+Please note that shipping from Europe can complicate the purchasing process.
