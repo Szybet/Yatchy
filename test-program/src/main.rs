@@ -151,7 +151,12 @@ async fn main(_spawner: Spawner) {
     gpio_reset(&mut gpios).await;
     embassy_time::Timer::after_millis(1000).await; // To make sure all pins are low
 
-    info!("Initializing usb serial");
+    #[cfg(feature = "usb_jtag")]
+    info!("Initializing usb jtag communication");
+
+    #[cfg(feature = "uart")]
+    info!("Initializing uart communication");
+
     // https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/usb_serial.rs
     #[cfg(feature = "uart")]
     let mut serial = Uart::new(peripherals.UART0, &clocks, io.pins.gpio16, io.pins.gpio17).unwrap();

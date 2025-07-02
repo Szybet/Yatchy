@@ -34,7 +34,7 @@ once_cell = { version = "1.19.0", default-features = false, features = [
 ] }
 
 [features]
-default = ["usb_jtag"]
+default = ["uart", "i2c"]
 usb_jtag = []
 uart = []
 i2c = []
