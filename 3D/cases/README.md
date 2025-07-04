@@ -3,8 +3,8 @@ If you create your own model, fork one, or anything else, please (in addition to
 
 ### The files are in the folders in this directory
 
-## <code style="color : Red">Patches</code>
-Because of the tight tolerances and different printers, filaments, some cases might have alternative parts that might fix your issues, read their description and decide for yourself
+<h1>$${\color{red}Patches}$$</h1>
+Because of the tight tolerances and different printers, filaments, some cases might have alternative parts that might fix your issues, read their description and decide for yourself, generally, I would advice using them
 
 ## Szybet's side case
 <p align="center">
