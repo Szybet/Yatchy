@@ -3,6 +3,9 @@ If you create your own model, fork one, or anything else, please (in addition to
 
 ### The files are in the folders in this directory
 
+## <code style="color : Red">Patches</code>
+Because of the tight tolerances and different printers, filaments, some cases might have alternative parts that might fix your issues, read their description and decide for yourself
+
 ## Szybet's side case
 <p align="center">
   <img src="Szybet-side/img/front.jpg" width="300px" style="display:inline-block; margin-right: 5px;">
@@ -30,6 +33,7 @@ Notes:
 - The module led cover is for the led to redirect the light to the side. I used a silver marker for better effect
 - The side battery case has many files in it, they all should be printed as they are
 - Needs strong layer adhesion, otherwise it will break near the edges. Some glue on the inside or transparent PETG does the job
+- Patches nr 1 apply
 
 License:
 
@@ -49,3 +53,4 @@ Notes:
 - The texture on the corners is for making them stronger, less breakable
 - The strap still has cutouts for attaching something to them
 - If the battery is inserted in a wrong way and the cables will touch the buttons, they might get stuck
+- Patches nr 1 apply
