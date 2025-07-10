@@ -62,6 +62,12 @@ Notes:
   <img src="Kitkat-rotated/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
   <img src="Kitkat-rotated/img/usb.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/render-1.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-2.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-3.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
 
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
