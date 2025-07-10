@@ -66,8 +66,9 @@ Notes:
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
 - Requires changing the config in Inkwatchy so the screen is rotated properly
+- The pieces that hold the straps need to be glued onto the main body using superglue
 - The strap still has cutouts for attaching something to them
 - The battery fits inside but requires short wires for it to fit properly 
 - The motor is attached to the inside of the case which can make it more difficult to dissasemble
 - Larger USB-C plugs may not fit due to strap clearance
-- Patches nr 1 apply
+- case_front_v2 from patches 1 applies
