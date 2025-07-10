@@ -77,10 +77,11 @@ Notes:
 - The battery fits inside but requires short wires for it to fit properly 
 - The motor is attached to the inside of the case which can make it more difficult to dissasemble
 - Larger USB-C plugs may not fit due to strap clearance
-- case_front_v2 from patches 1 applies
+- case_front_v2 and better_strap_dot from patches 1 applies
 
 ### Case comparison
 - without top case or the pieces that hold the straps
+
 | Case         | Height (mm)  |
 |------------------|--------------|
 | Kitkat's Rotated | 8.70611      |
