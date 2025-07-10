@@ -54,3 +54,20 @@ Notes:
 - The strap still has cutouts for attaching something to them
 - If the battery is inserted in a wrong way and the cables will touch the buttons, they might get stuck
 - Patches nr 1 apply
+
+### KitKat's rotated case
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/front.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/back.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/usb.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
+
+Notes:
+- This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
+- Requires changing the config in Inkwatchy so the screen is rotated properly
+- The strap still has cutouts for attaching something to them
+- The battery fits inside but requires short wires for it to fit properly 
+- The motor is attached to the inside of the case which can make it more difficult to dissasemble
+- Larger USB-C plugs may not fit due to strap clearance
+- Patches nr 1 apply
