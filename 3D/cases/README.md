@@ -41,10 +41,10 @@ License:
 
 ### Szybet's brick case
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-  <img src="Szybet-brick/img/front.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/side.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/top.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/render.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/front.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/top.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/render.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
 Notes:
@@ -54,3 +54,36 @@ Notes:
 - The strap still has cutouts for attaching something to them
 - If the battery is inserted in a wrong way and the cables will touch the buttons, they might get stuck
 - Patches nr 1 apply
+
+### KitKat's rotated case
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/front.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/back.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/usb.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/render-1.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-2.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-3.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
+
+Notes:
+- This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
+- Requires changing the config in Inkwatchy so the screen is rotated properly
+- The pieces that hold the straps need to be glued onto the main body using superglue
+- The strap still has cutouts for attaching something to them
+- The battery fits inside but requires short wires for it to fit properly 
+- The motor is attached to the inside of the case which can make it more difficult to dissasemble
+- Larger USB-C plugs may not fit due to strap clearance
+- case_front_v2 and better_strap_dot from patches 1 applies
+
+### Case comparison
+- without top case or the pieces that hold the straps
+
+| Case         | Height (mm)  |
+|------------------|--------------|
+| Kitkat's Rotated | 8.70611      |
+| Szybet's Side    | 9.55611      |
+| Szybet's Brick   | 10.96346     |
