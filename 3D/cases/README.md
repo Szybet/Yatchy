@@ -41,10 +41,10 @@ License:
 
 ### Szybet's brick case
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-  <img src="Szybet-brick/img/front.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/side.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/top.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="Szybet-brick/img/render.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/front.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/top.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Szybet-brick/img/render.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
 Notes:
@@ -57,7 +57,7 @@ Notes:
 
 ### KitKat's rotated case
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-  <img src="Kitkat-rotated/img/front.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="Kitkat-rotated/img/front.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
   <img src="Kitkat-rotated/img/back.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
   <img src="Kitkat-rotated/img/side.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
   <img src="Kitkat-rotated/img/usb.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
