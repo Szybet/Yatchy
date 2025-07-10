@@ -80,6 +80,7 @@ Notes:
 - case_front_v2 from patches 1 applies
 
 ### Case comparison
+- without top case or the pieces that hold the straps
 | Case         | Height (mm)  |
 |------------------|--------------|
 | Kitkat's Rotated | 8.70611      |
