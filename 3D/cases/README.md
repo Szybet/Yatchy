@@ -78,3 +78,10 @@ Notes:
 - The motor is attached to the inside of the case which can make it more difficult to dissasemble
 - Larger USB-C plugs may not fit due to strap clearance
 - case_front_v2 from patches 1 applies
+
+### Case comparison
+| Case         | Height (mm)  |
+|------------------|--------------|
+| Kitkat's Rotated | 8.70611      |
+| Szybet's Side    | 9.55611      |
+| Szybet's Brick   | 10.96346     |
