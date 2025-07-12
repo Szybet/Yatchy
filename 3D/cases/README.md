@@ -69,6 +69,8 @@ Notes:
   <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
+**The Images are for the 150Mah case version**
+
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
 - Requires changing the config in Inkwatchy so the screen is rotated properly
@@ -87,6 +89,5 @@ Notes:
 
 | Case         | Height (mm)  |
 |------------------|--------------|
-| Kitkat's Rotated | 8.70611      |
 | Szybet's Side    | 9.55611      |
 | Szybet's Brick   | 10.96346     |
