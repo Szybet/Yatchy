@@ -68,7 +68,8 @@ Notes:
   <img src="Kitkat-rotated/img/render-3.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
   <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
-## The Images are for the 150Mah case version
+
+**The Images are for the 150Mah case version**
 
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
