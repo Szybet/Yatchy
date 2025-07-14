@@ -74,7 +74,7 @@ Notes:
   <img src="Kitkat-rotated/img/250mah.png" style="width: 50%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
-**The Image above is for thh 250 mah case version**
+**The Image above is for the 250 mah case version**
 
 Notes:
 - The 250 mah battery is 30 x 20 x 5 mm and the 150 mah battery is 25 x 20 x 4 mm
@@ -100,3 +100,4 @@ Notes:
 | Kitkat's Rotated 150 mah version | 8.70611      |
 | Szybet's Side    | 9.55611      |
 | Szybet's Brick   | 10.96346     |
+e
