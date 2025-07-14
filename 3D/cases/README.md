@@ -69,9 +69,16 @@ Notes:
   <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
-**The Images are for the 150Mah case version**
+**The Images above are for the 150Mah case version**
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/250mah.png" style="width: 50%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
+
+**The Image above is for the 250 mah case version**
 
 Notes:
+- The 250 mah battery is 30 x 20 x 5 mm and the 150 mah battery is 25 x 20 x 4 mm
+- The strap holders on the 250 mah version are assymetric
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
 - Requires changing the config in Inkwatchy so the screen is rotated properly
 - The pieces that hold the straps need to be glued onto the main body using superglue
@@ -82,12 +89,15 @@ Notes:
 - case_front_v2 and better_strap_dot from patches 1 applies
 - Those are pictures of a prototype
 - **The buttons are objectively easier to access**
-- The LED now shines outside of your wrist, not on it
+- The LED now shines outside of your wrist, not on it                                                                                                                                         
+
 
 ### Case comparison
 - without top case or the pieces that hold the straps
 
-| Case         | Height (mm)  |
-|------------------|--------------|
-| Szybet's Side    | 9.55611      |
-| Szybet's Brick   | 10.96346     |
+| Case                            | Height (mm) |
+|---------------------------------|-------------|
+| Kitkat's Rotated 250 mAh version | 10.29477    |
+| Kitkat's Rotated 150 mAh version | 8.70611     |
+| Szybet's Side                   | 9.55611     |
+| Szybet's Brick                  | 10.96346    |
