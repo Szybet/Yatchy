@@ -78,6 +78,7 @@ Notes:
 
 Notes:
 - The 250 mah battery is 30 x 20 x 5 mm and the 150 mah battery is 25 x 20 x 4 mm
+- The strap holders on the 250 mah version are assymetric
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
 - Requires changing the config in Inkwatchy so the screen is rotated properly
 - The pieces that hold the straps need to be glued onto the main body using superglue
