@@ -89,7 +89,7 @@ Notes:
 - case_front_v2 and better_strap_dot from patches 1 applies
 - Those are pictures of a prototype
 - **The buttons are objectively easier to access**
-- The LED now shines outside of your wrist, not on it                                                                                                                                   <sub>e</sub>
+- The LED now shines outside of your wrist, not on it                                                                                                                                         <sub>e</sub>
 
 
 ### Case comparison
