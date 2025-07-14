@@ -90,6 +90,7 @@ Notes:
 - Those are pictures of a prototype
 - **The buttons are objectively easier to access**
 - The LED now shines outside of your wrist, not on it
+<sub>e</sub>
 
 ### Case comparison
 - without top case or the pieces that hold the straps
@@ -100,5 +101,3 @@ Notes:
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's Brick                  | 10.96346    |
-
-<sub>e</sub>
