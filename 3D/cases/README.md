@@ -69,7 +69,10 @@ Notes:
   <img src="Kitkat-rotated/img/render-4.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
 </div>
 
-**The Images are for the 150Mah case version**
+**The Images above are for the 150Mah case version**
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Kitkat-rotated/img/250mah.png" style="width: 50%; min-width: 200px; display: inline-block; margin: 0 1%">
+</div>
 
 Notes:
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
@@ -89,5 +92,7 @@ Notes:
 
 | Case         | Height (mm)  |
 |------------------|--------------|
+| Kitkat's Rotated 250 mah version | 10.29477     |
+| Kitkat's Rotated 150 mah version | 8.70611      |
 | Szybet's Side    | 9.55611      |
 | Szybet's Brick   | 10.96346     |
