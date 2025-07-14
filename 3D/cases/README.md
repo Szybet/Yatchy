@@ -94,10 +94,11 @@ Notes:
 ### Case comparison
 - without top case or the pieces that hold the straps
 
-| Case         | Height (mm)  |
-|------------------|--------------|
-| Kitkat's Rotated 250 mah version | 10.29477     |
-| Kitkat's Rotated 150 mah version | 8.70611      |
-| Szybet's Side    | 9.55611      |
-| Szybet's Brick   | 10.96346     |
-e
+| Case                            | Height (mm) |
+|---------------------------------|-------------|
+| Kitkat's Rotated 250 mAh version | 10.29477    |
+| Kitkat's Rotated 150 mAh version | 8.70611     |
+| Szybet's Side                   | 9.55611     |
+| Szybet's Brick                  | 10.96346    |
+
+<sub>e</sub>
