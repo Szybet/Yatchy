@@ -17,6 +17,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 - [Better battery life](https://github.com/Szybet/Yatchy/blob/main/hardware/power-consumption/README.md)
 - Hardware hackable
 - Fixed many issues and improved minor things
+- A backlight, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)*
 
 <details>
   <summary><h3>Pictures of my prototype</h3></summary>
