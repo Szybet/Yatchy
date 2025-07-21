@@ -76,7 +76,17 @@ Notes:
 
 **The Image above is for the 250 mah case version**
 
-Notes:
+#### Proof of concept: Glow in the dark transparent filament (With the rotated case)
+<div align="center">
+
+https://github.com/user-attachments/assets/10055fae-86bb-440f-bbc3-9d33e8c1605a
+
+</div>
+  
+- Kind of a backlight, I can read the time. It could be improved in many ways (Increase led brightness, use a reflective tape inside the case)
+- The glow in the dark filament looks better in reality than on camera
+
+Notes (About this case in general):
 - The 250 mah battery is 30 x 20 x 5 mm and the 150 mah battery is 25 x 20 x 4 mm
 - The strap holders on the 250 mah version are assymetric
 - This is a fork of "Szybet's side case", most of the notes from there apply here (license too), the design of the buttons, top is the same
