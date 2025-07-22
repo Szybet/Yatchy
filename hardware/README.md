@@ -80,7 +80,7 @@ So all this talking is cool but it's just on paper, I can't enforce it, let's be
 More details [here](https://github.com/Szybet/Yatchy/blob/main/hardware/lpcore.md)
 
 ## The source files
-Kicad version 8.0.6 is suggested.
+Kicad version 9.0.3 is suggested.
 
 In the kicad folder inside this directory are the design files for the yatchy v1, not yet tested
 
