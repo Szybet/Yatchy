@@ -34,7 +34,10 @@ If you want to choose alternative components (we are talking about capacitors / 
 There is no dedicated place for the vibration motor. So it's simply yeet it on top of components (Isolation in between!). Also a small one is advised. I bought these ones: https://aliexpress.com/item/1005004948677826.html smallest ones I could find, they work, they do their job
 
 # Ordering the PCB
-1. Install kicad version 8.0.6 or later
+### Warning
+The PCB you are ordering might not be real life tested as I apply patches regularly but I don't order them, so as everything, all of this is provided without any warranty 
+
+1. Install kicad version (specified in hardware/README.md) or later
 2. Install this plugin https://github.com/bouni/kicad-jlcpcb-tools
 3. Clone the repo / open the pcb project so you will see something like this (PCB on the pic is outdated)
 - Of you don't understand the above, here is a step by step:
