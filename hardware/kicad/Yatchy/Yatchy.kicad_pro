@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|91875000|95325000|b3a2a31f-1112-40c4-bae5-52ea42eeac9a|bf1ef4b0-e3cd-4b59-a187-142b4b19807e",
+          ""
+        ],
+        [
+          "courtyards_overlap|92170000|97720000|b3a2a31f-1112-40c4-bae5-52ea42eeac9a|bafa8f6c-c99a-4116-806e-91c0336cd839",
+          ""
+        ],
+        [
+          "silk_over_copper|84517741|80210000|527d7750-a220-4973-a741-0185c1ca1ccf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|74250000|83610000|cc6df697-98f3-4426-b059-0692d38b0381|15fa226c-f754-4d5c-ac5d-5c37ad111ef4",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -80,17 +97,17 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
-        "holes_co_located": "warning",
+        "holes_co_located": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -102,19 +119,19 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "warning",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",

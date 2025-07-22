@@ -7710,12 +7710,6 @@
 		(uuid "5a8d80a5-04ca-458d-a4b6-e76b5df00a50")
 	)
 	(junction
-		(at 73.66 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "605b5059-0d0c-4d69-8046-030f20f554dc")
-	)
-	(junction
 		(at 121.92 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8907,16 +8901,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 138.43) (xy 29.21 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62eb3a2b-9cf7-461f-8a28-8426f6048783")
-	)
-	(wire
-		(pts
 			(xy 242.57 64.77) (xy 245.11 64.77)
 		)
 		(stroke
@@ -9777,16 +9761,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd28cfd5-b6a4-429a-834c-47a44dd1199f")
-	)
-	(wire
-		(pts
 			(xy 133.35 52.07) (xy 132.08 52.07)
 		)
 		(stroke
@@ -10304,16 +10278,6 @@
 			(type default)
 		)
 		(uuid "fe1a02d3-705b-42f5-b89f-39c0f94517e1")
-	)
-	(wire
-		(pts
-			(xy 29.21 146.05) (xy 73.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fff27cf9-0914-48dd-b89a-83f708cc6997")
 	)
 	(global_label "MOD_ExB2"
 		(shape input)
@@ -10879,6 +10843,28 @@
 			)
 		)
 	)
+	(global_label "MCP_RESET"
+		(shape input)
+		(at 116.84 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44ba6b8d-95be-48c9-9a23-b5317650b874")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8049 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX"
 		(shape input)
 		(at 29.21 133.35 180)
@@ -11249,6 +11235,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCP_RESET"
+		(shape input)
+		(at 67.31 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73ecc491-0e84-430f-b1c7-e5b3ee6ff47e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 146.3851 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20889,71 +20897,6 @@
 	)
 	(symbol
 		(lib_id "Watchy:+3V3-power")
-		(at 116.84 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89487f50-112a-41f9-a297-86659e433f66")
-		(property "Reference" "#PWR08"
-			(at 116.84 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 116.84 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f192af8e-a925-4276-af25-416cec7077d9")
-		)
-		(instances
-			(project "Watchy"
-				(path "/f041cf41-3a16-4080-b1fe-997266120697"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Watchy:+3V3-power")
 		(at 212.09 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22809,6 +22752,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Watchy:+3V3-power")
+		(at 29.21 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c01d7b18-c689-429a-b25c-738357501199")
+		(property "Reference" "#PWR08"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 26.67 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd1c3e5d-b2de-4979-88bc-0769a7939653")
+		)
+		(instances
+			(project "Yatchy"
+				(path "/f041cf41-3a16-4080-b1fe-997266120697"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BMA530:BMA530")
 		(at 294.64 119.38 0)
 		(unit 1)
@@ -23760,7 +23768,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 107.696 130.302 0)
+			(at 105.918 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
