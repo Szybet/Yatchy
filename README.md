@@ -93,7 +93,7 @@ Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 
 ## [FAQ](https://github.com/Szybet/Yatchy/blob/main/faq.md)
 
-# Community
-For any questions, feel free to ask in github issues or in this discord server:
+# Community / Buying one
+For any questions, potential purchase of one, feel free to ask in github issues or in this discord server:
 
 <a href="https://discord.gg/6PUmRXZRGD">*atchy community on discord</a>
