@@ -21,9 +21,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 - Smaller form factor
 
 <details>
-  <summary><h3>Pictures of my prototype</h3></summary>
-
-
+  <summary><h3>Pictures</h3></summary>
 
 - <sub>The battery is on the side because it's easier for me to measure power consumption</sub>
 - <sub>The glue is for the vibration motor which is detached in the picture</sub>
@@ -36,6 +34,11 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 <sub>A cleaner soldering job, with some other components (compability!)<sub>, yes, I know there is a short on the flex cable, it fell off when cleaning after the picture</sub></sub>
 ![image](https://github.com/user-attachments/assets/230947a2-5d99-478a-9cd9-84caa8b0bce0)
 
+Watchy one the left yatchy on the right, yatchy is smaller (yes, the battery is outside, but it would only increase height, not width/length
+
+<img width="775" height="652" alt="image" src="https://github.com/user-attachments/assets/c060ee83-0af6-43bd-a4f5-883a5280a4a5" />
+
+<sub>Picture contributed, thanks!</sub>
 
 </details>
 
