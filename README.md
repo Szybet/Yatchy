@@ -18,6 +18,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 - Hardware hackable
 - Fixed many issues and improved minor things
 - A backlight, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)*
+- Smaller form factor
 
 <details>
   <summary><h3>Pictures of my prototype</h3></summary>
@@ -51,7 +52,6 @@ Yatchy features, compared to 2.0 watchy:
 - no more usb compability problems <sub>(Because the esp32c6 uses native jtag programming)</sub>
 - better detection of charging, charge finishing. <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
 - support for more wireless protocols, home automation ones, wifi 6 too
-- ~~Mouse bites to more easily make your yatchy smaller, of the size of the screen and not the watchy form factor~~ <sub>JLCPCB decided to treat it as a seperate design and charge double, so I removed it. Stupid.</sub>
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
 - More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better
 
