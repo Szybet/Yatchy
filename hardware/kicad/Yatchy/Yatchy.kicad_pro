@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.4
+          "height": 0.4,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,19 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|91875000|95325000|b3a2a31f-1112-40c4-bae5-52ea42eeac9a|bf1ef4b0-e3cd-4b59-a187-142b4b19807e",
-          ""
-        ],
-        [
-          "courtyards_overlap|92170000|97720000|b3a2a31f-1112-40c4-bae5-52ea42eeac9a|bafa8f6c-c99a-4116-806e-91c0336cd839",
-          ""
-        ],
-        [
-          "silk_over_copper|84517741|80210000|527d7750-a220-4973-a741-0185c1ca1ccf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|74250000|83610000|cc6df697-98f3-4426-b059-0692d38b0381|15fa226c-f754-4d5c-ac5d-5c37ad111ef4",
+          "silk_over_copper|84969726|80169726|527d7750-a220-4973-a741-0185c1ca1ccf|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],

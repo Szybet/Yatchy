@@ -1,7 +1,7 @@
 (footprint "Motor_Header"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x02, 2.00mm pitch, single row")
 	(tags "Through hole pin header THT 1x02 2.00mm single row")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Yatchy:Motor_Header"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b36bf363-dd15-4742-bc2e-1b95c2fe62c2")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -76,7 +63,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "80b8fa80-4cba-4429-a3e3-d93860786427")
 	)
@@ -94,7 +81,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1 -90)
+		(at 0 1 270)
 		(layer "F.Fab")
 		(uuid "41ad7436-737a-44d3-8715-1165ecc7b006")
 		(effects
@@ -107,15 +94,16 @@
 	(pad "1" smd oval
 		(at 0 0 180)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "6f435b9c-0f71-44fa-bd14-dba81d00b201")
 	)
 	(pad "2" smd rect
 		(at 0 1.700001 180)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "b84d6984-ed05-4d2f-98a0-523ff0001a42")
 	)
+	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.00mm.wrl"
 		(offset
 			(xyz 0 0 0)

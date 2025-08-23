@@ -1,7 +1,7 @@
 (footprint "BMA530"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "BMA530-1")
 	(tags "Accelerometer")
@@ -26,18 +26,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" "Yatchy:BMA530"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e7a16e98-2b2b-482f-9e06-30e2212d5385")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -145,13 +133,13 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -0.9 -0.808579)
-		(end -0.758579 -0.808579)
+		(center -0.9 -1)
+		(end -0.7 -1)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f85587c4-f4e6-4a2a-86fb-793ac7851cdc")
 	)
@@ -162,7 +150,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a818e06e-99f7-4bdb-b813-b9f4ff12dc87")
 	)
@@ -220,39 +208,40 @@
 	(pad "A1" smd oval
 		(at -0.43 -0.4 90)
 		(size 0.18 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a45d163-1d17-4376-a263-995e715ce5c1")
 	)
 	(pad "A2" smd oval
 		(at 0.405 -0.4 90)
 		(size 0.18 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36bd3dfe-e440-40b5-9fb7-f959589f693d")
 	)
 	(pad "B1" smd oval
 		(at -0.43 0 90)
 		(size 0.18 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3df23b9-5be8-48d0-9664-74ea676ee2b3")
 	)
 	(pad "B2" smd oval
 		(at 0.405 0 90)
 		(size 0.18 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0cf135bb-53c9-40b3-ae14-79a165c16f2b")
 	)
 	(pad "C1" smd oval
 		(at -0.43 0.405 90)
 		(size 0.19 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d6207771-abb0-467b-953c-d928ccba2e3f")
 	)
 	(pad "C2" smd oval
 		(at 0.405 0.4 90)
 		(size 0.18 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3a5a8d2f-e9a3-47aa-9777-3c2a740244a8")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d-Models/BMA530.stp"
 		(offset
 			(xyz 0 0 0)

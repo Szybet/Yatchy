@@ -1,7 +1,7 @@
 (footprint "Battery_Header"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.09 6.34 0)
@@ -22,19 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Yatchy:Battery_Header"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ef1b6898-1f1e-4d9c-a3d3-0e26b2c4ac18")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -73,7 +60,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5e53020b-4c2a-4aaf-a38c-fa50900a5350")
 	)
@@ -94,13 +81,14 @@
 	(pad "1" smd oval
 		(at -1.05 -0.066906 270)
 		(size 1.15 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "756517f9-de45-4278-bf19-c91bf0618a32")
 	)
 	(pad "2" smd rect
 		(at 1.333093 -0.066906 270)
 		(size 1.15 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "008df8e6-33a7-4376-a138-32b8c6d4cdfa")
 	)
+	(embedded_fonts no)
 )
