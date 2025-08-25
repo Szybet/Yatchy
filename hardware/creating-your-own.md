@@ -85,4 +85,4 @@ Now repeat the process with the module you want to attach, then order them roget
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
 
 ## Binner.io
-I started using Binner.io, if you want to manage your Yatchy parts in it, [here](https://github.com/Szybet/Yatchy/blob/main/hardware/BinnerParts.xlsx) is the export with all the parts. Yes, it could be outdated.
+~~I started using Binner.io, if you want to manage your Yatchy parts in it, [here](https://github.com/Szybet/Yatchy/blob/main/hardware/BinnerParts.xlsx) is the export with all the parts. Yes, it could be outdated.~~ Don't use it: https://github.com/replaysMike/Binner/issues/397 :(
