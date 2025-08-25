@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b")
 	(paper "A4")
 	(lib_symbols
@@ -72,7 +72,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -84,7 +84,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -98,7 +98,8 @@
 			(symbol "+3.3V-power_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -115,6 +116,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:+BATT-power"
 			(power)
@@ -183,7 +185,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -195,7 +197,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -209,7 +211,8 @@
 			(symbol "+BATT-power_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+BATT"
 						(effects
 							(font
@@ -226,6 +229,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:CLMVC-FKA-CL1D1L71BB7C3C3"
 			(pin_names
@@ -308,7 +312,7 @@
 			(symbol "CLMVC-FKA-CL1D1L71BB7C3C3_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 12.7 -5.08)
+						(xy 7.62 5.08) (xy 7.62 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -332,19 +336,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 10.414 -2.54)
+						(xy 7.62 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -378,12 +370,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.414 -2.032) (xy 10.414 -3.048)
-					)
+				(circle
+					(center 8.89 0)
+					(radius 0.127)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -392,31 +383,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.414 -2.032) (xy 11.43 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.414 0.508) (xy 10.414 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.414 0.508) (xy 11.43 0)
+						(xy 8.89 -2.54) (xy 10.414 -2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -452,7 +419,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.668 -1.778) (xy 11.176 -1.27)
+						(xy 10.414 0.508) (xy 10.414 -0.508)
 					)
 					(stroke
 						(width 0.127)
@@ -464,7 +431,31 @@
 				)
 				(polyline
 					(pts
-						(xy 10.668 0.762) (xy 11.176 1.27)
+						(xy 10.414 0.508) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -2.032) (xy 10.414 -3.048)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -2.032) (xy 11.43 -2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -488,7 +479,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.176 -1.27) (xy 10.922 -1.27)
+						(xy 10.668 0.762) (xy 11.176 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -500,31 +491,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.176 -1.27) (xy 11.176 -1.524)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.176 1.27) (xy 10.922 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.176 1.27) (xy 11.176 1.016)
+						(xy 10.668 -1.778) (xy 11.176 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -560,7 +527,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -2.54) (xy 10.414 -3.048)
+						(xy 11.176 1.27) (xy 10.922 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -572,7 +539,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -2.54) (xy 12.7 -2.54)
+						(xy 11.176 1.27) (xy 11.176 1.016)
 					)
 					(stroke
 						(width 0.127)
@@ -584,7 +551,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -2.032) (xy 11.43 -3.048)
+						(xy 11.176 -1.27) (xy 10.922 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -596,7 +563,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -1.778) (xy 11.938 -1.27)
+						(xy 11.176 -1.27) (xy 11.176 -1.524)
 					)
 					(stroke
 						(width 0.127)
@@ -608,7 +575,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 0) (xy 10.414 -0.508)
+						(xy 11.43 3.302) (xy 11.938 3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -620,31 +587,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 0.508) (xy 11.43 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 0.762) (xy 11.938 1.27)
+						(xy 11.43 3.048) (xy 11.43 2.032)
 					)
 					(stroke
 						(width 0.127)
@@ -680,7 +623,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 3.048) (xy 11.43 2.032)
+						(xy 11.43 0.762) (xy 11.938 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -692,7 +635,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 3.302) (xy 11.938 3.81)
+						(xy 11.43 0.508) (xy 11.43 -0.508)
 					)
 					(stroke
 						(width 0.127)
@@ -704,7 +647,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.684 -1.27) (xy 11.938 -1.27)
+						(xy 11.43 0) (xy 10.414 -0.508)
 					)
 					(stroke
 						(width 0.127)
@@ -716,7 +659,55 @@
 				)
 				(polyline
 					(pts
-						(xy 11.684 1.27) (xy 11.938 1.27)
+						(xy 11.43 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -1.778) (xy 11.938 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.032) (xy 11.43 -3.048)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 10.414 -3.048)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 12.7 -2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -740,7 +731,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.938 -1.27) (xy 11.938 -1.524)
+						(xy 11.684 1.27) (xy 11.938 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -752,7 +743,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.938 1.27) (xy 11.938 1.016)
+						(xy 11.684 -1.27) (xy 11.938 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -776,7 +767,19 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy 12.7 5.08)
+						(xy 11.938 1.27) (xy 11.938 1.016)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.938 -1.27) (xy 11.938 -1.524)
 					)
 					(stroke
 						(width 0.127)
@@ -798,11 +801,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 8.89 0)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 5.08)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -828,16 +832,16 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 -2.54 180)
+					(at 20.32 2.54 180)
 					(length 7.62)
-					(name "2"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -864,16 +868,16 @@
 					)
 				)
 				(pin unspecified line
-					(at 20.32 2.54 180)
+					(at 20.32 -2.54 180)
 					(length 7.62)
-					(name "4"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,10 +886,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:Conn_01x01_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -972,9 +979,9 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
+					(start 0 -0.508)
 					(mid -0.5058 0)
-					(end 0 -0.508)
+					(end 0 0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1002,6 +1009,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:EVP-AKE31A"
 			(pin_names
@@ -1106,18 +1114,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 11.43 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 4.445 0)
 					(radius 0.635)
@@ -1140,6 +1136,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "EVP-AKE31A_1_1"
 				(pin unspecified line
@@ -1153,42 +1161,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 8.89 270)
-					(length 2.54)
-					(name "side"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1232,7 +1204,44 @@
 						)
 					)
 				)
+				(pin input line
+					(at 12.7 8.89 270)
+					(length 2.54)
+					(name "side"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:GND-power"
 			(power)
@@ -1303,7 +1312,8 @@
 			(symbol "GND-power_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1320,9 +1330,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1441,11 +1454,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1543,6 +1561,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Yatchy:VBUS-power"
 			(power)
@@ -1611,7 +1630,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1623,7 +1642,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1637,7 +1656,8 @@
 			(symbol "VBUS-power_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -1654,7 +1674,38 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "RGB Led\n"
+		(exclude_from_sim no)
+		(at 108.966 48.768 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "5dc3f7a9-f93f-46b7-8732-3d9d4bb4df7d")
+	)
+	(text "Button\n"
+		(exclude_from_sim no)
+		(at 41.656 126.238 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "963258a2-46d0-4502-aac8-de07319604f3")
+	)
+	(text "Module"
+		(exclude_from_sim no)
+		(at 40.132 94.488 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "da93acef-381c-4277-aa41-707a422dda98")
 	)
 	(polyline
 		(pts
@@ -1735,36 +1786,6 @@
 			(type dash)
 		)
 		(uuid "dda43970-9878-47f1-a5b3-c5214634f1e7")
-	)
-	(text "RGB Led\n"
-		(exclude_from_sim no)
-		(at 108.966 48.768 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "5dc3f7a9-f93f-46b7-8732-3d9d4bb4df7d")
-	)
-	(text "Button\n"
-		(exclude_from_sim no)
-		(at 41.656 126.238 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "963258a2-46d0-4502-aac8-de07319604f3")
-	)
-	(text "Module"
-		(exclude_from_sim no)
-		(at 40.132 94.488 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "da93acef-381c-4277-aa41-707a422dda98")
 	)
 	(global_label "MOSI"
 		(shape input)
@@ -6350,4 +6371,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
