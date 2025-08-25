@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Yatchy")(type "KiCad")(uri "${KIPRJMOD}/../../Yatchy/Yatchy.kicad_sym")(options "")(descr ""))
-)
