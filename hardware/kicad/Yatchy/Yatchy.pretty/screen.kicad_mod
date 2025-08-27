@@ -1,0 +1,111 @@
+(footprint "screen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3811ac3-046f-494c-987b-197c5ce30929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "screen"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "649673c6-3d64-41c4-ab07-de23d7b741e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a01cb800-4b38-4c1a-9f3a-28b4ccfbfa95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eef2a842-9104-4f59-8d33-69877e59692c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -15.95 -12.6)
+		(end -15.95 11.5)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d77da83b-73fa-44bd-b67e-06e124c4b7be")
+	)
+	(fp_line
+		(start -11 18.15)
+		(end 11.1 18.15)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19ae8665-8910-4262-b51c-fd8b12e48d8b")
+	)
+	(fp_line
+		(start 15.95 -12.05)
+		(end 15.95 12.05)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e857157-1ae8-47e0-b4e0-f7ce21446559")
+	)
+	(fp_rect
+		(start -15.9131 -18.161)
+		(end 15.9131 18.161)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "99cb8f1a-7474-4f79-9119-7a58bbf40869")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-Models/display_eink.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
