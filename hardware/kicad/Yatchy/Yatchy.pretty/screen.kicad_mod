@@ -56,14 +56,24 @@
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -15.95 -12.6)
+		(start -15.95 -3.621)
+		(end -15.95 4.159)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30982430-d573-46ec-a2ad-29ba1530879a")
+	)
+	(fp_line
+		(start -15.95 6.158)
 		(end -15.95 11.5)
 		(stroke
 			(width 0.5)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d77da83b-73fa-44bd-b67e-06e124c4b7be")
+		(uuid "be86c463-5a63-4c0e-a7f2-03e0bd64e823")
 	)
 	(fp_line
 		(start -11 18.15)
@@ -77,13 +87,23 @@
 	)
 	(fp_line
 		(start 15.95 -12.05)
-		(end 15.95 12.05)
+		(end 15.95 -1.07)
 		(stroke
 			(width 0.5)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "3e857157-1ae8-47e0-b4e0-f7ce21446559")
+	)
+	(fp_line
+		(start 15.95 5.55)
+		(end 15.95 12.05)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfecf6ff-1d2f-4d1c-a370-1cbc52e02cfd")
 	)
 	(fp_rect
 		(start -15.9131 -18.161)
