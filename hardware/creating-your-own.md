@@ -81,6 +81,9 @@ The rest defaults should be fine, but you can explore and check if everything is
 
 Now repeat the process with the module you want to attach, then order them rogether (The default module is here: https://github.com/Szybet/Yatchy/tree/main/hardware/kicad/modules/default)
 
+# Viewing the PCB & schematic
+It's available [here](https://szybet.github.io/Yatchy/hardware/read-only/index.html) but I advice using kicad directly anyway, as this site could be outdated
+
 # Assembling Yatchy
 TODO: if someone requests this wiki I will create it (Photo of yatchy pcb required lol)
 
