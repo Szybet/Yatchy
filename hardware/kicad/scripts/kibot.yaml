@@ -1,0 +1,23 @@
+kibot:
+  version: 1
+outputs:
+  - type: pdf_sch_print
+    name: pdf_output
+    dir: hardware/read-only
+    options:
+      frame: true
+      all_pages: true
+      background_color: true
+  - type: svg_sch_print
+    name: svg_output
+    dir: hardware/read-only
+    options:
+      frame: true
+      all_pages: true
+      background_color: true
+  - type: ibom
+    name: ibom
+    dir: hardware/read-only
+    options:
+      dark_mode: true
+      name_format: "index"

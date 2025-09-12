@@ -1,0 +1,19 @@
+{
+    // Used extension: actboy168.tasks
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Generate kicad read only",
+            "type": "shell",
+            "command": "hardware/kicad/scripts/generate.sh",
+            "icon": {
+                "id": "book",
+            },
+            "options": {
+                "statusbar": {
+                    "color": "#ffffff"
+                }
+            }
+        },
+    ]
+}
