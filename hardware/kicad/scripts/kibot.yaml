@@ -8,6 +8,7 @@ outputs:
       frame: true
       all_pages: true
       background_color: true
+      color_theme: "Monokai High Contrast"
   - type: svg_sch_print
     name: svg_output
     dir: hardware/read-only
@@ -22,3 +23,5 @@ outputs:
       dark_mode: true
       name_format: "index"
       layer_view: "F"
+      include_tracks: true
+      color_theme: "Monokai High Contrast"
