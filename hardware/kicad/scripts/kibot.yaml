@@ -21,3 +21,4 @@ outputs:
     options:
       dark_mode: true
       name_format: "index"
+      layer_view: "F"
