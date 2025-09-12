@@ -24,4 +24,6 @@ outputs:
       name_format: "index"
       layer_view: "F"
       include_tracks: true
+      include_nets: true
+      highlight_pin1: true
       color_theme: "Monokai High Contrast"
