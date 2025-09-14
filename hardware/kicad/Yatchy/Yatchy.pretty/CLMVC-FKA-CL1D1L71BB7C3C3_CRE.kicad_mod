@@ -1,7 +1,7 @@
 (footprint "CLMVC-FKA-CL1D1L71BB7C3C3_CRE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "CLMVC-FKA-CL1D1L71BB7C3C3 ")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "module:CLMVC-FKA-CL1D1L71BB7C3C3_CRE"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "18812c27-3c0c-4320-858c-7e419c50398e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -421,7 +408,7 @@
 		(uuid "64a22f5c-7fee-48a1-b102-b30c169dff1d")
 	)
 	(fp_text user "*"
-		(at -1.275 -1.5 0)
+		(at -1.683 -0.633 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7408b1af-c687-4bce-aba9-5f9551bf77cd")
@@ -433,7 +420,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -0.3937 -1.0846 0)
+		(at -1.683 -0.637 0)
 		(layer "F.Fab")
 		(uuid "5d254049-7111-4041-a777-26009437421e")
 		(effects
@@ -444,7 +431,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -0.3937 -1.0846 0)
+		(at -1.687 -0.629 0)
 		(layer "F.Fab")
 		(uuid "865c086d-da80-4eaf-ae24-b9f85b9edf97")
 		(effects
@@ -469,25 +456,26 @@
 	(pad "1" smd rect
 		(at -0.9017 -0.475)
 		(size 1.016 0.6096)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2ae57ef-deaa-4793-9b4c-80082a7dde34")
 	)
 	(pad "2" smd rect
 		(at 0.9017 -0.475)
 		(size 1.016 0.6096)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "92a0e85d-842f-441f-8c40-aa5e19f3cad2")
 	)
 	(pad "3" smd rect
 		(at 0.9017 0.475)
 		(size 1.016 0.6096)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd02be81-5980-4c74-8de1-9c5b13ef6553")
 	)
 	(pad "4" smd rect
 		(at -0.9017 0.475)
 		(size 1.016 0.6096)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c8c6ba52-a865-4040-81ad-32eb10e0965f")
 	)
+	(embedded_fonts no)
 )

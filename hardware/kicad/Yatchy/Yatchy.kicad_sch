@@ -17091,7 +17091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Yatchy:TLV75733PDYDR"
 			(at 99.06 240.665 0)
 			(effects
 				(font
