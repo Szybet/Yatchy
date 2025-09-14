@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yatchy Project Files</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: #e0e0e0;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #121212;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        .file-list {
-            list-style: none;
-            padding: 0;
-        }
-        .file-list li {
-            background: #1e1e1e;
-            border: 1px solid #333;
-            border-radius: 5px;
-            margin-bottom: 15px;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .file-info {
-            flex-grow: 1;
-        }
-        .file-info h2 {
-            margin-top: 0;
-            font-size: 1.2em;
-            color: #e0e0e0;
-        }
-        .file-info p {
-            margin-bottom: 0;
-            color: #b0b0b0;
-        }
-        .file-link a {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: #ffffff;
-            padding: 10px 15px;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        .file-link a:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yatchy Project Files</title>
+  <style>
+    body {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6;color:#e0e0e0;max-width:800px;margin:0 auto;padding:20px;background-color:#121212}
+    header{text-align:center;margin-bottom:40px}
+    h1{color:#4CAF50}
+    section{margin-bottom:50px}
+    h2{color:#81C784}
+    .file-list{list-style:none;padding:0}
+    .file-list li{background:#1e1e1e;border:1px solid #333;border-radius:5px;margin-bottom:15px;padding:20px;display:flex;align-items:center;justify-content:space-between}
+    .file-info{flex-grow:1}
+    .file-info h3{margin-top:0;font-size:1.1em;color:#e0e0e0}
+    .file-info p{margin-bottom:0;color:#b0b0b0}
+    .file-link a{display:inline-block;background-color:#4CAF50;color:#fff;padding:10px 15px;border-radius:5px;text-decoration:none;transition:background-color 0.3s}
+    .file-link a:hover{background-color:#45a049}
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Yatchy Project Hardware Files</h1>
-    </header>
-    <main>
-        <ul class="file-list">
-            <li>
-                <div class="file-info">
-                    <h2>Interactive Bill of Materials (iBOM)</h2>
-                    <p>An interactive bill of materials for the Yatchy hardware.</p>
-                </div>
-                <div class="file-link">
-                    <a href="Yatchy-ibom.html">View iBOM</a>
-                </div>
-            </li>
-            <li>
-                <div class="file-info">
-                    <h2>Schematic (PDF)</h2>
-                    <p>The main schematic for the Yatchy hardware in PDF format.</p>
-                </div>
-                <div class="file-link">
-                    <a href="Yatchy-schematic.pdf">View PDF</a>
-                </div>
-            </li>
-            <li>
-                <div class="file-info">
-                    <h2>Schematic (SVG)</h2>
-                    <p>A scalable vector graphics version of the schematic.</p>
-                </div>
-                <div class="file-link">
-                    <a href="Yatchy-schematic.svg">View SVG</a>
-                </div>
-            </li>
-        </ul>
-    </main>
+  <header>
+    <h1>Yatchy Project Hardware Files</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Yatchy</h2>
+      <ul class="file-list">
+        <li>
+          <div class="file-info">
+            <h3>Interactive Bill of Materials (iBOM)</h3>
+            <p>An interactive bill of materials for Yatchy.</p>
+          </div>
+          <div class="file-link"><a href="Yatchy-ibom.html">View iBOM</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (PDF)</h3>
+            <p>Main schematic in PDF format.</p>
+          </div>
+          <div class="file-link"><a href="Yatchy-schematic.pdf">View PDF</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (SVG)</h3>
+            <p>Scalable vector schematic.</p>
+          </div>
+          <div class="file-link"><a href="Yatchy-schematic.svg">View SVG</a></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Module Default</h2>
+      <ul class="file-list">
+        <li>
+          <div class="file-info">
+            <h3>Interactive Bill of Materials (iBOM)</h3>
+            <p>Interactive bill of materials for the default module.</p>
+          </div>
+          <div class="file-link"><a href="module-default-ibom.html">View iBOM</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (PDF)</h3>
+            <p>Schematic of the default module in PDF format.</p>
+          </div>
+          <div class="file-link"><a href="module-default-schematic.pdf">View PDF</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (SVG)</h3>
+            <p>Scalable vector schematic of the default module.</p>
+          </div>
+          <div class="file-link"><a href="module-default-schematic.svg">View SVG</a></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Module BTBMHM</h2>
+      <ul class="file-list">
+        <li>
+          <div class="file-info">
+            <h3>Interactive Bill of Materials (iBOM)</h3>
+            <p>Interactive bill of materials for the BTBMHM module.</p>
+          </div>
+          <div class="file-link"><a href="module-BTBMHM-ibom.html">View iBOM</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (PDF)</h3>
+            <p>Schematic of the BTBMHM module in PDF format.</p>
+          </div>
+          <div class="file-link"><a href="module-BTBMHM-schematic.pdf">View PDF</a></div>
+        </li>
+        <li>
+          <div class="file-info">
+            <h3>Schematic (SVG)</h3>
+            <p>Scalable vector schematic of the BTBMHM module.</p>
+          </div>
+          <div class="file-link"><a href="module-BTBMHM-schematic.svg">View SVG</a></div>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
