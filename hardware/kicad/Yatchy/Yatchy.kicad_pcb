@@ -12681,7 +12681,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "cba8f460-48ec-45a8-830f-69e411ccd4e1")
+			(uuid "068d18bb-66d5-4db6-bfe1-8d5bcf132fea")
 		)
 		(pad "3" smd roundrect
 			(at -1.275 0.9515)
@@ -24583,7 +24583,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Yatchy v1.4"
+	(gr_text "Yatchy v1.5"
 		(at 99.51 109.95 0)
 		(layer "B.SilkS")
 		(uuid "457b2565-4bc5-4555-858a-79dfba5c4c4d")
