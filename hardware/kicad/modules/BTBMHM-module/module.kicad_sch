@@ -549,6 +549,1097 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Speaker_Crystal"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Speaker_Crystal"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.889 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.889 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystal speaker/transducer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "crystal speaker ultrasonic transducer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Speaker_Crystal_0_0"
+				(rectangle
+					(start -2.54 1.27)
+					(end 1.143 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 -0.635)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -0.254) (xy 0.381 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -2.286) (xy 0.381 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.254) (xy -0.635 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.286) (xy -0.635 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 1.27) (xy 3.683 3.81) (xy 3.683 -6.35) (xy 1.143 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Speaker_Crystal_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IIS2MDCTR:IIS2MDCTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 39.37 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IIS2MDCTR"
+				(at 39.37 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "IIS2MDCTR"
+				(at 39.37 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis2mdc.pdf"
+				(at 39.37 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "STMICROELECTRONICS - IIS2MDCTR - MEMS MODULE, 3-AXIS MAGNETOMETER, LGA-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 39.37 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-IIS2MDCTR"
+				(at 39.37 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/IIS2MDCTR?qs=1mbolxNpo8ems1K%2FRdQzXg%3D%3D"
+				(at 39.37 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 39.37 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IIS2MDCTR"
+				(at 39.37 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IIS2MDCTR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 38.1 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "INT/DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -7.62 180)
+					(length 5.08)
+					(name "VDD_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -12.7 180)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IM66D120A:IM66D120A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IM66D120A"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Performance Digital XENSIV MEMS Microphone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IM66D120A_1_0"
+				(rectangle
+					(start 20.32 0)
+					(end 0 -15.24)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "LR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Humidity:SHT4x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SHT4x"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+				(at 3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+				(at 3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SHT4x_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Watchy:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Watchy:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yatchy:+3.3V-power"
 			(power)
 			(pin_names
@@ -1876,113 +2967,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Yatchy:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Yatchy:VBUS-power"
 			(power)
 			(pin_names
@@ -2096,16 +3080,391 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "clock:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "clock:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "clock:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "RGB Led\n"
+	(text "magnetometer"
 		(exclude_from_sim no)
-		(at 108.966 48.768 0)
+		(at 139.954 112.776 0)
 		(effects
 			(font
 				(size 1.778 1.778)
 			)
 		)
-		(uuid "5dc3f7a9-f93f-46b7-8732-3d9d4bb4df7d")
+		(uuid "276cc476-acb6-49df-a453-688f0a91857d")
+	)
+	(text "microphone\n"
+		(exclude_from_sim no)
+		(at 207.264 47.752 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "770bb0bc-d697-40e1-89d4-1081cdc934ea")
 	)
 	(text "Button\n"
 		(exclude_from_sim no)
@@ -2117,9 +3476,19 @@
 		)
 		(uuid "963258a2-46d0-4502-aac8-de07319604f3")
 	)
+	(text "Leds and buzzer"
+		(exclude_from_sim no)
+		(at 137.668 68.326 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "afb4e2e7-c780-46bf-8ee7-a4ad7d1ab6a9")
+	)
 	(text "Module"
 		(exclude_from_sim no)
-		(at 40.132 94.488 0)
+		(at 41.91 88.9 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2127,9 +3496,97 @@
 		)
 		(uuid "da93acef-381c-4277-aa41-707a422dda98")
 	)
+	(junction
+		(at 80.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33826410-649a-454b-a9dc-87b80aa5e1f8")
+	)
+	(junction
+		(at 185.42 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55b59ee4-0157-4b2c-937b-a1f6fedea31f")
+	)
+	(junction
+		(at 104.14 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9c8a72-d1f9-4c0d-8415-c73eb848197b")
+	)
+	(junction
+		(at 133.35 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8833a4f5-5573-4e39-b63a-d991a1367bfe")
+	)
+	(junction
+		(at 140.97 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1387f96-0ef0-4226-8d6f-047c4f977478")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c2489b-1950-48ce-a730-86adcda0ca15")
+	)
+	(junction
+		(at 185.42 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f655b4d9-a633-4e27-a1e4-0367a80df274")
+	)
+	(no_connect
+		(at 90.17 87.63)
+		(uuid "10809e4d-b326-4746-8d98-191ce34e2070")
+	)
+	(no_connect
+		(at 133.35 95.25)
+		(uuid "2c5aee9d-d6d8-485f-bdf9-dff696e453f5")
+	)
+	(no_connect
+		(at 133.35 97.79)
+		(uuid "5c6e0c75-7228-40a2-990a-62393ed3ed0d")
+	)
+	(no_connect
+		(at 133.35 85.09)
+		(uuid "821895a2-4acb-45e4-99cf-aec624cc6ae5")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d0bf2a-eb4a-44e6-a467-c9db836bad74")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107aa333-028c-4101-a88b-62a15eae2b30")
+	)
+	(wire
+		(pts
+			(xy 90.17 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a45eb7-0e22-4254-b5c4-94e9bbf7e64a")
+	)
 	(polyline
 		(pts
-			(xy 104.14 96.52) (xy 104.14 50.8)
+			(xy 149.86 69.85) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2137,9 +3594,19 @@
 		)
 		(uuid "133823d7-755e-4851-9a8a-30d7800264d4")
 	)
+	(wire
+		(pts
+			(xy 95.25 41.91) (xy 104.14 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc8859a-9f1c-4485-9a5b-d206579cccbe")
+	)
 	(polyline
 		(pts
-			(xy 73.66 96.52) (xy 73.66 128.27)
+			(xy 73.66 90.17) (xy 73.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2149,37 +3616,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 106.68 34.29)
+			(xy 185.42 72.39) (xy 185.42 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a961614-aee0-4f67-86dd-974ff49281f8")
+		(uuid "3283dd31-8275-4c96-a1ca-eeb4564fd30b")
 	)
 	(wire
 		(pts
-			(xy 106.68 34.29) (xy 107.95 34.29)
+			(xy 173.99 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "378e1f02-06cb-4daa-ae86-0ed4197325a3")
-	)
-	(wire
-		(pts
-			(xy 99.06 39.37) (xy 106.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f47e6d-5694-4c99-8839-915a6e381ad5")
+		(uuid "3d50a37d-c93d-416d-a229-8fde754abdcc")
 	)
 	(polyline
 		(pts
-			(xy 147.32 12.7) (xy 147.32 50.8)
+			(xy 149.86 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "407e73e3-3852-4ac1-8cde-857e7c1045b1")
+	)
+	(polyline
+		(pts
+			(xy 149.86 12.7) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2189,27 +3656,17 @@
 	)
 	(polyline
 		(pts
-			(xy 73.66 50.8) (xy 147.32 50.8)
+			(xy 215.9 12.7) (xy 215.9 49.53)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
-		(uuid "646e482f-3c7f-4d7c-a943-deaec5eeeb87")
+		(uuid "6b662adb-7624-408a-b10a-30d43dd0580e")
 	)
 	(polyline
 		(pts
-			(xy 11.43 96.52) (xy 73.66 96.52)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "6d4b50ec-b6cf-496b-8a79-81cb20e2acfc")
-	)
-	(polyline
-		(pts
-			(xy 73.66 11.43) (xy 73.66 96.52)
+			(xy 73.66 11.43) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2217,9 +3674,159 @@
 		)
 		(uuid "6e6b335c-92b7-4f6b-93ff-91f9b158dee4")
 	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713ed356-5032-4465-9872-489eee5454a3")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.17) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73deacc3-3ab7-4b6c-af53-e68fcee5fb81")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b535b1-d667-4300-9ef5-b78cec681e39")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d24099f-3542-4fc0-a547-ebc4b109f7d9")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 95.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8315b5-581f-4445-8c05-4bed967317f8")
+	)
 	(polyline
 		(pts
-			(xy 11.43 128.27) (xy 73.66 128.27)
+			(xy 12.7 90.17) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8b9231cd-699b-441b-abd5-9f2bb7ecd68c")
+	)
+	(wire
+		(pts
+			(xy 83.82 95.25) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4a16c3-3316-430a-974b-352d201ac8df")
+	)
+	(wire
+		(pts
+			(xy 173.99 57.15) (xy 185.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46c7d78-3dc0-4ac8-96fc-1695179101e5")
+	)
+	(polyline
+		(pts
+			(xy 194.31 80.01) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a706b279-e9ae-48ae-ae90-b7be2eedde66")
+	)
+	(polyline
+		(pts
+			(xy 149.86 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "afb13235-a5d7-4521-8499-436bcba02e71")
+	)
+	(polyline
+		(pts
+			(xy 149.86 49.53) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "afec38f7-1941-4a41-aa0c-f88aa8db0011")
+	)
+	(wire
+		(pts
+			(xy 185.42 57.15) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bc080e-13c3-4c1d-b610-75ea1f4e0209")
+	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb87458a-4a14-4248-9243-3ae75022c208")
+	)
+	(wire
+		(pts
+			(xy 83.82 97.79) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ecf51-f7c7-4297-b914-8234b8572ac4")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 80.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4cd257-7f53-4b41-8b12-4aad60383b9c")
+	)
+	(polyline
+		(pts
+			(xy 12.7 128.27) (xy 73.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2227,9 +3834,19 @@
 		)
 		(uuid "cc78aff7-c5de-4498-9fc2-fc1acbf2615f")
 	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d782b9ec-7ac6-4f1a-a8d5-16266044d1f1")
+	)
 	(polyline
 		(pts
-			(xy 73.66 96.52) (xy 104.14 96.52)
+			(xy 73.66 69.85) (xy 149.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2237,9 +3854,29 @@
 		)
 		(uuid "dda43970-9878-47f1-a5b3-c5214634f1e7")
 	)
+	(wire
+		(pts
+			(xy 133.35 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33c5a40-5414-4d3e-af71-de19ef0c5428")
+	)
+	(polyline
+		(pts
+			(xy 149.86 69.85) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e7539a04-f20e-44dc-80a8-bfbd5e852c04")
+	)
 	(global_label "MOSI"
 		(shape input)
-		(at 38.1 59.69 180)
+		(at 41.91 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,7 +3885,7 @@
 		)
 		(uuid "0e45f11f-6e9a-4fbc-9757-3ae4c7383cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 59.69 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +3896,7 @@
 	)
 	(global_label "MOD_ExB3"
 		(shape input)
-		(at 38.1 74.93 180)
+		(at 41.91 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2269,49 +3906,7 @@
 		)
 		(uuid "13f83150-3e71-4ffd-8a99-7f649aae55c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0929 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 90.17 73.66 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "193fd794-0213-49fb-8ab0-fa7abd2e04c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO20"
-		(shape input)
-		(at 90.17 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d922e96-aaeb-4f21-9791-1fa4e8c014db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4652 78.74 0)
+			(at 29.9029 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +3938,7 @@
 	)
 	(global_label "MOD_ExB2"
 		(shape input)
-		(at 38.1 72.39 180)
+		(at 41.91 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2353,245 +3948,7 @@
 		)
 		(uuid "25013d9d-4b1d-4078-aee1-8795e8df2a22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0929 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB6"
-		(shape input)
-		(at 38.1 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32840bed-d676-4e73-b14e-ff1e87e81549")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0929 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB5"
-		(shape input)
-		(at 118.11 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40e8b753-088a-4876-a480-d1bdaa50cbf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7713 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO18"
-		(shape input)
-		(at 38.1 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4932a496-bd81-41e8-9582-6db813ed7853")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3952 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_CS"
-		(shape input)
-		(at 90.17 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5262f2e4-b646-4dd4-b2f8-2f1a52330d5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB2"
-		(shape input)
-		(at 118.11 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5eaccc66-4841-4fdc-b3c5-f5dbc49ecbae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7713 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB5"
-		(shape input)
-		(at 90.17 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62bf00a8-41ab-4f03-8f5a-4473f1a33dc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.1629 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 38.1 49.53 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "6458b90e-8b9e-4c7d-ab3b-b1a32c3f7401")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_4"
-		(shape input)
-		(at 38.1 85.09 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "663f902f-83ab-45f5-8933-55af9d058431")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB3"
-		(shape input)
-		(at 118.11 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6abeb26e-0d7f-4158-9b3a-7cd90b5b2994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7713 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO19"
-		(shape input)
-		(at 38.1 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d24298e-2e57-4743-b263-150b44219394")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3952 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB6"
-		(shape input)
-		(at 90.17 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8dcca130-0a6c-47cc-9c16-70a14f5dfcc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.1629 91.44 0)
+			(at 29.9029 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,36 +3960,166 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 90.17 68.58 180)
+		(at 163.83 67.31 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify right)
 		)
-		(uuid "912ac93f-cd91-4110-98bc-cf0e1d15e01c")
+		(uuid "2923d933-a883-4116-a0fc-428fea0540d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 68.58 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO18"
+		(shape input)
+		(at 195.58 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29dadf88-e8dc-4121-aa1d-093dbad5fcaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.939 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO15"
+		(shape input)
+		(at 195.58 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e08fa89-c01c-47b4-aea2-bb187bba4d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.939 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 90.17 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3143f920-9d3e-40ad-b268-ecad6176aa7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_ExB6"
+		(shape input)
+		(at 41.91 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32840bed-d676-4e73-b14e-ff1e87e81549")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9029 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO18"
+		(shape input)
+		(at 41.91 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4932a496-bd81-41e8-9582-6db813ed7853")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2052 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_ExB4"
+		(shape input)
+		(at 111.76 53.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "595f00f6-3824-41fb-af15-621f5d1be4b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 66.0013 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 90.17 66.04 180)
+		(at 41.91 40.64 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify right)
 		)
-		(uuid "9369d823-4ba9-4ac6-80de-57a49ac1b43f")
+		(uuid "6458b90e-8b9e-4c7d-ab3b-b1a32c3f7401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 66.04 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,9 +4128,95 @@
 			)
 		)
 	)
+	(global_label "BTN_4"
+		(shape input)
+		(at 41.91 76.2 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "663f902f-83ab-45f5-8933-55af9d058431")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_ExB3"
+		(shape input)
+		(at 109.22 53.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ad1938b-61dc-4f95-968f-e0b439aff5de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 66.0013 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO19"
+		(shape input)
+		(at 41.91 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d24298e-2e57-4743-b263-150b44219394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO19"
+		(shape input)
+		(at 165.1 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fa946a7-0900-4cef-856b-38909693e91c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.3952 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOD_ExB5"
 		(shape input)
-		(at 38.1 80.01 180)
+		(at 41.91 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2653,51 +4226,7 @@
 		)
 		(uuid "a134122b-4cc3-47f4-8872-39e86d7ec617")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0929 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO15"
-		(shape input)
-		(at 90.17 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6ce262f-d3da-44e3-8918-140e09e15a62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4652 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO15"
-		(shape input)
-		(at 38.1 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a74c68bc-2023-4358-bb5f-b36a87bf8526")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3952 69.85 0)
+			(at 29.9029 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +4238,91 @@
 	)
 	(global_label "MOD_IO20"
 		(shape input)
-		(at 38.1 62.23 180)
+		(at 104.14 53.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a32d54bd-550a-4ec6-81e4-07bd62bc3bf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 65.699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO15"
+		(shape input)
+		(at 41.91 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a74c68bc-2023-4358-bb5f-b36a87bf8526")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2052 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 163.83 62.23 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a82781da-98fa-40a2-b3ae-2c6b9e5b6098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 90.17 85.09 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ad4b4a69-b79b-41a0-bcd1-a1ebe847508f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_IO20"
+		(shape input)
+		(at 41.91 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2719,7 +4332,7 @@
 		)
 		(uuid "adcca6e8-de07-485f-9c0b-7cd255096ace")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3952 62.23 0)
+			(at 30.2052 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +4344,7 @@
 	)
 	(global_label "MOD_CS"
 		(shape input)
-		(at 38.1 54.61 180)
+		(at 41.91 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2741,29 +4354,7 @@
 		)
 		(uuid "b5b460ee-3787-4932-be56-e2fb43a36b73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO19"
-		(shape input)
-		(at 90.17 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b895a233-2490-4be5-9847-6607d4e317f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4652 81.28 0)
+			(at 32.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +4366,7 @@
 	)
 	(global_label "MOD_ExB4"
 		(shape input)
-		(at 38.1 77.47 180)
+		(at 41.91 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2785,7 +4376,7 @@
 		)
 		(uuid "c0c65fa5-4334-4afe-ab58-408ed5a7d5d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0929 77.47 0)
+			(at 29.9029 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,29 +4386,53 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOD_ExB5"
 		(shape input)
-		(at 90.17 76.2 180)
+		(at 124.46 55.88 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cab74d81-2418-493c-bc5d-329530726137")
+		(uuid "d455d182-e568-4062-8f7a-2b664c15b3d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 76.2 0)
+			(at 124.46 68.5413 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_ExB2"
+		(shape input)
+		(at 106.68 53.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6749eae-f05d-436e-b990-9ef47c63c019")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 66.0013 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 38.1 52.07 180)
+		(at 41.91 43.18 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2826,7 +4441,7 @@
 		)
 		(uuid "db65a704-ecd2-4967-8890-a4dc5c721adb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 52.07 0)
+			(at 41.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +4452,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 38.1 57.15 180)
+		(at 41.91 48.26 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2846,70 +4461,26 @@
 		)
 		(uuid "e03b8cec-aabd-4af6-b91a-831420ca3637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 57.15 0)
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_IO18"
-		(shape input)
-		(at 90.17 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5f63e3a-f2ad-4fce-8116-4a0a6f1d667d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4652 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOD_ExB4"
-		(shape input)
-		(at 118.11 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef3b1a3c-7b8d-42ea-a32b-6152f5fe93d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7713 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 81.28 270)
+		(lib_id "Watchy:R")
+		(at 128.27 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1d14f72a-c463-49f5-9769-e56b6b6b17af")
-		(property "Reference" "TP11"
-			(at 94.996 81.28 90)
+		(uuid "00603b93-652f-449c-8030-3e4b7744a08e")
+		(property "Reference" "R4"
+			(at 129.794 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,18 +4488,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 95.25 82.5499 90)
+		(property "Value" "180"
+			(at 130.81 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 86.36 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 128.27 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +4507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 86.36 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,8 +4515,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 90.17 81.28 0)
+		(property "Description" "Resistor"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "becdf197-2e3c-4795-8f8e-6312b5138042")
+		)
+		(pin "1"
+			(uuid "6ad3fe29-59b5-4be5-a9b7-4998334d6e88")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yatchy:+3.3V-power")
+		(at 140.97 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e566f19-9e9d-483b-a5a4-944ece251f5d")
+		(property "Reference" "#PWR017"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.97 97.917 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,12 +4594,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aca8080f-c236-4e62-b847-564c49b7ba53")
+			(uuid "4bf325cb-e6e7-4672-9ca5-418f11d1a75e")
 		)
 		(instances
 			(project "module"
 				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP11")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3047,7 +4686,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:GND-power")
-		(at 38.1 31.75 270)
+		(at 41.91 22.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3056,7 +4695,7 @@
 		(dnp no)
 		(uuid "25ed3277-bd3f-40f6-ace5-8ba87b251339")
 		(property "Reference" "#PWR03"
-			(at 31.75 31.75 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +4704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 31.877 90)
+			(at 39.37 22.987 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +4713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 31.75 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +4722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 31.75 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +4731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 31.75 0)
+			(at 41.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +4753,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 77.47 0)
+		(at 46.99 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3123,7 +4762,7 @@
 		(fields_autoplaced yes)
 		(uuid "313dd03a-b7bd-4293-9a8a-9f71bad830cb")
 		(property "Reference" "J19"
-			(at 34.5814 79.0654 0)
+			(at 38.3914 70.1754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +4772,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 79.0654 0)
+			(at 40.6774 70.1754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +4782,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 77.47 0)
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +4791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 77.47 0)
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +4800,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 77.47 0)
+			(at 46.99 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,235 +4888,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 78.74 270)
+		(lib_id "IM66D120A:IM66D120A")
+		(at 170.18 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "31c3a295-e28c-4a1d-813d-93fb531e61be")
-		(property "Reference" "TP10"
-			(at 94.996 78.74 90)
+		(fields_autoplaced yes)
+		(uuid "3bbee176-8f8c-498f-be98-837f09431e44")
+		(property "Reference" "U1"
+			(at 180.34 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 95.25 80.0099 90)
+		(property "Value" "IM66D120A"
+			(at 180.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f576ffb-649c-4f5b-ad12-247be8a0f46d")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "327e8eea-f76a-4212-843a-ecbee0a5bf1a")
-		(property "Reference" "TP5"
-			(at 94.996 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbea07db-47b5-4945-ab83-c581a7a38222")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34c79523-2adf-4626-9849-a36e446f35af")
-		(property "Reference" "TP13"
-			(at 94.996 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "766da320-d922-44d4-9a6b-91772117c3b4")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:+3.3V-power")
-		(at 38.1 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c7a1c08-7159-484e-8814-96c53d904986")
-		(property "Reference" "#PWR012"
-			(at 41.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 35.433 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 41.91 0)
+		(property "Footprint" "Yatchy:IFX-PG-TLGA-5-6-V"
+			(at 170.18 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +4923,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 41.91 0)
+			(at 170.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Performance Digital XENSIV MEMS Microphone"
+			(at 170.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d1be2e82-a752-4667-a60e-efa031802cd6")
+		)
+		(pin "5"
+			(uuid "69aa04dd-ac71-4a91-babb-4a7d5ad5dab1")
+		)
+		(pin "3"
+			(uuid "99c4603d-de76-46b4-824f-2ec9d1509453")
+		)
+		(pin "1"
+			(uuid "e359b4ce-9e0e-4b56-a689-fe0fd4942993")
+		)
+		(pin "2"
+			(uuid "6dec8f53-4925-45bf-a1fb-5583f55153ed")
+		)
+		(instances
+			(project ""
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yatchy:+3.3V-power")
+		(at 41.91 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c7a1c08-7159-484e-8814-96c53d904986")
+		(property "Reference" "#PWR012"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 39.243 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +5010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 41.91 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,16 +5098,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 76.2 270)
+		(lib_id "Watchy:C")
+		(at 80.01 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40ed7fb2-812d-4a25-b1e8-2842363fee9d")
-		(property "Reference" "TP9"
-			(at 94.996 76.2 90)
+		(uuid "43b591f2-11c1-47a4-b197-5ac8c9d6f1c8")
+		(property "Reference" "C1"
+			(at 75.184 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,18 +5115,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 95.25 77.4699 90)
+		(property "Value" "220 nF"
+			(at 76.962 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.9752 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 81.28 0)
+			(at 80.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,75 +5142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15ae5c24-9f9a-4a39-8793-d8729f06f78e")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4268c872-cf32-4872-b1b2-bb63914e295c")
-		(property "Reference" "TP7"
-			(at 94.996 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 71.12 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,12 +5152,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "53ce9177-be05-481d-a0a0-3a386d6cd69b")
+			(uuid "824d9ba8-a980-4694-b821-2bd888811823")
+		)
+		(pin "2"
+			(uuid "4f93c8ce-118d-4bd7-a583-ff26bc2a03f1")
 		)
 		(instances
 			(project "module"
 				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3785,7 +5235,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 85.09 0)
+		(at 46.99 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3794,7 +5244,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bf586e4-477d-4213-93d2-34c562c8109d")
 		(property "Reference" "J22"
-			(at 34.5814 86.6854 0)
+			(at 38.3914 77.7954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +5254,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 86.6854 0)
+			(at 40.6774 77.7954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +5264,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 85.09 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 85.09 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +5282,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 85.09 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +5304,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 39.37 0)
+		(at 46.99 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3863,7 +5313,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ed3cc0d-a142-4f66-86c2-c253f446b27b")
 		(property "Reference" "J4"
-			(at 34.5814 40.9654 0)
+			(at 38.3914 32.0754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +5323,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 40.9654 0)
+			(at 40.6774 32.0754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +5333,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 39.37 0)
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +5342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 39.37 0)
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +5351,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 39.37 0)
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,8 +5372,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Yatchy:+3.3V-power")
+		(at 165.1 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60929481-3d8b-4873-8d76-03d858ef694b")
+		(property "Reference" "#PWR021"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 162.433 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a45f5540-8da3-47a2-a973-d0736b4405b5")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 52.07 0)
+		(at 46.99 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3932,7 +5448,7 @@
 		(fields_autoplaced yes)
 		(uuid "611e4d96-4852-41bb-97e9-d702f4ae11bc")
 		(property "Reference" "J9"
-			(at 34.5814 53.6654 0)
+			(at 38.3914 44.7754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +5458,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 53.6654 0)
+			(at 40.6774 44.7754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +5468,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 52.07 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +5477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 52.07 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +5486,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 52.07 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,75 +5507,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "664b7474-2a93-40cd-b4d5-054abfe7d4df")
-		(property "Reference" "TP3"
-			(at 94.996 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fef0f8ea-abd3-44fb-a092-908a484f5c7d")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 113.03 29.21 90)
+		(at 109.22 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4068,7 +5517,7 @@
 		(fields_autoplaced yes)
 		(uuid "715487fd-fd0c-4ccf-88ac-2851890a6f9e")
 		(property "Reference" "RN1"
-			(at 111.7599 24.13 0)
+			(at 114.3 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +5526,7 @@
 			)
 		)
 		(property "Value" "330 ohm"
-			(at 114.2999 24.13 0)
+			(at 114.3 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,8 +5534,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yatchy:R_Array_Concave_4x0402"
-			(at 113.03 22.225 90)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
+			(at 116.205 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +5544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 29.21 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +5553,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 113.03 29.21 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +5586,7 @@
 			(uuid "f4b4bb67-daca-41cd-a9c6-32a1650dd218")
 		)
 		(instances
-			(project "module"
+			(project ""
 				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
 					(reference "RN1")
 					(unit 1)
@@ -4146,8 +5595,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Humidity:SHT4x")
+		(at 171.45 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "725792d6-fd04-4204-a297-42194294eed7")
+		(property "Reference" "U2"
+			(at 177.8 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHT4x"
+			(at 177.8 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Yatchy:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51811661-94ed-4c7a-96e8-bed9fd1e4ff6")
+		)
+		(pin "3"
+			(uuid "27054895-e8fb-4a42-be80-83a9d2839911")
+		)
+		(pin "2"
+			(uuid "2f6cec0a-9b2d-4062-9936-1ac2bebc67a3")
+		)
+		(pin "4"
+			(uuid "ea04f9da-bef8-46ee-9705-144ac527b708")
+		)
+		(instances
+			(project ""
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 59.69 0)
+		(at 46.99 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4156,7 +5683,7 @@
 		(fields_autoplaced yes)
 		(uuid "725ed8d0-c6ef-4cd3-a7cf-cc7247c86d66")
 		(property "Reference" "J12"
-			(at 34.5814 61.2854 0)
+			(at 38.3914 52.3954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +5693,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 61.2854 0)
+			(at 40.6774 52.3954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +5703,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 59.69 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 59.69 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +5721,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 59.69 0)
+			(at 46.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,8 +5742,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Watchy:C")
+		(at 140.97 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7784d4f3-753a-49ff-9244-ad156d596d45")
+		(property "Reference" "C2"
+			(at 136.144 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 137.922 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.9352 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a493d0e6-efdf-4eba-8756-5fca41cab044")
+		)
+		(pin "2"
+			(uuid "425ee8d5-8d89-44b1-9ae8-41a525138211")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 57.15 0)
+		(at 46.99 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4225,7 +5821,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c37ff4f-9cb3-4e1d-baa8-ddf71920a6e7")
 		(property "Reference" "J11"
-			(at 34.5814 58.7454 0)
+			(at 38.3914 49.8554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +5831,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 58.7454 0)
+			(at 40.6774 49.8554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +5841,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 57.15 0)
+			(at 46.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +5850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 57.15 0)
+			(at 46.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +5859,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 57.15 0)
+			(at 46.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,8 +5880,139 @@
 		)
 	)
 	(symbol
+		(lib_id "clock:+3V3")
+		(at 185.42 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c9fafcd-b1f2-45df-acc7-6384a0261d7f")
+		(property "Reference" "#PWR020"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a8b1732-4e99-45ad-894d-73dea296429f")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yatchy:+3.3V-power")
+		(at 90.17 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d4b66b2-ecbb-41fb-9fb4-ffce768b12ca")
+		(property "Reference" "#PWR016"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 87.503 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19738b16-4579-40c2-9cba-f03a4ee95c2d")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 44.45 0)
+		(at 46.99 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4294,7 +6021,7 @@
 		(fields_autoplaced yes)
 		(uuid "800eb339-e959-4552-9c34-a60a095245ff")
 		(property "Reference" "J6"
-			(at 34.5814 46.0454 0)
+			(at 38.3914 37.1554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +6031,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 46.0454 0)
+			(at 40.6774 37.1554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +6041,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 44.45 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +6050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 44.45 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +6059,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 44.45 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +6081,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 95.25 39.37 180)
+		(at 135.89 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4363,7 +6090,7 @@
 		(fields_autoplaced yes)
 		(uuid "8776597b-ae07-45fc-8a00-b58ea7338bbf")
 		(property "Reference" "D1"
-			(at 96.8375 45.72 0)
+			(at 134.3025 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +6098,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 96.8375 43.18 0)
+			(at 134.3025 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +6106,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 95.25 39.37 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +6115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 39.37 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +6124,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 95.25 39.37 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +6139,7 @@
 			(uuid "8bb21765-a474-4d61-ba50-5147ded890f8")
 		)
 		(instances
-			(project "module"
+			(project ""
 				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
 					(reference "D1")
 					(unit 1)
@@ -4421,140 +6148,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:VBUS-power")
-		(at 90.17 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "881ee596-f149-428c-a6a5-9a5dcb0f05e1")
-		(property "Reference" "#PWR020"
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 84.836 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b17e333-6c8a-4bf3-91ff-bfb3c75fccf5")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c038af3-1187-4bf2-92d3-900c8f96ef78")
-		(property "Reference" "TP12"
-			(at 94.996 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1681ddda-f569-40fb-96df-7d9239c0c089")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 82.55 0)
+		(at 46.99 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4563,7 +6158,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d8b719d-5809-4330-87da-9b7feb66e05e")
 		(property "Reference" "J21"
-			(at 34.5814 84.1454 0)
+			(at 38.3914 75.2554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +6168,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 84.1454 0)
+			(at 40.6774 75.2554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +6178,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 82.55 0)
+			(at 46.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +6187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 82.55 0)
+			(at 46.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +6196,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 82.55 0)
+			(at 46.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,35 +6217,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 68.58 270)
+		(lib_id "IIS2MDCTR:IIS2MDCTR")
+		(at 90.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8db063d5-c82c-4c27-9297-39192c4c7e1e")
-		(property "Reference" "TP6"
-			(at 94.996 68.58 90)
+		(fields_autoplaced yes)
+		(uuid "8f568921-5775-4b2a-8ec1-877d19a79698")
+		(property "Reference" "IC1"
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 95.25 69.8499 90)
+		(property "Value" "IIS2MDCTR"
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" "Yatchy:BOSCH_LGA-12"
+			(at 129.54 180.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 73.66 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis2mdc.pdf"
+			(at 129.54 280.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMICROELECTRONICS - IIS2MDCTR - MEMS MODULE, 3-AXIS MAGNETOMETER, LGA-12"
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,47 +6271,113 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 73.66 0)
+		(property "Height" "0.7"
+			(at 129.54 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 90.17 68.58 0)
+		(property "Mouser Part Number" "511-IIS2MDCTR"
+			(at 129.54 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/IIS2MDCTR?qs=1mbolxNpo8ems1K%2FRdQzXg%3D%3D"
+			(at 129.54 680.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 129.54 780.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IIS2MDCTR"
+			(at 129.54 880.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "d3a92087-0ec5-4dcf-bd3a-aa8fd9a83069")
+		)
+		(pin "12"
+			(uuid "630ba69a-e35d-4972-b445-52f23b1bba38")
+		)
+		(pin "10"
+			(uuid "1c60b3e3-257a-43e2-b38a-293ae531540e")
+		)
+		(pin "4"
+			(uuid "0493bdaf-55a9-4b5e-8685-25979f711810")
+		)
+		(pin "2"
+			(uuid "e4d07b32-8b46-4587-b1e7-2feb466f752d")
 		)
 		(pin "1"
-			(uuid "4d295bd7-b6c7-4e97-8efc-2c5c6b0db20b")
+			(uuid "c1ce7019-5e5c-434e-a9c0-623425d93eb7")
+		)
+		(pin "9"
+			(uuid "c3b6e4c1-119d-4037-af9a-c198edb1edb8")
+		)
+		(pin "3"
+			(uuid "c0205914-7137-499a-842c-4903c3fdc756")
+		)
+		(pin "5"
+			(uuid "0de7bcae-b07a-4e23-b2a4-335faabfa62a")
+		)
+		(pin "8"
+			(uuid "2d5e6921-6853-4291-ae23-8e41ae910e72")
+		)
+		(pin "6"
+			(uuid "84177dac-3d1e-43f9-8a66-629cc14565c6")
+		)
+		(pin "7"
+			(uuid "4cabe80e-e768-40f5-bcbd-b9c9f1421bff")
 		)
 		(instances
-			(project "module"
+			(project ""
 				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP6")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:+3.3V-power")
-		(at 38.1 44.45 90)
+		(lib_id "Yatchy:GND-power")
+		(at 97.79 39.37 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9209af9a-1c2f-4540-bf70-5cd9de9ddfb4")
-		(property "Reference" "#PWR013"
-			(at 41.91 44.45 0)
+		(uuid "91436bb9-2d92-4db0-9adb-76392c8717cd")
+		(property "Reference" "#PWR01"
+			(at 97.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,17 +6385,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 35.433 44.45 90)
+		(property "Value" "GND"
+			(at 97.663 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 44.45 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +6404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +6413,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 44.45 0)
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf66481f-bf3a-4fd9-883a-1801d3d9bac2")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yatchy:+3.3V-power")
+		(at 41.91 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9209af9a-1c2f-4540-bf70-5cd9de9ddfb4")
+		(property "Reference" "#PWR013"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 39.243 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +6501,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:GND-power")
-		(at 38.1 34.29 270)
+		(at 41.91 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4765,7 +6510,7 @@
 		(dnp no)
 		(uuid "92e29d8e-d961-456a-ae75-8f3439352591")
 		(property "Reference" "#PWR04"
-			(at 31.75 34.29 0)
+			(at 35.56 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +6519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 34.417 90)
+			(at 39.37 25.527 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +6528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 34.29 0)
+			(at 41.91 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +6537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 34.29 0)
+			(at 41.91 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +6546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 34.29 0)
+			(at 41.91 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +6568,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 67.31 0)
+		(at 46.99 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4832,7 +6577,7 @@
 		(fields_autoplaced yes)
 		(uuid "98a10797-5942-4e5a-b339-e65ccf891f3b")
 		(property "Reference" "J15"
-			(at 34.5814 68.9054 0)
+			(at 38.3914 60.0154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +6587,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 68.9054 0)
+			(at 40.6774 60.0154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +6597,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 67.31 0)
+			(at 46.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 67.31 0)
+			(at 46.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +6615,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 67.31 0)
+			(at 46.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +6637,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:+BATT-power")
-		(at 38.1 39.37 90)
+		(at 41.91 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4900,7 +6645,7 @@
 		(dnp no)
 		(uuid "9b740352-7870-4193-8ef5-62fd795991e6")
 		(property "Reference" "#PWR011"
-			(at 41.91 39.37 0)
+			(at 45.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +6654,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 32.766 39.37 90)
+			(at 36.576 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +6662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 39.37 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +6671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 39.37 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +6680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 39.37 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,75 +6701,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:GND-power")
-		(at 90.17 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f34fa28-6f15-4d74-8d05-02fd8be5d603")
-		(property "Reference" "#PWR01"
-			(at 83.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 56.007 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57ccc865-1ef7-4b0d-adc4-92af5beb7fd2")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:+3.3V-power")
-		(at 91.44 39.37 90)
+		(at 139.7 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5032,7 +6710,7 @@
 		(dnp no)
 		(uuid "a14a7d4c-5ef7-471a-bb5a-704466a5548f")
 		(property "Reference" "#PWR06"
-			(at 95.25 39.37 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +6719,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.773 39.37 90)
+			(at 142.367 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +6728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 39.37 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +6737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 39.37 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +6746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 39.37 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +6768,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:GND-power")
-		(at 38.1 36.83 270)
+		(at 41.91 27.94 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5099,7 +6777,7 @@
 		(dnp no)
 		(uuid "a2d8bafa-ac73-4c39-9dbe-6373170f0a8c")
 		(property "Reference" "#PWR010"
-			(at 31.75 36.83 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +6786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 36.957 90)
+			(at 39.37 28.067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +6795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 36.83 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +6804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 36.83 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +6813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 36.83 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,75 +6834,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a574d852-f3a2-4587-aff1-1aacb2c012e4")
-		(property "Reference" "TP4"
-			(at 94.996 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c37af00a-05e0-4b92-a412-a876c8d34e53")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 49.53 0)
+		(at 46.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5233,7 +6844,7 @@
 		(fields_autoplaced yes)
 		(uuid "aae460da-04d2-4409-9096-16ee8e727f7b")
 		(property "Reference" "J8"
-			(at 34.5814 51.1254 0)
+			(at 38.3914 42.2354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +6854,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 51.1254 0)
+			(at 40.6774 42.2354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +6864,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 49.53 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +6873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 49.53 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +6882,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 49.53 0)
+			(at 46.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +6904,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:CLMVC-FKA-CL1D1L71BB7C3C3")
-		(at 87.63 29.21 0)
+		(at 109.22 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,7 +6912,7 @@
 		(dnp no)
 		(uuid "ae9a496e-e066-4e33-b2fc-2093f15941d3")
 		(property "Reference" "LED1"
-			(at 99.314 7.62 90)
+			(at 130.81 34.544 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5309,7 +6920,7 @@
 			)
 		)
 		(property "Value" "CLMVC-FKA-CL1D1L71BB7C3C3"
-			(at 101.854 7.62 90)
+			(at 130.81 37.084 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5317,7 +6928,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:CLMVC-FKA-CL1D1L71BB7C3C3_CRE"
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" "CLMVC-FKA-CL1D1L71BB7C3C3"
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +6948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,8 +7045,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Yatchy:GND-power")
+		(at 80.01 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b225cef2-5a6b-4a6c-80ee-e446de07788b")
+		(property "Reference" "#PWR07"
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.137 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0253f4b-5879-4be7-92cf-6cf16b7842e8")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 74.93 0)
+		(at 46.99 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5444,7 +7122,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6d24d6f-3f9a-461c-bf02-58a2b38b64e4")
 		(property "Reference" "J18"
-			(at 34.5814 76.5254 0)
+			(at 38.3914 67.6354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +7132,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 76.5254 0)
+			(at 40.6774 67.6354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 74.93 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +7151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 74.93 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +7160,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 74.93 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,8 +7181,142 @@
 		)
 	)
 	(symbol
+		(lib_id "clock:C")
+		(at 185.42 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77cf686-5a04-4448-b4f3-925d48ac27e3")
+		(property "Reference" "C6"
+			(at 189.484 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 189.484 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 184.4548 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46ff562f-2a55-462a-b965-5762e6f0dbbf")
+		)
+		(pin "1"
+			(uuid "36edb20b-0101-49b8-b240-22b86819ed90")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yatchy:GND-power")
+		(at 140.97 87.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b78d759f-c619-4616-8d1e-5b76e3d668af")
+		(property "Reference" "#PWR018"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 87.503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45947917-0902-41e0-b980-eeb1b0795c3a")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 36.83 0)
+		(at 46.99 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5513,7 +7325,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1aa5c98-6aa6-471a-98e9-a31724de01c1")
 		(property "Reference" "J3"
-			(at 34.5814 38.4254 0)
+			(at 38.3914 29.5354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +7335,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 38.4254 0)
+			(at 40.6774 29.5354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +7345,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 36.83 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +7354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 36.83 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +7363,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 36.83 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +7385,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 62.23 0)
+		(at 46.99 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5582,7 +7394,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3942f6a-c45f-44f8-b9bf-3a45f209cc0c")
 		(property "Reference" "J13"
-			(at 34.5814 63.8254 0)
+			(at 38.3914 54.9354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +7404,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 63.8254 0)
+			(at 40.6774 54.9354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +7414,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 62.23 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +7423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 62.23 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +7432,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 62.23 0)
+			(at 46.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,83 +7453,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 88.9 270)
+		(lib_id "Yatchy:GND-power")
+		(at 195.58 38.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c442a98c-5251-42e5-8333-21d8ebf3004a")
-		(property "Reference" "TP14"
-			(at 94.996 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91ccee6-76fd-452b-b614-883b78f5bb81")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:+3.3V-power")
-		(at 90.17 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d05d2725-d7ed-4f84-b8c5-38f33c05ea2f")
+		(uuid "c3d5683c-4e23-4cc4-bfb8-ee8749d5886b")
 		(property "Reference" "#PWR019"
-			(at 93.98 60.96 0)
+			(at 195.58 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,17 +7471,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 87.503 60.96 90)
+		(property "Value" "GND"
+			(at 195.707 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 60.96 0)
+			(at 195.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 60.96 0)
+			(at 195.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +7499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 60.96 0)
+			(at 195.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +7508,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c74e2b5-9b7c-49bb-a188-12977406791a")
+			(uuid "6a1e03fa-f7b5-486b-b5de-edcb413649e9")
 		)
 		(instances
 			(project "module"
@@ -5775,7 +7521,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 41.91 0)
+		(at 46.99 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5784,7 +7530,7 @@
 		(fields_autoplaced yes)
 		(uuid "d310583d-a971-4667-9332-253f0590beeb")
 		(property "Reference" "J5"
-			(at 34.5814 43.5054 0)
+			(at 38.3914 34.6154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +7540,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 43.5054 0)
+			(at 40.6774 34.6154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +7550,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 41.91 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +7559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 41.91 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +7568,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 41.91 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +7590,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 34.29 0)
+		(at 46.99 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5853,7 +7599,7 @@
 		(fields_autoplaced yes)
 		(uuid "d704f68e-3688-48df-8924-8de4f31bf22e")
 		(property "Reference" "J2"
-			(at 34.5814 35.8854 0)
+			(at 38.3914 26.9954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +7609,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 35.8854 0)
+			(at 40.6774 26.9954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +7619,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 34.29 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +7628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 34.29 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +7637,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 34.29 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +7659,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 69.85 0)
+		(at 46.99 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5922,7 +7668,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8e3fdad-87b2-4352-9a45-db8ffc002896")
 		(property "Reference" "J16"
-			(at 34.5814 71.4454 0)
+			(at 38.3914 62.5554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +7678,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 71.4454 0)
+			(at 40.6774 62.5554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +7688,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 69.85 0)
+			(at 46.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +7697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 69.85 0)
+			(at 46.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +7706,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 69.85 0)
+			(at 46.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,75 +7727,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da4b3110-7534-402d-886b-d315e4f9ef5d")
-		(property "Reference" "TP1"
-			(at 94.996 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db6bb72c-bf8a-40e8-8c75-c9327bcfe927")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 80.01 0)
+		(at 46.99 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6058,7 +7737,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf39f38-7a99-40de-8cbc-96ca6600aba7")
 		(property "Reference" "J20"
-			(at 34.5814 81.6054 0)
+			(at 38.3914 72.7154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +7747,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 81.6054 0)
+			(at 40.6774 72.7154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +7757,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 80.01 0)
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +7766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 80.01 0)
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +7775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 80.01 0)
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,142 +7796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df9fb5c1-051e-414e-a607-92bf32a5c8f9")
-		(property "Reference" "TP8"
-			(at 94.996 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a5d1345-80d5-44f0-a95c-07f2ca4b9e37")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfcddc00-a006-415d-9187-33ce7f2dcceb")
-		(property "Reference" "TP2"
-			(at 94.996 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d0ffe91-9e9b-4cd1-a6b7-eced2c3b0634")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 72.39 0)
+		(at 46.99 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6261,7 +7806,7 @@
 		(fields_autoplaced yes)
 		(uuid "e96055cf-1a92-4276-ad61-e3b981b69358")
 		(property "Reference" "J17"
-			(at 34.5814 73.9854 0)
+			(at 38.3914 65.0954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +7816,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 73.9854 0)
+			(at 40.6774 65.0954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +7826,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 72.39 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +7835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 72.39 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +7844,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 72.39 0)
+			(at 46.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:+3.3V-power")
-		(at 87.63 29.21 90)
+		(at 109.22 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6329,7 +7874,7 @@
 		(dnp no)
 		(uuid "e9afa2fa-5df3-4ba6-9133-db1f3dbe5425")
 		(property "Reference" "#PWR02"
-			(at 91.44 29.21 0)
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +7883,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 84.963 29.21 90)
+			(at 109.22 20.193 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +7892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +7901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +7910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 29.21 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 54.61 0)
+		(at 46.99 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6396,7 +7941,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaafd89a-5e9b-4065-b72b-1e18fe97a2da")
 		(property "Reference" "J10"
-			(at 34.5814 56.2054 0)
+			(at 38.3914 47.3154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +7951,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 56.2054 0)
+			(at 40.6774 47.3154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +7961,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 54.61 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 54.61 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +7979,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 54.61 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,140 +8000,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Yatchy:TestPoint")
-		(at 90.17 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb00ce9d-2f45-425a-b594-04338f7f7a1c")
-		(property "Reference" "TP15"
-			(at 94.996 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Yatchy:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "148d7155-c26f-47da-ae92-36d78d65d01a")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yatchy:+BATT-power")
-		(at 90.17 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef95c7d1-ae91-4a0f-871a-c15d6bfad6d8")
-		(property "Reference" "#PWR017"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 84.836 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e268f6fc-57fd-4605-ae57-d0690a14848e")
-		)
-		(instances
-			(project "module"
-				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yatchy:VBUS-power")
-		(at 38.1 46.99 90)
+		(at 41.91 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6596,7 +8009,7 @@
 		(dnp no)
 		(uuid "f02a9446-a21d-49e6-92ca-6318727ad2c8")
 		(property "Reference" "#PWR014"
-			(at 41.91 46.99 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +8018,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 32.766 46.99 90)
+			(at 36.576 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +8026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 46.99 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +8035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 46.99 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +8044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 46.99 0)
+			(at 41.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +8066,7 @@
 	)
 	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 31.75 0)
+		(at 46.99 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +8075,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0a4824d-6351-481c-a340-e815f5acf2bb")
 		(property "Reference" "J1"
-			(at 34.5814 33.3454 0)
+			(at 38.3914 24.4554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +8085,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 33.3454 0)
+			(at 40.6774 24.4554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +8095,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 31.75 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +8104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 31.75 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +8113,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 31.75 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,8 +8134,73 @@
 		)
 	)
 	(symbol
+		(lib_id "clock:GND")
+		(at 185.42 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f45769cf-93ec-41e6-9fe3-e4c35386094d")
+		(property "Reference" "#PWR022"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.246 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c359cb42-f45e-46d1-965c-2fa51248a1a1")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 46.99 0)
+		(at 46.99 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6731,7 +8209,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4b7f24f-2a12-42c0-af87-69cdd5e43a5a")
 		(property "Reference" "J7"
-			(at 34.5814 48.5854 0)
+			(at 38.3914 39.6954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +8219,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 48.5854 0)
+			(at 40.6774 39.6954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +8229,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 46.99 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +8238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 46.99 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +8247,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 46.99 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,8 +8268,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Speaker_Crystal")
+		(at 90.17 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8e88734-ca75-4fff-87f5-196b1151a6e5")
+		(property "Reference" "LS1"
+			(at 81.788 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AST0760_MAL"
+			(at 84.328 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Yatchy:AST0760_MAL"
+			(at 91.059 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.059 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystal speaker/transducer"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b925113-3994-4c0e-a9a3-ab7c4ce7534b")
+		)
+		(pin "1"
+			(uuid "2bfc5792-e887-4ed1-a7e1-21028c648de2")
+		)
+		(instances
+			(project "module"
+				(path "/9b555b4c-3ccb-4dc3-8c72-f18d1d0c497b"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yatchy:Conn_01x01_Socket")
-		(at 43.18 64.77 0)
+		(at 46.99 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6800,7 +8347,7 @@
 		(fields_autoplaced yes)
 		(uuid "f95b45d9-dca6-416d-bbfd-cd96d1877918")
 		(property "Reference" "J14"
-			(at 34.5814 66.3654 0)
+			(at 38.3914 57.4754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +8357,7 @@
 			)
 		)
 		(property "Value" "MOD_CONN"
-			(at 36.8674 66.3654 0)
+			(at 40.6774 57.4754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +8367,7 @@
 			)
 		)
 		(property "Footprint" "Yatchy:mod_Connector"
-			(at 43.18 64.77 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +8376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 64.77 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +8385,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 43.18 64.77 0)
+			(at 46.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
