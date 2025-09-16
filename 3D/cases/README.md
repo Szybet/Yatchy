@@ -101,9 +101,11 @@ Notes (About this case in general):
 - **The buttons are objectively easier to access**
 - The LED now shines outside of your wrist, not on it                                                                                                                                         
 
-### Schyz's Brick case remix
+### Glaucon1984's Brick case remix
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-
+  <img src="Glaucon-brick-remix/img/img1.png" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="Glaucon-brick-remix/img/img2.png" width="300px" style="display:inline-block;">
+  <img src="Glaucon-brick-remix/img/img3.jpg" width="300px" style="display:inline-block;">
 </div>
 
 Notes:
@@ -121,7 +123,7 @@ Notes:
 - The 3MF contains print settings, but just in case, it must be printed with a 0.2 mm nozzle. It's been tested only with PLA and it works great. I recommend a 0.6 mm layer heigh for precision. There's very little infill in the model but I would recommend to use gyroid at 30%. The watch case should be printed on the flat side of each part, the buttons should have this side touching the build plate:
 <img width="234" height="179" alt="image" src="https://github.com/user-attachments/assets/df099669-6ca3-44b3-b57b-22a5e379447b" />
 
-- The Creators [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
+- Creator's [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
 
 ### Case comparison
 - without top case or the pieces that hold the straps
