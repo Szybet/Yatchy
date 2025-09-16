@@ -106,6 +106,7 @@ Notes (About this case in general):
   <img src="Glaucon-brick-remix/img/img1.png" width="300px" style="display:inline-block; margin-right: 5px;">
   <img src="Glaucon-brick-remix/img/img2.png" width="300px" style="display:inline-block;">
   <img src="Glaucon-brick-remix/img/img3.jpg" width="300px" style="display:inline-block;">
+  <img src="Glaucon-brick-remix/img/img4.png" width="300px" style="display:inline-block;">
 </div>
 
 Notes:
