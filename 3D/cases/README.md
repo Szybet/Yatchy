@@ -101,6 +101,27 @@ Notes (About this case in general):
 - **The buttons are objectively easier to access**
 - The LED now shines outside of your wrist, not on it                                                                                                                                         
 
+### Schyz's Brick case remix
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+
+</div>
+
+Notes:
+- The main purpose of this remix is to be able to use regular watch straps, make the case a bit stronger and have smoother edges, these are the main changes:
+- Based on Szybet's brick case
+- Made thicker walls and bottom
+- Smooth edges
+- Added prongs to attach a 22mm strap
+  - It uses a standard 22mm watch strap, the one in the picture is this one: https://www.amazon.co.uk/dp/B0C2414BMX (nothing special about it, I think it was one of the cheapest ones)  
+- Added some geometry to centre the circuit board
+- The front panel hides a bit more of the bottom of the screen (you can see the picture)
+- Buttons are slightly longer to account for the thicker walls in the case
+- The holes for the buttons and the USB-C port are chamfered to hide the imperfection from 3D-printing supports
+- The top case is slightly thicker
+- The 3MF contains print settings, but just in case, it must be printed with a 0.2 mm nozzle. It's been tested only with PLA and it works great. I recommend a 0.6 mm layer heigh for precision. There's very little infill in the model but I would recommend to use gyroid at 30%. The watch case should be printed on the flat side of each part, the buttons should have this side touching the build plate:
+<img width="234" height="179" alt="image" src="https://github.com/user-attachments/assets/df099669-6ca3-44b3-b57b-22a5e379447b" />
+
+- The Creators [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
 
 ### Case comparison
 - without top case or the pieces that hold the straps
