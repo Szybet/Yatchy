@@ -15,6 +15,8 @@ As for the skill level required, yh, idk, both are hard, here you solder everyth
 
 In this guide I will focus on manual, but also say from time to time things specific to stencil. If you use stencil for soldering many yatchies, you should still solder at least one manually to understand what is going on.
 
+Order of soldering things is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
+
 Things like:
 - Equipment I use, or is needed
 - What soldering skills are needed
@@ -25,4 +27,15 @@ Are discussed in other files. I will not link them, as you should read everythin
 # Yatchy "sections"
 Yatchy (as any other electronic device really) consists of sections. Some depend on each other, the point is you pretty much can't (and shouldn't) (until you have the skill and knowledge to know what you are doing) debug things when soldering half of them. Also don't power the device when half of it is soldered. Things may simply not work or just damage itself (rarely)
 
-### Power section
+The schematic is also splitted into those sections, but sometimes I modify the sections below for reasons
+
+### Power
+<img width="701" height="741" alt="image" src="https://github.com/user-attachments/assets/9b6bb354-734e-49c3-8ce5-541b4d5a308b" />
+
+Converts either 4.2V from the battery or 5V from USB to 3.3V used by the rest of the board. You don't need other sections (Battery, USB) to provide these voltages to it, you can simply do it via a wire (where the voltages would normally be provided from). All other sections depend on this section, but if you have an external, good and stable 3.3V source, you can power it directly to the 3.3V line. I usually solder the 3.3V and GND wire here:
+
+<img width="212" height="301" alt="image" src="https://github.com/user-attachments/assets/6e9391d2-11fa-4a8b-8b43-8b4eb6812975" />
+
+### esp32c6
+<img width="727" height="749" alt="image" src="https://github.com/user-attachments/assets/ce3f1ae5-505c-482d-b350-5c57480179b0" />
+Pretty much the hardest step
