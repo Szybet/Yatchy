@@ -23,6 +23,9 @@ For me, the cost is arround 70-80$, without the labour and things like solder / 
 
 Also to note, mauser is not required, I was able to buy everything with TME + falstad (Without the accelerometer, lol). Also digikey looks like it has all the components
 
+#### Note about accelerometers
+the PCB supports both BMA530 and BMA456 (even BMA423... but this one is impossible to get). Generally, only BMA456 is suggested, the BMA530 is there as a backup if BMA456 is not available. Sadly, BMA530 is harder to solder, it's basically BGA (but BMA530 is 2 times more precise than BMA456, while BMA456 is 2 times more precise than BMA423 - the precission doesn't really matter for normal usage / step tracking)
+
 ### Choosing alternative components
 If you want to choose alternative components (we are talking about capacitors / resistors, for transistors etc. you are on your own) follow this:
 1. Follow the excel file, not the BOM file.
