@@ -1,5 +1,7 @@
 ## **A reminder, all of this is provided without any warranty. If something goes wrong and the PCB is bad, wrong components, not my fault**
 
+#### Prototype guide, I could have skipped something, let me know if something is not clear
+
 # Assembling Yatchy
 There are 2 ways to solder a Yatchy (in a reasonable way):
 - Soldering manually:
@@ -19,6 +21,7 @@ Some more notes:
 - If a test is too hard for you, it could be skipped, but if something later doesn't work, it will be a lot harder to debug what is actually going on, it could even result in damaging more components
 - I will not talk things like "If you power the device via 5V USB, you can't have a power supply connected on the battery terminals, otherwise the charger will start charging and things can go messy". Common sense, common electronical/arduino/esp32 level knowledge required
 - Testing every section should be also done via power consumption - multimeter, how much current it draws, if too much, then you know the answer, it's shorted
+- If soldering with stencil **please** check for shorts and problems after soldering. Seriously, the process is never perfect
 
 Things like:
 - Equipment I use, or is needed
@@ -102,7 +105,7 @@ Requires i2c and esp32c6 (so also, uhm, power) sections to be tested. To test, i
 ### Screen
 <img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/343a09b3-5220-4ef0-808e-04ac3807d8f6" />
 
-Here I propose soldering the flex connector first, as its the hardest. Check for shorts, check if the pins are soldered (if they can be moved a bit with idk something sharp, then its not soldered). If there is solder behind the pins, use a solder wick to catch it. Clean flux also inside the connector, open it's "brackets"
+Here I propose soldering the flex connector first, as its the hardest. Check for shorts, check if the pins are soldered (if they can be moved a bit with idk something sharp, then its not soldered). If there is solder behind the pins, use a solder wick to catch it. Clean flux also inside the connector, open it's "brackets". Obviously the flex connector needs to be perfectly oriented, not in angle
 
 the rest is easy, the coil at the end.
 
@@ -124,3 +127,53 @@ As noted elsewhere, either bma456 or bma530. Requires i2c section, obviously esp
 Requires hotplate soldering, just as the esp32c6 (apply on both sides, etc)
 
 to test, enable IS_ACC in debugMain.cpp and read logs after flashing and everything
+
+### Crystal/Quartz
+<img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/bd0649d6-91d4-4ebb-96f2-c6df4ea86335" />
+
+Don't solder the resistor for too long, as the pins of the esp32c6 could get desoldered themself. Apart from that, it's easy, the crystal is solderable by hand with a soldering iron
+
+To test it, it's more complicated, it's explained in `initRTC()` in the file `src/hardware/rtc/rtc.cpp`. In the end you should get a value, read the rest there and compare it. If it's really bad, maybe on of the capacitors is not soldered properly, or something?
+
+Remember to revert these changes made to the files later
+
+### Charging circuit
+<img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/4611e937-f645-43ba-86a5-ddb53eb298cf" />
+
+Requires well every section basically, maybe not acc or crystal
+
+Make sure these 2 resistors are both soldered properly, in correct order, have conduct and correct resistance. If something is wrong, on connecting power it could fry your board.
+
+<img width="1018" height="688" alt="image" src="https://github.com/user-attachments/assets/a1e57d5c-a687-4f47-9c15-2fab10732ca9" />
+
+To test, well, later with a working LED from the module, connect the battery and charge it from USB. The led should be yellow when charging, when it finished it should be green, when disconnecting it should be red for a short second. Also observe regular logs from DEBUG while running inkwatchy (so disable the debugMain.cpp options). Also check temperature of the chip while charging, shouldn't be hot.
+
+### Motor circuit
+<img width="639" height="678" alt="image" src="https://github.com/user-attachments/assets/fc872481-04ac-4fa4-ade6-f275a0421965" />
+
+Requires power, esp32c6
+
+to test, either in debugMain.cpp enable the motor option, or just later with buttons. (also solder the motor obviously)
+
+### Module
+<img width="487" height="433" alt="image" src="https://github.com/user-attachments/assets/c6d15f4c-371f-4bd3-b381-3af9cac78dfb" />
+
+should be pretty much soldered last
+
+Depending on your module, the specifics could be different. but soldering it to the main pcb should be the same. First, place both PCB's on something really flat (I use sheet metal). Make sure they don't wiggle, if so, fix it (solder from tht holes) with a solder wick. Then lock them in place using tape, but don't cover the pins below. Also make sure the pcb's connect properly, if there are imperfections, fix them with sand paper or a knife
+
+now that everything is perfect, in place, add a lot of solder to the 2 pins on the sides, so it will be pretty solid and connected well. After that, connect the rest of the pins. Make sure not to short things. I prefer a short wire that I tinned before, then cut it off & add more solder then, some prefer only solder no wires. The point is, you should add a bit of solder between the pads to also reinforce it
+
+I need to say this too (lol): do the connections on the side of the PCB where components are, not on the back, as that's where the screen is.
+
+doing a hotplate after attaching the module risks things, obviously, but I did it, maybe you can too
+
+The LED on the default module is suggested to be soldered on the hot plate as it's fragile. To test the led, there is an option in debugMain.cpp for it. It should appear white, if not, at least one of the connections is broken
+
+### Screen2 (as in, on the back)
+1. Apply double sided tape (as in, one that is not thin, not thick, idk 1mm to the back. Don't apply it to the module area. In fact, you can leave the center also empty, so something like:
+
+<img width="735" height="773" alt="image" src="https://github.com/user-attachments/assets/538fcccb-a6e0-4afe-a1ec-e3a9f11963ee" />
+
+2. Connect the screen to the connector, lock it in
+3. Apply it precisely, use the top edge so it's not angled, crooked
