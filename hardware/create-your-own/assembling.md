@@ -42,12 +42,26 @@ so if you do the wire, you can skip this section for now
 ### esp32c6
 <img width="727" height="749" alt="image" src="https://github.com/user-attachments/assets/ce3f1ae5-505c-482d-b350-5c57480179b0" />
 
-Pretty much the hardest section, needs to be soldered via hot plate (hot air is too hard for me). Apply solder on both sides, on the chip itself only a thin layer, place it ideally and give it a go...
+Pretty much the hardest section, needs to be soldered via hot plate (hot air is too hard for me). Apply solder on both sides, on the chip itself only a thin layer, place it ideally and give it a go... You can skip the main big ground pad in the middle, not really needed
 
 **Testing**
 - First, if you can, measure the power consumption. It should be around 20-30mA (just this section, more sections more power). If it's like above 50mA, you are in danger, probably a short somewhere, probably already smoked
 - Second, check if there is communication:
   - if you have a UART-USB converter (if not, you can reuse an arduino, esp32 devboard, RPI for that, but I won't explain it here, google it), solder GND, RX, TX (below the flex cable), with baudrate 115200 check if there is any communication. You should see some ROM messages
   - if you soldered the USB section, if you connect the device, it should connect itself and disconnect all the time. That's normal, there is no program so it resets itself. When opening the serial device that appeared on the PC, baudrate 115200 you should also see ROM messages over and over again.
+  - with UART or USB, after typing `esptool --after no_reset chip_id` (the esptool cli command) (you might need to type it many types to catch, as the esp32c6 resets) (This command resets the device into bootloader mode, this is the state that it needs to be flashed in). If it can't catch it, you might need to reset the device into bootloader mode manually with those pins:
+ 
+<img width="51" height="160" alt="image" src="https://github.com/user-attachments/assets/19539714-0b2e-4646-b231-9fc3ceb61712" />
 
-If you did not solder anything else (well you need power in any form, the USB section is allowed and optional, as told above) (so stencil users, not for you), lucky you. There is a test-program which allows for detecting shorts & checking connections with a multimeter. It's located in the test-program directory in this directory. Grab it to your PC
+Bootloader and reset pin. If you can't google it out, let me know, I will write or even record a proper tutorial
+
+If you did not solder anything else (well you need power in any form, the USB section is allowed and optional, as told above) (so stencil users, not for you), lucky you. There is a test-program which allows for detecting shorts & checking connections with a multimeter. It's located in the test-program directory in this directory. Grab it to your PC, then:
+- All of this tested only on linux. Windows could work, idk
+- Install the rust programming language. Your cli should be able to execute the cargo command
+- Follow the README.md in the test-program directory
+- in Cargo.toml, in features section choose what you have (do you have usb, or uart (don't both), or you have i2c section. Add them to default, follow the toml syntax (or ask google/AI)
+- in .cargo/config.toml comment and uncomment the line for your communication method
+- if everything is correct, run in test-program directory `cargo run --release` - it should succeed and flash the program (You might need to reset it to bootloader mode), you should see logs from the program booting. Now you have a few commands to choose from (no backspace support lol):
+  - `self_check_gpio` - It sets one gpio to high, the rest as inputs and checks if the inputs are high. If it says it's high, it's worth checking if there is a short (After disconnecting the device from power...). If there is not a short, cool, then it's just floating magic. Was worth to check anyway.
+  - `gpioX` - Where X is number of the gpio. For available gpios for your setup, look up `src/flex_io.rs` the `pub struct FlexIo<'a>` line. If a gpio is behind a feature which you have not enabled, then it's not available to check. If you type type a gpio command, it will trigger it high and low every second. Check with a multimeter if the voltage jumps, if not, there is no connection you need to resolder the whole chip. (you can use soldering iron to maybe fix one pin, but not more, even with special footprint it's hard, but possible).
+  - `exit` - exits the current action. You need to type it after every action to switch to another
