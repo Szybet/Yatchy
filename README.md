@@ -70,7 +70,7 @@ Yatchy features, compared to 2.0 watchy:
 - All the components are newer, still available and produced. They are also listed, with links to mauser / tme. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
 - All QFN packages IC's on the board have increased pad sizes, so if you are skilled enough to solder QFN packages, here it will be easier
 - I used traces teardrops, so more solid traces & pads
-- A [hardware test program](https://github.com/Szybet/Yatchy/tree/main/test-program), which allows testing if all the pads of the esp32c6, which is the hardest part to solder are soldered correctly
+- A [hardware test program](https://github.com/Szybet/Yatchy/tree/main/hardware/create-your-own/test-program), which allows testing if all the pads of the esp32c6, which is the hardest part to solder are soldered correctly
 - JTAG debugging via usb, yay
 
 </details>

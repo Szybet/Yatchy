@@ -68,7 +68,7 @@ So "Commercial use" for the yatchy as in: using it as a cash grab, without givin
 
 If you plan to really mass produce them, then we should talk I ques.
 
-**So you want to create your own? There is a doc for that: [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)**
+**So you want to create your own? There is a doc for that: [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/create-your-own/README.md)**
 
 ## The ability to enforce the license
 First some explanation:
