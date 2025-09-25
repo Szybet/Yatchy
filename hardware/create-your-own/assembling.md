@@ -18,6 +18,7 @@ Some more notes:
 - Order of soldering things (in a section) is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
 - If a test is too hard for you, it could be skipped, but if something later doesn't work, it will be a lot harder to debug what is actually going on, it could even result in damaging more components
 - I will not talk things like "If you power the device via 5V USB, you can't have a power supply connected on the battery terminals, otherwise the charger will start charging and things can go messy". Common sense, common electronical/arduino/esp32 level knowledge required
+- Testing every section should be also done via power consumption - multimeter, how much current it draws, if too much, then you know the answer, it's shorted
 
 Things like:
 - Equipment I use, or is needed
@@ -114,3 +115,12 @@ to test, requires: esp32c6, mcp23018 (so power, i2c, usb too).
 You can test the screen by inserting it "straight", not on the back. Look up pictures in the repo on how far it should be inserted. Be carefull while inserting it, apply the force equally when closing the brackets. For detaching use thin tweezers, toothpick and do it slowly, as too much force can break the connector
 
 to test, in debugMain.cpp enable IS_SCREEN (+ mcp things are also needed) after flashing and everything, a black-white circle should appear on the screen. Grey screen indicates problems. even one loose pin can break everything. The mcp23018 also needs to work for the screen to work
+
+### Acc
+<img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/50ba8366-e8f4-4eed-83f2-287c9526cd0c" />
+
+As noted elsewhere, either bma456 or bma530. Requires i2c section, obviously esp32c6 (so power) too.
+
+Requires hotplate soldering, just as the esp32c6 (apply on both sides, etc)
+
+to test, enable IS_ACC in debugMain.cpp and read logs after flashing and everything
