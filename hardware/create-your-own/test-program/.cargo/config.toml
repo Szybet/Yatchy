@@ -1,5 +1,7 @@
 [target.riscv32imac-unknown-none-elf]
+# The line below is for USB communication
 runner = "./espflash flash --before usb-reset --monitor"
+# The line below is for UART communication
 # runner = "./espflash flash --before no-reset --monitor"
 
 [build]
