@@ -60,7 +60,7 @@ If you did not solder anything else (well you need power in any form, the USB se
 - Install the rust programming language. Your cli should be able to execute the cargo command
 - Follow the README.md in the test-program directory
 - in Cargo.toml, in features section choose what you have (do you have usb, or uart (don't both), or you have i2c section. Add them to default, follow the toml syntax (or ask google/AI)
-- in .cargo/config.toml comment and uncomment the line for your communication method
+- in .cargo/config.toml comment and uncomment the `runner` line for your communication method
 - if everything is correct, run in test-program directory `cargo run --release` - it should succeed and flash the program (You might need to reset it to bootloader mode), you should see logs from the program booting. Now you have a few commands to choose from (no backspace support lol):
   - `self_check_gpio` - It sets one gpio to high, the rest as inputs and checks if the inputs are high. If it says it's high, it's worth checking if there is a short (After disconnecting the device from power...). If there is not a short, cool, then it's just floating magic. Was worth to check anyway.
   - `gpioX` - Where X is number of the gpio. For available gpios for your setup, look up `src/flex_io.rs` the `pub struct FlexIo<'a>` line. If a gpio is behind a feature which you have not enabled, then it's not available to check. If you type type a gpio command, it will trigger it high and low every second. Check with a multimeter if the voltage jumps, if not, there is no connection you need to resolder the whole chip. (you can use soldering iron to maybe fix one pin, but not more, even with special footprint it's hard, but possible).
