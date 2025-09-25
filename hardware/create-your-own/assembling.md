@@ -47,7 +47,7 @@ Pretty much the hardest section, needs to be soldered via hot plate (hot air is 
 **Testing**
 - First, if you can, measure the power consumption. It should be around 20-30mA (just this section, more sections more power). If it's like above 50mA, you are in danger, probably a short somewhere, probably already smoked
 - Second, check if there is communication:
-  - if you have a UART-USB converter, solder GND, RX, TX (below the flex cable), with baudrate 115200 check if there is any communication. You should see some ROM messages
+  - if you have a UART-USB converter (if not, you can reuse an arduino, esp32 devboard, RPI for that, but I won't explain it here, google it), solder GND, RX, TX (below the flex cable), with baudrate 115200 check if there is any communication. You should see some ROM messages
   - if you soldered the USB section, if you connect the device, it should connect itself and disconnect all the time. That's normal, there is no program so it resets itself. When opening the serial device that appeared on the PC, baudrate 115200 you should also see ROM messages over and over again.
 
 If you did not solder anything else (well you need power in any form, the USB section is allowed and optional, as told above) (so stencil users, not for you), lucky you. There is a test-program which allows for detecting shorts & checking connections with a multimeter. It's located in the test-program directory in this directory. Grab it to your PC
