@@ -155,6 +155,9 @@ Requires power, esp32c6
 
 to test, either in debugMain.cpp enable the motor option, or just later with buttons. (also solder the motor obviously)
 
+### Buttons
+Nothing to tell or to show here really. They require mcp23018, esp32c6 and charging circuit (as in, also, either soldered battery or 5V connected, so normal) (yes) to work. To test, well, you should know how to test buttons with a multimeter ;D
+
 ### Module
 <img width="487" height="433" alt="image" src="https://github.com/user-attachments/assets/c6d15f4c-371f-4bd3-b381-3af9cac78dfb" />
 
