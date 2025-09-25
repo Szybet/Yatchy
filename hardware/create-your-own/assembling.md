@@ -14,7 +14,8 @@ There are 2 ways to solder a Yatchy (in a reasonable way):
 Some more notes:
 - As for the skill level required, yh, idk, both are hard, here you solder everything manually but in stencil you need to repair things that didn't go well, so idk, decide for yourself
 - In this guide I will focus on manual, but also say from time to time things specific to stencil. If you use stencil for soldering many yatchies, you should still solder at least one manually to understand what is going on.
-- Order of soldering things is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
+- The sections are from top to bottom of order of what needs to be soldered
+- Order of soldering things (in a section) is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
 - If a test is too hard for you, it could be skipped, but if something later doesn't work, it will be a lot harder to debug what is actually going on, it could even result in damaging more components
 - I will not talk things like "If you power the device via 5V USB, you can't have a power supply connected on the battery terminals, otherwise the charger will start charging and things can go messy". Common sense, common electronical/arduino/esp32 level knowledge required
 
@@ -100,4 +101,16 @@ Requires i2c and esp32c6 (so also, uhm, power) sections to be tested. To test, i
 ### Screen
 <img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/343a09b3-5220-4ef0-808e-04ac3807d8f6" />
 
-Here I propose
+Here I propose soldering the flex connector first, as its the hardest. Check for shorts, check if the pins are soldered (if they can be moved a bit with idk something sharp, then its not soldered). If there is solder behind the pins, use a solder wick to catch it. Clean flux also inside the connector, open it's "brackets"
+
+the rest is easy, the coil at the end.
+
+the flex cable connector needs cutting off a bit of plastic here, with a knife, scalpel:
+
+<img width="478" height="302" alt="image" src="https://github.com/user-attachments/assets/41970758-6fa1-430d-8945-2bfe1de5223e" />
+
+to test, requires: esp32c6, mcp23018 (so power, i2c, usb too).
+
+You can test the screen by inserting it "straight", not on the back. Look up pictures in the repo on how far it should be inserted. Be carefull while inserting it, apply the force equally when closing the brackets. For detaching use thin tweezers, toothpick and do it slowly, as too much force can break the connector
+
+to test, in debugMain.cpp enable IS_SCREEN (+ mcp things are also needed) after flashing and everything, a black-white circle should appear on the screen. Grey screen indicates problems. even one loose pin can break everything. The mcp23018 also needs to work for the screen to work
