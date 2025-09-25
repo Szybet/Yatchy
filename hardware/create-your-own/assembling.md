@@ -11,11 +11,12 @@ There are 2 ways to solder a Yatchy (in a reasonable way):
   - Faster
   - More expensive
 
-As for the skill level required, yh, idk, both are hard, here you solder everything manually but in stencil you need to repair things that didn't go well, so idk, decide for yourself
-
-In this guide I will focus on manual, but also say from time to time things specific to stencil. If you use stencil for soldering many yatchies, you should still solder at least one manually to understand what is going on.
-
-Order of soldering things is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
+Some more notes:
+- As for the skill level required, yh, idk, both are hard, here you solder everything manually but in stencil you need to repair things that didn't go well, so idk, decide for yourself
+- In this guide I will focus on manual, but also say from time to time things specific to stencil. If you use stencil for soldering many yatchies, you should still solder at least one manually to understand what is going on.
+- Order of soldering things is pretty much up to you and your choosing, sometimes I will note things that I suggest. Just do it so it's the easiest for you
+- If a test is too hard for you, it could be skipped, but if something later doesn't work, it will be a lot harder to debug what is actually going on, it could even result in damaging more components
+- I will not talk things like "If you power the device via 5V USB, you can't have a power supply connected on the battery terminals, otherwise the charger will start charging and things can go messy". Common sense, common electronical/arduino/esp32 level knowledge required
 
 Things like:
 - Equipment I use, or is needed
@@ -36,6 +37,17 @@ Converts either 4.2V from the battery or 5V from USB to 3.3V used by the rest of
 
 <img width="212" height="301" alt="image" src="https://github.com/user-attachments/assets/6e9391d2-11fa-4a8b-8b43-8b4eb6812975" />
 
+so if you do the wire, you can skip this section for now
+
 ### esp32c6
 <img width="727" height="749" alt="image" src="https://github.com/user-attachments/assets/ce3f1ae5-505c-482d-b350-5c57480179b0" />
-Pretty much the hardest step
+
+Pretty much the hardest section, needs to be soldered via hot plate (hot air is too hard for me). Apply solder on both sides, on the chip itself only a thin layer, place it ideally and give it a go...
+
+**Testing**
+- First, if you can, measure the power consumption. It should be around 20-30mA (just this section, more sections more power). If it's like above 50mA, you are in danger, probably a short somewhere, probably already smoked
+- Second, check if there is communication:
+  - if you have a UART-USB converter, solder GND, RX, TX (below the flex cable), with baudrate 115200 check if there is any communication. You should see some ROM messages
+  - if you soldered the USB section, if you connect the device, it should connect itself and disconnect all the time. That's normal, there is no program so it resets itself. When opening the serial device that appeared on the PC, baudrate 115200 you should also see ROM messages over and over again.
+
+If you did not solder anything else (well you need power in any form, the USB section is allowed and optional, as told above) (so stencil users, not for you), lucky you. There is a test-program which allows for detecting shorts & checking connections with a multimeter. It's located in the test-program directory in this directory. Grab it to your PC
