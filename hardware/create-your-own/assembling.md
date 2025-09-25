@@ -63,5 +63,41 @@ If you did not solder anything else (well you need power in any form, the USB se
 - in .cargo/config.toml comment and uncomment the `runner` line for your communication method
 - if everything is correct, run in test-program directory `cargo run --release` - it should succeed and flash the program (You might need to reset it to bootloader mode), you should see logs from the program booting. Now you have a few commands to choose from (no backspace support lol):
   - `self_check_gpio` - It sets one gpio to high, the rest as inputs and checks if the inputs are high. If it says it's high, it's worth checking if there is a short (After disconnecting the device from power...). If there is not a short, cool, then it's just floating magic. Was worth to check anyway.
-  - `gpioX` - Where X is number of the gpio. For available gpios for your setup, look up `src/flex_io.rs` the `pub struct FlexIo<'a>` line. If a gpio is behind a feature which you have not enabled, then it's not available to check. If you type type a gpio command, it will trigger it high and low every second. Check with a multimeter if the voltage jumps, if not, there is no connection you need to resolder the whole chip. (you can use soldering iron to maybe fix one pin, but not more, even with special footprint it's hard, but possible).
+  - `gpioX` - Where X is number of the gpio. For available gpios for your setup, look up `src/flex_io.rs` the `pub struct FlexIo<'a>` line. If a gpio is behind a feature which you have not enabled, then it's not available to check. If you type type a gpio command, it will trigger it high and low every second. Check with a multimeter if the voltage jumps, if not, there is no connection you need to resolder the whole chip. (you can use soldering iron to maybe fix one pin, but not more, even with special footprint it's hard, but possible). To know where to connect the multimeter, open kicad and trace what goes where using the schematic and pcb view, the "`" button can be handy too.
   - `exit` - exits the current action. You need to type it after every action to switch to another
+
+Now (+ USB section) (even with stencil) you should be able to flash and compile inkwatchy, which will die inside because nothing else is present, so we need to enable testing mode:
+- in src/defines/condition.h set LP_CORE to 0 for now, later, to get the lp core, join the discord server, that where it's disributed
+- follow normal inkwatchy setup, but don't flash things, just build everything
+- in src/defines/config.h set DEBUG to 1, WAIT_FOR_INPUT to 1 and SIMPLE_DEEP_SLEEP_TEST to 1
+- in src/other/debug/debugMain.cpp in the section of `#if SIMPLE_DEEP_SLEEP_TEST && (WAIT_FOR_INPUT || WAIT_FOR_MONITOR)` turn off everything (so to 0) (MCP, ACC, etc)
+- Flash
+- Open monitor
+- type 123
+- it should go to sleep, it won't appear in in USB until a power cycle
+
+This will allow us to test things later
+
+### USB
+<img width="720" height="758" alt="image" src="https://github.com/user-attachments/assets/3c33a9d1-bd80-44e2-9392-575c3a737ffb" />
+
+the USB pins sometimes don't want to catch solder, use more flux and higher temperature
+
+To test it, it requires a powered, from any source esp32c6 section. Testing it is described in that section too. If USB connection doesn't work, on linux you can look up the dmesg command for more info. Probably the connection of D+ D- pins are bad, or the TVS diodes are bad. If 5V doesn't appear from a usbc-usbc charger cable, then something is wrong with the resistors.
+
+### I2C
+<img width="743" height="811" alt="image" src="https://github.com/user-attachments/assets/212459c3-ab04-4524-b2a4-e523dfa4aeb6" />
+
+simply 2 resistors. Can't be tested, if gpio expander or Acc doesn't work, maybe those are bad, as they depend on this
+
+### Gpio expander (mcp23018)
+<img width="720" height="758" alt="image" src="https://github.com/user-attachments/assets/fd2d6e5e-6504-4a11-a64b-85c4492cbca8" />
+
+can be soldered manually or with hotplate. Make sure with microscope or magnifying glass that the pins are soldered properly
+
+Requires i2c and esp32c6 (so also, uhm, power) sections to be tested. To test, in debugMain.cpp set IS_MCP and IS_MCP_CONFIGURATION to 1, reflash, you should see some logs about registers or failures if something is wrong. This test doesn't check connections, just if there is communication. That's why you need to make sure the pins are connected anyway!
+
+### Screen
+<img width="788" height="830" alt="image" src="https://github.com/user-attachments/assets/343a09b3-5220-4ef0-808e-04ac3807d8f6" />
+
+Here I propose
