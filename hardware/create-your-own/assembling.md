@@ -2,7 +2,7 @@
 
 # Assembling Yatchy
 There are 2 ways to solder a Yatchy (in a reasonable way):
-- Solderimg manually:
+- Soldering manually:
   - Allows for bigger control over the process, allows for more debugging capabilities, more testing options (I will explain it below)
   - Takes more time
   - Cheaper
