@@ -65,6 +65,7 @@ Yatchy features, compared to 2.0 watchy:
 <details>
   <summary><h2>For advanced users</h2></summary>
 
+- Detailed ordering and assembly [guide](https://github.com/Szybet/Yatchy/tree/main/hardware/create-your-own)
 - **A module area**, with almost all exposed pins from the esp, power lines, and many gpio pins thanks to the expander IC - You can create your own module, increase the capability of you yatchy without modifying everything inside - solar panel module, encoder instead of the button, sd card module, frontlight module, torchlight module, speaker module, microphone module, some environmental sensors. The only limitation is your imagination (And the size of the module)
    - The default module (In the picture above) allows for for attaching small things without the need for a custom PCB
 - All the components are newer, still available and produced. They are also listed, with links to mauser / tme. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
