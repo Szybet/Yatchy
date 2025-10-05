@@ -28,6 +28,7 @@
 - The case printed is a modified rotated case, with a thicker bottom
 - Almost all of the cases are a bit deformed, that's normal, as the whole case was in the "warning" section, as it's thin everywhere. They are still usable, sometimes some tools are needed to adjust them (hot glue, dremel, hot air, forge, file(the tool), death star)
 - It's really cheap, just shipping costs a lot
+- Toleramces are tough anyway, order only checked design that you are sure about
 
 Invidual notes for choosen technologies:
 
