@@ -25,4 +25,37 @@
 | ---------------------------------------------------------------------------------------------------------------------- |
 
 ### Notes:
-- 
+- The case printed is a modified rotated case, with a thicker bottom
+- Almost all of the cases are a bit deformed, that's normal, as the whole case was in the "warning" section, as it's thin everywhere. They are still usable, sometimes some tools are needed to adjust them (hot glue, dremel, hot air, forge, file(the tool), death star)
+- It's really cheap, just shipping costs a lot
+
+Invidual notes for choosen technologies:
+
+
+**Titanium TC4:**
+- The surface is not perfect but good enough, anodyzing, electro polish is also an option for chemistry knowing people
+- It conducts electricity, so it's advised to coat it with something in the inside. I did with nail polish, but it turned sluggish and yellow so I removed it (works so fun, but assemble was stressfull), but the process was fun:
+
+https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
+
+- Top cover is not possible, as it's metal, obviously
+- Motor place needed to be dremelled to fit the motor, so needs more adjusting if anyone plans to order it (as nothing will bend even a little)
+- The only case where a deformation hurts the most, luckly it fitted for me
+
+**SLA 8001 Resin transparent:**
+- It looks the best, it's perfect quality
+- A bit on the squishy side :D
+
+**MJF PA12-HP Nylon:**
+- Interesting texture, stiff but solid, cool
+- I tried SLS nylon some time ago and the tolerances were horrible. Maybe they fixed it, MJF is fine
+
+**SLA JLC Black Resin:**
+- Looks almost perfectly smooth, some places are less smooth then others
+- Pretty stiff
+- A bit transparent when wall is thin
+- but cool anyway
+
+**FDM Transparent TPU:**
+- The quality is good, but it's FDM soooo don't go with transparent, go with black or something
+- Suprisingly expensive compared to others, and it's just regular FDM?
