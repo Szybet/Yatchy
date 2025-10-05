@@ -1,6 +1,9 @@
 # Yatchy cases
 If you create your own model, fork one, or anything else, please (in addition to putting it in your repository, on a 3D model website, if you feel like it, etc.) contribute it here so it won't get lost in the ether of poor search engines. Sharing files that can be modified easily (STEPs, not STLs) is also suggested, but not required.
 
+### JLC3D
+If someone doesn't have a printer or wants some premium quality (materials), [Here is a review of JLC3D for yatchy cases](./JLC3D.md) (Not sponsored)
+
 ### The files are in the folders in this directory
 
 <h1>$${\color{red}Patches}$$</h1>
