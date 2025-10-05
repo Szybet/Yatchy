@@ -34,7 +34,7 @@ Invidual notes for choosen technologies:
 
 **Titanium TC4:**
 - The surface is not perfect but good enough, anodyzing, electro polish is also an option for chemistry knowing people
-- It conducts electricity, so it's advised to coat it with something in the inside. I did with nail polish, but it turned sluggish and yellow so I removed it (works so fun, but assemble was stressfull), but the process was fun:
+- It conducts electricity, so it's advised to coat it with something in the inside. I did with nail polish, but it turned sluggish and yellow so I removed it (works so far, but assemble was stressfull, not advised), but the process was fun:
 
 https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
 
