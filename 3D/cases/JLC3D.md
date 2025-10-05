@@ -45,6 +45,7 @@ https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
 **SLA 8001 Resin transparent:**
 - It looks the best, it's perfect quality
 - A bit on the squishy side :D
+- I hope it doesn't turn yellow at some point
 
 **MJF PA12-HP Nylon:**
 - Interesting texture, stiff but solid, cool
