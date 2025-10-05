@@ -41,6 +41,7 @@ https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
 - Top cover is not possible, as it's metal, obviously
 - Motor place needed to be dremelled to fit the motor, so needs more adjusting if anyone plans to order it (as nothing will bend even a little)
 - The only case where a deformation hurts the most, luckly it fitted for me
+- Wifi signal is 30% worse, so still perfectly usable
 
 **SLA 8001 Resin transparent:**
 - It looks the best, it's perfect quality
