@@ -25,13 +25,9 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 <details>
   <summary><h3>Pictures</h3></summary>
 
-- <sub>The battery is on the side because it's easier for me to measure power consumption</sub>
-- <sub>The glue is for the vibration motor which is detached in the picture</sub>
+<sub>The battery is on the side because it's easier for me to measure power consumption, there are cases with battery inside</sub>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3ae1a087-5366-4c8e-a037-5b8754a2d5d1" width="45%" style="display:inline-block; margin-right: 5px;">
-  <img src="https://github.com/user-attachments/assets/8258f4e3-1292-4f11-8b0e-b0b4048dbdf4" width="45%" style="display:inline-block;">
-</p>
+<img src="https://github.com/user-attachments/assets/3ae1a087-5366-4c8e-a037-5b8754a2d5d1" width="45%" style="display:inline-block; margin-right: 5px;">
 
 <sub>A cleaner soldering job, with some other components (compability!)<sub>, yes, I know there is a short on the flex cable, it fell off when cleaning after the picture</sub></sub>
 ![image](https://github.com/user-attachments/assets/230947a2-5d99-478a-9cd9-84caa8b0bce0)
