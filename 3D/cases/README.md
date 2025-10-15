@@ -133,9 +133,8 @@ Notes:
 
 ---
 
-### 🧱 Thicc Yatchy Case
+### 🧱 Thicc Case
 
-The **Thicc Yatchy Case** is a **modular, ultra-protective enclosure** built for Yatchy devices.  
 It features thicker walls and a small light-reflecting patch — with translucent filament, you can use aluminum tape to redirect the light outward instead of it shining into your hand.  
 
 The case includes an **easily removable and customizable faceplate**, supports **different straps across versions**, and requires **no glue**.  
@@ -165,4 +164,4 @@ The current design battery space is 33.9 x 25.9 x 5.4 (250mah was used and teste
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
-| glowbugs thicc yatchy case | 15.3         |
+| glowbugs thicc case | 15.3         |
