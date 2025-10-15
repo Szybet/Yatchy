@@ -145,6 +145,8 @@ Designed for **easy customization**, it supports quick part and battery swaps wi
 If any issues arise, feel free to reach out on Printables.  
 Despite its rugged construction, it stays **ergonomic and comfortable** for everyday use.
 
+The current design battery space is 33.9 x 25.9 x 5.4 (250mah was used and tested to work fine)
+
 
 ### ➡️ **View on Printables**
 [![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
@@ -163,4 +165,4 @@ Despite its rugged construction, it stays **ergonomic and comfortable** for ever
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
-| glowbugs integrated 250mah case | 15.3         |
+| glowbugs thicc yatchy case | 15.3         |
