@@ -132,6 +132,7 @@ Notes:
 
 
 ---
+
 ### 🧱 Thicc Yatchy Case
 
 The **Thicc Yatchy Case** is a **modular, ultra-protective enclosure** built for Yatchy devices.  
@@ -140,8 +141,12 @@ Its reinforced walls and thick corner padding absorb impacts while keeping all c
 Designed for **easy customization**, it supports quick part swaps, battery upgrades, and accessory additions — all without redesigning the case.  
 Despite its rugged construction, it stays ergonomic and comfortable for everyday use.
 
-[![View on Printables](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)  
+### ➡️ **View on Printables**
+[![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
+
+### 🎥 Watch the Demo
 [![Watch the Demo](https://img.youtube.com/vi/wA29wyvOd8w/hqdefault.jpg)](https://www.youtube.com/watch?v=wA29wyvOd8w)
+
 
 
 ### Case comparison
