@@ -129,6 +129,22 @@ Notes:
 
 - Creator's [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
 
+
+
+---
+
+### 🧱 Thicc Yatchy Case
+
+The **Thicc Yatchy Case** is a **high-strength, modular enclosure** designed to provide maximum protection and customization.  
+It features reinforced walls, thick corner padding, and an internal structure that absorbs impacts while maintaining precise fitment for all Yatchy components.  
+
+The modular design allows for **easy part swaps, internal reconfiguration, and future upgrades** — such as different battery sizes, add-on modules, or strap styles — without redesigning the entire shell.  
+Despite its robust build, the case remains ergonomic and comfortable for daily wear.
+
+🔗 [View the model on Printables](https://www.printables.com/model/1443956-thicc-yatchy-case)  
+🎥 [Watch the demo video](https://www.youtube.com/watch?v=wA29wyvOd8w)
+
+
 ### Case comparison
 - without top case or the pieces that hold the straps
 
@@ -138,3 +154,4 @@ Notes:
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
+| glowbugs integrated 250mah case | 15.3         |
