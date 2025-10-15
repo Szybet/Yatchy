@@ -136,10 +136,15 @@ Notes:
 ### 🧱 Thicc Yatchy Case
 
 The **Thicc Yatchy Case** is a **modular, ultra-protective enclosure** built for Yatchy devices.  
-Its reinforced walls and thick corner padding absorb impacts while keeping all components snug and secure.  
+It features thicker walls and a small light-reflecting patch — with translucent filament, you can use aluminum tape to redirect the light outward instead of it shining into your hand.  
 
-Designed for **easy customization**, it supports quick part swaps, battery upgrades, and accessory additions — all without redesigning the case.  
-Despite its rugged construction, it stays ergonomic and comfortable for everyday use.
+The case includes an **easily removable and customizable faceplate**, supports **different straps across versions**, and requires **no glue**.  
+It has been **roller-coaster tested** for fun, and with an acrylic faceplate, it even survived a **200 fps 1 g projectile** :D  
+
+Designed for **easy customization**, it supports quick part and battery swaps without major modifications to the model itself.  
+If any issues arise, feel free to reach out on Printables.  
+Despite its rugged construction, it stays **ergonomic and comfortable** for everyday use.
+
 
 ### ➡️ **View on Printables**
 [![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
