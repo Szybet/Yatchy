@@ -133,36 +133,39 @@ Notes:
 
 ---
 
-### 🧱 Thicc Case
-
-It features thicker walls and a small light-reflecting patch — with translucent filament, you can use aluminum tape to redirect the light outward instead of it shining into your hand.  
-
-The case includes an **easily removable and customizable faceplate**, supports **different straps across versions**, and requires **no glue**.  
-It has been **roller-coaster tested** for fun, and with an acrylic faceplate, it even survived a **200 fps 1 g projectile** :D  
-
-Designed for **easy customization**, it supports quick part and battery swaps without major modifications to the model itself.  
-If any issues arise, feel free to reach out on Printables.  
-Despite its rugged construction, it stays **ergonomic and comfortable** for everyday use.
-
-The current design battery space is 33.9 x 25.9 x 5.4 (250mah was used and tested to work fine)
-### 🌟 Thicc Yatchy Case Gallery
+### Glowy's Thicc boi  
 
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-  <img src="thiccglowb/img/IMG_20251016_062135.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/IMG_20251016_062138.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/IMG_20251016_062152.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/IMG_20251016_062156.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/IMG_20251016_062204.jpg" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/image.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
-  <img src="thiccglowb/img/slicerslicedlinefiles.png" style="width: 23%; min-width: 200px; display: inline-block; margin: 0 1%">
+  <img src="thiccglowb/img/IMG_20251016_062135.jpg" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="thiccglowb/img/IMG_20251016_062138.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/IMG_20251016_062152.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/IMG_20251016_062156.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/IMG_20251016_062204.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/image.png" width="300px" style="display:inline-block;">
 </div>
 
+**Notes:**  
+- This design was **created entirely from scratch**, not based on any previous Yatchy case or remix.  
+- The **walls are thicker**, offering more protection and a sturdy feel.  
+- A **light-reflecting patch** allows illumination through translucent filament — or use aluminum tape to redirect the light outward instead of into your hand.  
+- The **faceplate is easily removable and customizable**, and no glue is needed during assembly.  
+- Designed for **quick part swaps and battery replacements** without modifying the model.  
+- The case remains **comfortable and ergonomic** despite its thicker construction.  
+- The **battery compartment** fits packs up to *33.9 × 25.9 × 5.4 mm* (tested with a 250 mAh cell).  
+- The case has been **impact tested** — with an acrylic faceplate, it even survived a 200 fps 1 g projectile.  
+- The **strap shown** in the pictures is a *24 mm leather watch strap*,  [this one on Aliexpress](https://www.aliexpress.com/item/1005005510563576.htmlhttps://www.aliexpress.com/item/1005005510563576.html) — though any standard 24 mm strap works fine.
+- For the one piece strap you can use any 22 mm x 1.6~mm thick strap [this one on Aliexpress](https://www.aliexpress.com/item/1005007712667222.htmlhttps://www.aliexpress.com/item/1005007712667222.html)
 
-### ➡️ **View on Printables**
+If any issues arise, or you would like to use another type of strap, feel free to reach out on Printables or Discord, glowyglowbug.  
+
+---
+
+**View on Printables:**  
 [![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
 
-### 🎥 Watch the Demo
+**Watch the Demo:**  
 [![Watch the Demo](https://img.youtube.com/vi/wA29wyvOd8w/hqdefault.jpg)](https://www.youtube.com/watch?v=wA29wyvOd8w)
+
 
 
 
@@ -175,4 +178,4 @@ The current design battery space is 33.9 x 25.9 x 5.4 (250mah was used and teste
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
-| glowbugs thicc case | 15.3         |
+| Glowy's Thicc Boi   | 15.3         |
