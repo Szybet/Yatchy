@@ -136,12 +136,12 @@ Notes:
 ### Glowy's Thicc boi  
 
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
-  <img src="thiccglowb/img/IMG_20251016_062135.jpg" width="300px" style="display:inline-block; margin-right: 5px;">
-  <img src="thiccglowb/img/IMG_20251016_062138.jpg" width="300px" style="display:inline-block;">
-  <img src="thiccglowb/img/image.png" width="300px" style="display:inline-block;">
-  <img src="thiccglowb/img/IMG_20251016_062156.jpg" width="300px" style="display:inline-block;">
-  <img src="thiccglowb/img/IMG_20251016_062204.jpg" width="300px" style="display:inline-block;">
-  <img src="thiccglowb/img/IMG_20251016_062152.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/sidepurplecase.jpg" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="thiccglowb/img/Frontpurplecase.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/Rearofpurplecase.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/Orangeonepiecestrap.jpg" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/Paintonsupportblockers.png" width="300px" style="display:inline-block;">
+  <img src="thiccglowb/img/slicerslicedlinefiles.png" width="300px" style="display:inline-block;">
 </div>
 
 **Notes:**  
