@@ -129,6 +129,46 @@ Notes:
 
 - Creator's [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
 
+
+
+---
+
+### Glowy's Thicc boi  
+
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="glowy-thicc/img/Orangeonepiecestrap.jpg" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="glowy-thicc/img/Frontpurplecase.jpg" width="300px" style="display:inline-block;">
+  <img src="glowy-thicc/img/Rearofpurplecase.jpg" width="300px" style="display:inline-block;">
+  <img src="glowy-thicc/img/sidepurplecase.jpg" width="300px" style="display:inline-block;">
+  <img src="glowy-thicc/img/Paintonsupportblockers.png" width="300px" style="display:inline-block;">
+  <img src="glowy-thicc/img/slicerslicedlinefiles.png" width="300px" style="display:inline-block;">
+</div>
+
+**Notes:**  
+- This design was **created entirely from scratch**, not based on any previous Yatchy case or remix.  
+- The **walls are thicker**, offering more protection and a sturdy feel.  
+- A **light-reflecting patch** allows illumination through translucent filament — or use aluminum tape to redirect the light outward instead of into your hand.  
+- The **faceplate is easily removable and customizable**, and no glue is needed during assembly.  
+- Designed for **quick part swaps and battery replacements** without modifying the model.  
+- The case remains **comfortable and ergonomic** despite its thicker construction.  
+- The **battery compartment** fits packs up to *33.9 × 25.9 × 5.4 mm* (tested with a 250 mAh cell).  
+- The case has been **impact tested** — with an acrylic faceplate, it even survived a 200 fps 1 g projectile.  
+- The **strap shown** in the pictures is a *24 mm leather watch strap*,  [this one on Aliexpress](https://www.aliexpress.com/item/1005005510563576.htmlhttps://www.aliexpress.com/item/1005005510563576.html) — though any standard 24 mm strap works fine.
+- For the one piece strap you can use any 22 mm x 1.6~mm thick strap [this one on Aliexpress](https://www.aliexpress.com/item/1005007712667222.htmlhttps://www.aliexpress.com/item/1005007712667222.html)
+
+If any issues arise, or you would like to use another type of strap, feel free to reach out on Printables or Discord, glowyglowbug.  
+
+---
+
+**View on Printables:**  
+[![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
+
+**Watch the Demo:**  
+[![Watch the Demo](https://img.youtube.com/vi/wA29wyvOd8w/hqdefault.jpg)](https://www.youtube.com/watch?v=wA29wyvOd8w)
+
+
+
+
 ### Case comparison
 - without top case or the pieces that hold the straps
 
@@ -138,3 +178,4 @@ Notes:
 | Kitkat's Rotated 150 mAh version | 8.70611     |
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
+| Glowy's Thicc Boi   | 15.3         |
