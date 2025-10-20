@@ -129,10 +129,6 @@ Notes:
 
 - Creator's [makerworld page](https://makerworld.com/en/@glaucon1984) and [makerworld page for this case](https://makerworld.com/en/models/1798293-yatchy-brick-case-remix)
 
-
-
----
-
 ### Glowy's Thicc boi  
 
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
@@ -158,16 +154,11 @@ Notes:
 
 If any issues arise, or you would like to use another type of strap, feel free to reach out on Printables or Discord, glowyglowbug.  
 
----
-
 **View on Printables:**  
 [![Thicc Yatchy Case](https://cdn.printables.com/media/cache/model_cover/1443956/thicc-yatchy-case.png)](https://www.printables.com/model/1443956-thicc-yatchy-case)
 
 **Watch the Demo:**  
 [![Watch the Demo](https://img.youtube.com/vi/wA29wyvOd8w/hqdefault.jpg)](https://www.youtube.com/watch?v=wA29wyvOd8w)
-
-
-
 
 ### Case comparison
 - without top case or the pieces that hold the straps
