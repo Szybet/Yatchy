@@ -1,7 +1,7 @@
 # Other related docs:
 1. [Power consumption](https://github.com/Szybet/Yatchy/tree/main/hardware/power-consumption)
 2. [Time accuracy](https://github.com/Szybet/Yatchy/blob/main/hardware/time-accuracy.md)
-3. [Creating your own](https://github.com/Szybet/Yatchy/blob/main/hardware/creating-your-own.md)
+3. [Create your own](https://github.com/Szybet/Yatchy/tree/main/hardware/create-your-own)
 
 ## License
 <sub>Read all of it :)</sub>
