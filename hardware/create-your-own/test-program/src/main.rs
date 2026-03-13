@@ -1,28 +1,30 @@
 #![no_std]
 #![no_main]
 
-use actions::{manage_action, reset_actions};
-use core::{fmt::Write, mem::MaybeUninit};
+use core::mem::MaybeUninit;
+#[cfg(feature = "usb_jtag")]
+use core::fmt::Write;
 use esp_println::logger::init_logger;
-use flex_io::FlexIo;
-use gpio_action::gpio_reset;
 use log::{debug, error, info};
 
 use embassy_executor::Spawner;
 use esp_backtrace as _;
-use esp_hal::gpio::{Flex};
 use esp_hal::{
-    gpio::Io,
     timer::{timg::TimerGroup},
-    usb_serial_jtag::UsbSerialJtag,
     interrupt::software::SoftwareInterruptControl,
 };
+#[cfg(feature = "usb_jtag")]
+use esp_hal::usb_serial_jtag::UsbSerialJtag;
 
-mod actions;
-mod flex_io;
-mod gpio_action;
+#[cfg(feature = "esp32c6")]
+mod esp32c6;
+#[cfg(feature = "esp32c6")]
+use esp32c6::{actions, flex_io::FlexIo, gpio_action::gpio_reset, actions::reset_actions};
 
-esp_bootloader_esp_idf::esp_app_desc!();
+#[cfg(feature = "esp32s3")]
+mod esp32s3;
+#[cfg(feature = "esp32s3")]
+use esp32s3::{actions, flex_io::FlexIo, gpio_action::gpio_reset, actions::reset_actions};
 
 fn heap_init() {
     const HEAP_SIZE: usize = 32 * 1024;
@@ -48,7 +50,6 @@ pub enum CurrentAction {
 #[esp_rtos::main]
 async fn main(_spawner: Spawner) {
     init_logger(log::LevelFilter::Info);
-    // init_logger(log::LevelFilter::Debug);
     
     info!("Heap init");
     heap_init();
@@ -60,38 +61,119 @@ async fn main(_spawner: Spawner) {
     let timg0 = TimerGroup::new(peripherals.TIMG0);
     esp_rtos::start(timg0.timer0, sw_int.software_interrupt0);
 
-    let _io = Io::new(peripherals.IO_MUX);
-
     let mut gpios = FlexIo {
         current_output: None,
-        gpio0: Flex::new(peripherals.GPIO0),
-        gpio1: Flex::new(peripherals.GPIO1),
-        gpio2: Flex::new(peripherals.GPIO2),
-        gpio3: Flex::new(peripherals.GPIO3),
-        gpio4: Flex::new(peripherals.GPIO4),
-        gpio5: Flex::new(peripherals.GPIO5),
-        gpio6: Flex::new(peripherals.GPIO6),
-        gpio7: Flex::new(peripherals.GPIO7),
-        gpio10: Flex::new(peripherals.GPIO10),
-        gpio11: Flex::new(peripherals.GPIO11),
-        #[cfg(feature = "uart")]
-        gpio12: Flex::new(peripherals.GPIO12),
-        #[cfg(feature = "uart")]
-        gpio13: Flex::new(peripherals.GPIO13),
-        gpio14: Flex::new(peripherals.GPIO14),
-        gpio15: Flex::new(peripherals.GPIO15),
-        gpio18: Flex::new(peripherals.GPIO18),
-        gpio19: Flex::new(peripherals.GPIO19),
-        gpio20: Flex::new(peripherals.GPIO20),
-        gpio21: Flex::new(peripherals.GPIO21),
-        #[cfg(feature = "i2c")]
-        gpio22: Flex::new(peripherals.GPIO22),
-        #[cfg(feature = "i2c")]
-        gpio23: Flex::new(peripherals.GPIO23),
+        #[cfg(feature = "esp32c6")]
+        gpio0: esp_hal::gpio::Flex::new(peripherals.GPIO0),
+        #[cfg(feature = "esp32c6")]
+        gpio1: esp_hal::gpio::Flex::new(peripherals.GPIO1),
+        #[cfg(feature = "esp32c6")]
+        gpio2: esp_hal::gpio::Flex::new(peripherals.GPIO2),
+        #[cfg(feature = "esp32c6")]
+        gpio3: esp_hal::gpio::Flex::new(peripherals.GPIO3),
+        #[cfg(feature = "esp32c6")]
+        gpio4: esp_hal::gpio::Flex::new(peripherals.GPIO4),
+        #[cfg(feature = "esp32c6")]
+        gpio5: esp_hal::gpio::Flex::new(peripherals.GPIO5),
+        #[cfg(feature = "esp32c6")]
+        gpio6: esp_hal::gpio::Flex::new(peripherals.GPIO6),
+        #[cfg(feature = "esp32c6")]
+        gpio7: esp_hal::gpio::Flex::new(peripherals.GPIO7),
+        #[cfg(feature = "esp32c6")]
+        gpio10: esp_hal::gpio::Flex::new(peripherals.GPIO10),
+        #[cfg(feature = "esp32c6")]
+        gpio11: esp_hal::gpio::Flex::new(peripherals.GPIO11),
+        #[cfg(all(feature = "esp32c6", feature = "uart"))]
+        gpio12: esp_hal::gpio::Flex::new(peripherals.GPIO12),
+        #[cfg(all(feature = "esp32c6", feature = "uart"))]
+        gpio13: esp_hal::gpio::Flex::new(peripherals.GPIO13),
+        #[cfg(feature = "esp32c6")]
+        gpio14: esp_hal::gpio::Flex::new(peripherals.GPIO14),
+        #[cfg(feature = "esp32c6")]
+        gpio15: esp_hal::gpio::Flex::new(peripherals.GPIO15),
+        #[cfg(feature = "esp32c6")]
+        gpio18: esp_hal::gpio::Flex::new(peripherals.GPIO18),
+        #[cfg(feature = "esp32c6")]
+        gpio19: esp_hal::gpio::Flex::new(peripherals.GPIO19),
+        #[cfg(feature = "esp32c6")]
+        gpio20: esp_hal::gpio::Flex::new(peripherals.GPIO20),
+        #[cfg(feature = "esp32c6")]
+        gpio21: esp_hal::gpio::Flex::new(peripherals.GPIO21),
+        #[cfg(all(feature = "esp32c6", feature = "i2c"))]
+        gpio22: esp_hal::gpio::Flex::new(peripherals.GPIO22),
+        #[cfg(all(feature = "esp32c6", feature = "i2c"))]
+        gpio23: esp_hal::gpio::Flex::new(peripherals.GPIO23),
+
+        #[cfg(feature = "esp32s3")]
+        gpio0: esp_hal::gpio::Flex::new(peripherals.GPIO0),
+        #[cfg(feature = "esp32s3")]
+        gpio1: esp_hal::gpio::Flex::new(peripherals.GPIO1),
+        #[cfg(feature = "esp32s3")]
+        gpio2: esp_hal::gpio::Flex::new(peripherals.GPIO2),
+        #[cfg(feature = "esp32s3")]
+        gpio3: esp_hal::gpio::Flex::new(peripherals.GPIO3),
+        #[cfg(feature = "esp32s3")]
+        gpio4: esp_hal::gpio::Flex::new(peripherals.GPIO4),
+        #[cfg(feature = "esp32s3")]
+        gpio5: esp_hal::gpio::Flex::new(peripherals.GPIO5),
+        #[cfg(feature = "esp32s3")]
+        gpio6: esp_hal::gpio::Flex::new(peripherals.GPIO6),
+        #[cfg(feature = "esp32s3")]
+        gpio7: esp_hal::gpio::Flex::new(peripherals.GPIO7),
+        #[cfg(feature = "esp32s3")]
+        gpio8: esp_hal::gpio::Flex::new(peripherals.GPIO8),
+        #[cfg(feature = "esp32s3")]
+        gpio9: esp_hal::gpio::Flex::new(peripherals.GPIO9),
+        #[cfg(feature = "esp32s3")]
+        gpio10: esp_hal::gpio::Flex::new(peripherals.GPIO10),
+        #[cfg(feature = "esp32s3")]
+        gpio11: esp_hal::gpio::Flex::new(peripherals.GPIO11),
+        #[cfg(feature = "esp32s3")]
+        gpio12: esp_hal::gpio::Flex::new(peripherals.GPIO12),
+        #[cfg(feature = "esp32s3")]
+        gpio13: esp_hal::gpio::Flex::new(peripherals.GPIO13),
+        #[cfg(feature = "esp32s3")]
+        gpio14: esp_hal::gpio::Flex::new(peripherals.GPIO14),
+        #[cfg(feature = "esp32s3")]
+        gpio15: esp_hal::gpio::Flex::new(peripherals.GPIO15),
+        #[cfg(feature = "esp32s3")]
+        gpio16: esp_hal::gpio::Flex::new(peripherals.GPIO16),
+        #[cfg(feature = "esp32s3")]
+        gpio17: esp_hal::gpio::Flex::new(peripherals.GPIO17),
+        #[cfg(feature = "esp32s3")]
+        gpio18: esp_hal::gpio::Flex::new(peripherals.GPIO18),
+        #[cfg(feature = "esp32s3")]
+        gpio19: esp_hal::gpio::Flex::new(peripherals.GPIO19),
+        #[cfg(feature = "esp32s3")]
+        gpio20: esp_hal::gpio::Flex::new(peripherals.GPIO20),
+        #[cfg(feature = "esp32s3")]
+        gpio21: esp_hal::gpio::Flex::new(peripherals.GPIO21),
+        #[cfg(feature = "esp32s3")]
+        gpio38: esp_hal::gpio::Flex::new(peripherals.GPIO38),
+        #[cfg(feature = "esp32s3")]
+        gpio39: esp_hal::gpio::Flex::new(peripherals.GPIO39),
+        #[cfg(feature = "esp32s3")]
+        gpio40: esp_hal::gpio::Flex::new(peripherals.GPIO40),
+        #[cfg(feature = "esp32s3")]
+        gpio41: esp_hal::gpio::Flex::new(peripherals.GPIO41),
+        #[cfg(feature = "esp32s3")]
+        gpio42: esp_hal::gpio::Flex::new(peripherals.GPIO42),
+        #[cfg(feature = "esp32s3")]
+        gpio43: esp_hal::gpio::Flex::new(peripherals.GPIO43),
+        #[cfg(feature = "esp32s3")]
+        gpio44: esp_hal::gpio::Flex::new(peripherals.GPIO44),
+        #[cfg(feature = "esp32s3")]
+        gpio45: esp_hal::gpio::Flex::new(peripherals.GPIO45),
+        #[cfg(feature = "esp32s3")]
+        gpio46: esp_hal::gpio::Flex::new(peripherals.GPIO46),
+        #[cfg(feature = "esp32s3")]
+        gpio47: esp_hal::gpio::Flex::new(peripherals.GPIO47),
+        #[cfg(feature = "esp32s3")]
+        gpio48: esp_hal::gpio::Flex::new(peripherals.GPIO48),
     };
 
     gpio_reset(&mut gpios).await;
-    embassy_time::Timer::after_millis(1000).await; // To make sure all pins are low
+    embassy_time::Timer::after_millis(1000).await;
 
     #[cfg(feature = "usb_jtag")]
     info!("Initializing usb jtag communication");
@@ -99,12 +181,23 @@ async fn main(_spawner: Spawner) {
     #[cfg(feature = "uart")]
     info!("Initializing uart communication");
 
-    // https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/usb_serial.rs
     #[cfg(feature = "uart")]
-    let mut serial = esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default()).unwrap()
-        .with_rx(peripherals.GPIO17)
-        .with_tx(peripherals.GPIO16)
-        .into_async();
+    let mut serial = {
+        #[cfg(feature = "esp32c6")]
+        {
+            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default()).unwrap()
+                .with_rx(peripherals.GPIO17)
+                .with_tx(peripherals.GPIO16)
+                .into_async()
+        }
+        #[cfg(feature = "esp32s3")]
+        {
+            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default()).unwrap()
+                .with_rx(peripherals.GPIO44)
+                .with_tx(peripherals.GPIO43)
+                .into_async()
+        }
+    };
 
     #[cfg(feature = "usb_jtag")]
     let (mut rx, mut tx) = UsbSerialJtag::new(peripherals.USB_DEVICE).into_async().split();
@@ -114,22 +207,23 @@ async fn main(_spawner: Spawner) {
     let mut cur_act: Option<CurrentAction> = None;
     let mut started_typing = false;
     loop {
-        //debug!("Iterating...");
-        // Read from serial until space is detected
         let mut is_newline = false;
+        
         #[cfg(feature = "usb_jtag")]
         let r = rx.read_byte();
-        #[cfg(feature = "uart")]
+        #[cfg(all(not(feature = "usb_jtag"), feature = "uart"))]
         let r = serial.read_byte();
+        #[cfg(not(any(feature = "usb_jtag", feature = "uart")))]
+        let r: Result<u8, ()> = Err(());
+
         if let Ok(byte) = r {
             string_buffer.push(byte).unwrap();
             debug!("Received character: {}", byte);
             #[cfg(feature = "usb_jtag")]
-            tx.write_char(byte as char).unwrap();
+            let _ = tx.write_char(byte as char);
             #[cfg(feature = "uart")]
-            serial.write_bytes(&[byte]).unwrap();
-            // Cariage return
-            // https://www.asciitable.com/
+            let _ = serial.write_bytes(&[byte]);
+            
             if byte == 13 {
                 debug!("Received a new line");
                 is_newline = true;
@@ -149,100 +243,26 @@ async fn main(_spawner: Spawner) {
         }
 
         if is_newline {
-            string_buffer.pop();
-            let action = heapless::String::from_utf8(string_buffer.clone()).unwrap();
-            string_buffer.clear();
-            debug!("Received string: \"{}\"", action);
-            let cur_act_tmp = cur_act;
-            // What a horrible day to see this, but I can't create a function that takes an argument of String<_>
-            if action.contains("gpio") {
-                if action == "gpio0" {
-                    cur_act = Some(CurrentAction::Gpio(0));
-                } else if action == "gpio1" {
-                    cur_act = Some(CurrentAction::Gpio(1));
-                } else if action == "gpio2" {
-                    cur_act = Some(CurrentAction::Gpio(2));
-                } else if action == "gpio3" {
-                    cur_act = Some(CurrentAction::Gpio(3));
-                } else if action == "gpio4" {
-                    cur_act = Some(CurrentAction::Gpio(4));
-                } else if action == "gpio5" {
-                    cur_act = Some(CurrentAction::Gpio(5));
-                } else if action == "gpio6" {
-                    cur_act = Some(CurrentAction::Gpio(6));
-                } else if action == "gpio7" {
-                    cur_act = Some(CurrentAction::Gpio(7));
-                } else if action == "gpio10" {
-                    cur_act = Some(CurrentAction::Gpio(10));
-                } else if action == "gpio11" {
-                    cur_act = Some(CurrentAction::Gpio(11));
-                } else if action == "gpio12" {
-                    #[cfg(feature = "uart")]
-                    {
-                        cur_act = Some(CurrentAction::Gpio(12));
-                    }
-                    #[cfg(not(feature = "uart"))]
-                    {
-                        error!("You dummy, this gpio is used for usb communication, which you are using now!");
-                    }
-                } else if action == "gpio13" {
-                    #[cfg(feature = "uart")]
-                    {
-                        cur_act = Some(CurrentAction::Gpio(13));
-                    }
-                    #[cfg(not(feature = "uart"))]
-                    {
-                        error!("You dummy, this gpio is used for usb communication, which you are using now!");
-                    }
-                } else if action == "gpio14" {
-                    cur_act = Some(CurrentAction::Gpio(14));
-                } else if action == "gpio15" {
-                    cur_act = Some(CurrentAction::Gpio(15));
-                } else if action == "gpio18" {
-                    cur_act = Some(CurrentAction::Gpio(18));
-                } else if action == "gpio19" {
-                    cur_act = Some(CurrentAction::Gpio(19));
-                } else if action == "gpio20" {
-                    cur_act = Some(CurrentAction::Gpio(20));
-                } else if action == "gpio21" {
-                    cur_act = Some(CurrentAction::Gpio(21));
-                } else if action == "gpio22" {
-                    #[cfg(feature = "i2c")]
-                    {
-                        cur_act = Some(CurrentAction::Gpio(22));
-                    }
-                    #[cfg(not(feature = "i2c"))]
-                    {
-                        error!("i2c bad me not like");
-                    }
-                } else if action == "gpio23" {
-                    #[cfg(feature = "i2c")]
-                    {
-                        cur_act = Some(CurrentAction::Gpio(23));
-                    }
-                    #[cfg(not(feature = "i2c"))]
-                    {
-                        error!("i2c bad me not like");
-                    }
-                } else if action == "self_check_gpio" {
-                    info!("Starting self checking gpio");
-                    cur_act = Some(CurrentAction::SelfCheckGpio());
-                } else {
-                    error!("Specify the gpio number as gpioX");
+            if !string_buffer.is_empty() {
+                string_buffer.pop();
+            }
+            if let Ok(action_str) = core::str::from_utf8(&string_buffer) {
+                let cur_act_tmp = cur_act;
+                if action_str == "exit" {
+                    info!("Exiting the current action");
+                    reset_actions(&mut gpios).await;
                     cur_act = None;
+                } else if let Some(new_act) = gpios.handle_command(action_str) {
+                    cur_act = Some(new_act);
+                } else {
+                    error!("Unknown action: {}", action_str);
                 }
-            } else if action == "exit" {
-                info!("Exiting the current action");
-                reset_actions(&mut gpios).await;
-                cur_act = None;
-            } else {
-                error!("Unknown action");
-                //cur_act = None;
-            }
 
-            if cur_act_tmp != cur_act {
-                info!("Current action: {:?}", cur_act);
+                if cur_act_tmp != cur_act {
+                    info!("Current action: {:?}", cur_act);
+                }
             }
+            string_buffer.clear();
         }
 
         if r.is_err() && cur_act.is_none() {
@@ -250,6 +270,6 @@ async fn main(_spawner: Spawner) {
             continue;
         }
 
-        manage_action(&mut cur_act, &mut gpios).await;
+        actions::manage_action(&mut cur_act, &mut gpios).await;
     }
 }

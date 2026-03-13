@@ -1,11 +1,12 @@
-use crate::{CurrentAction, FlexIo};
+use crate::CurrentAction;
+use crate::esp32s3::flex_io::FlexIo;
 
 #[cfg(feature = "init_test")]
 pub async fn check_actions(io: &mut FlexIo<'_>) {
-    //info!("Checking actions...");
-    for pin in 0..24 {
+    // Check all pins
+    for pin in 0..49 {
         if let Some(flex_pin) = io.get_pin(pin) {
-            if pin == 13 || pin == 6 {
+            if pin == 19 || pin == 20 {
                 continue;
             }
             if flex_pin.is_high() {
@@ -16,17 +17,17 @@ pub async fn check_actions(io: &mut FlexIo<'_>) {
 }
 
 pub async fn reset_actions(io: &mut FlexIo<'_>) {
-    crate::gpio_action::gpio_reset(io).await;
+    crate::esp32s3::gpio_action::gpio_reset(io).await;
 }
 
 pub async fn manage_action(act: &mut Option<CurrentAction>, io: &mut FlexIo<'_>) {
     if let Some(action) = act {
         match action {
             CurrentAction::Gpio(pin) => {
-                crate::gpio_action::gpio_action(*pin, io).await;
+                crate::esp32s3::gpio_action::gpio_action(*pin, io).await;
             }
             CurrentAction::SelfCheckGpio() => {
-                crate::gpio_action::self_check_gpio(act, io).await;
+                crate::esp32s3::gpio_action::self_check_gpio(act, io).await;
             }
         }
     }

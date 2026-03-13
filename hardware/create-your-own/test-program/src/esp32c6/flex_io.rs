@@ -1,4 +1,5 @@
 use esp_hal::gpio::{Flex};
+use crate::CurrentAction;
 
 // https://www.espressif.com/sites/default/files/documentation/esp32-c6_technical_reference_manual_en.pdf
 /*
@@ -38,6 +39,31 @@ pub struct FlexIo<'a> {
 }
 
 impl<'a> FlexIo<'a> {
+    pub fn handle_command(&self, action: &str) -> Option<CurrentAction> {
+        if action == "gpio0" { Some(CurrentAction::Gpio(0)) }
+        else if action == "gpio1" { Some(CurrentAction::Gpio(1)) }
+        else if action == "gpio2" { Some(CurrentAction::Gpio(2)) }
+        else if action == "gpio3" { Some(CurrentAction::Gpio(3)) }
+        else if action == "gpio4" { Some(CurrentAction::Gpio(4)) }
+        else if action == "gpio5" { Some(CurrentAction::Gpio(5)) }
+        else if action == "gpio6" { Some(CurrentAction::Gpio(6)) }
+        else if action == "gpio7" { Some(CurrentAction::Gpio(7)) }
+        else if action == "gpio10" { Some(CurrentAction::Gpio(10)) }
+        else if action == "gpio11" { Some(CurrentAction::Gpio(11)) }
+        else if action == "gpio12" { Some(CurrentAction::Gpio(12)) }
+        else if action == "gpio13" { Some(CurrentAction::Gpio(13)) }
+        else if action == "gpio14" { Some(CurrentAction::Gpio(14)) }
+        else if action == "gpio15" { Some(CurrentAction::Gpio(15)) }
+        else if action == "gpio18" { Some(CurrentAction::Gpio(18)) }
+        else if action == "gpio19" { Some(CurrentAction::Gpio(19)) }
+        else if action == "gpio20" { Some(CurrentAction::Gpio(20)) }
+        else if action == "gpio21" { Some(CurrentAction::Gpio(21)) }
+        else if action == "gpio22" { Some(CurrentAction::Gpio(22)) }
+        else if action == "gpio23" { Some(CurrentAction::Gpio(23)) }
+        else if action == "self_check_gpio" { Some(CurrentAction::SelfCheckGpio()) }
+        else { None }
+    }
+
     pub fn get_pin(&mut self, index: u32) -> Option<&mut Flex<'a>> {
         match index {
             0 => Some(&mut self.gpio0),

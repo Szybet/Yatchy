@@ -1,22 +1,21 @@
 use log::{debug, error, info};
 use esp_hal::gpio::{InputConfig, Pull};
 
-use crate::{CurrentAction, flex_io::FlexIo};
+use crate::CurrentAction;
+use crate::esp32s3::flex_io::FlexIo;
 
 pub async fn gpio_check(io: &mut FlexIo<'_>) {
-    //info!("entered gpio debug");
-    for pin in 0..24 {
+    // S3 has up to 48 GPIOs, but not all are available
+    for pin in 0..49 {
         if let Some(out_pin) = io.current_output {
             if pin == out_pin {
                 continue;
             }
         }
         if let Some(in_pin) = io.get_pin(pin) {
-            // Pin 13 is always high, even if we disabled JTAG. That's why we ignore the error
-            if pin == 13 {
-                continue;
-            }
-            if pin == 6 {
+            // Exclude common strapping/JTAG pins if needed
+            // For S3: GPIO 19, 20 are USB
+            if pin == 19 || pin == 20 {
                 continue;
             }
             if in_pin.is_high() {
@@ -29,7 +28,7 @@ pub async fn gpio_check(io: &mut FlexIo<'_>) {
 pub async fn gpio_reset(io: &mut FlexIo<'_>) {
     debug!("Calling gpio_reset");
     io.current_output = None;
-    for pin in 0..24 {
+    for pin in 0..49 {
         if let Some(flex_pin) = io.get_pin(pin) {
             flex_pin.set_low();
             flex_pin.set_output_enable(false);
@@ -50,18 +49,21 @@ pub async fn gpio_action(pin: u32, io: &mut FlexIo<'_>) {
         debug!("Setting pin {} to output", pin);
         gpio_reset(io).await;
         io.current_output = Some(pin);
-        let flex_pin = io.get_pin(pin).unwrap();
-        flex_pin.set_input_enable(false);
-        flex_pin.set_output_enable(true);
+        if let Some(flex_pin) = io.get_pin(pin) {
+            flex_pin.set_input_enable(false);
+            flex_pin.set_output_enable(true);
+        }
     }
-    info!("Toggling pin {}", pin);
-    io.get_pin(pin).unwrap().toggle();
+    if let Some(flex_pin) = io.get_pin(pin) {
+        info!("Toggling pin {}", pin);
+        flex_pin.toggle();
+    }
     embassy_time::Timer::after_millis(2000).await;
 }
 
 pub async fn self_check_gpio(act: &mut Option<CurrentAction>, io: &mut FlexIo<'_>) {
-    for pin in 0..24 {
-        if let Some(_flex_pin) = io.get_pin(pin) {
+    for pin in 0..49 {
+        if io.get_pin(pin).is_some() {
             info!("Checking pin {}", pin);
             gpio_action(pin, io).await;
             embassy_time::Timer::after_millis(1750).await;
