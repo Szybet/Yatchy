@@ -25,6 +25,10 @@ pub struct FlexIo<'a> {
     pub gpio19: Flex<'a>,
     pub gpio20: Flex<'a>,
     pub gpio21: Flex<'a>,
+    pub gpio34: Flex<'a>,
+    pub gpio35: Flex<'a>,
+    pub gpio36: Flex<'a>,
+    pub gpio37: Flex<'a>,
     pub gpio38: Flex<'a>,
     pub gpio39: Flex<'a>,
     pub gpio40: Flex<'a>,
@@ -43,13 +47,22 @@ impl<'a> FlexIo<'a> {
         if action.starts_with("gpio") {
             let num_str = &action[4..];
             if let Ok(num) = num_str.parse::<u32>() {
-                return Some(CurrentAction::Gpio(num));
+                if self.exists(num) {
+                    return Some(CurrentAction::Gpio(num));
+                }
             }
         }
         if action == "self_check_gpio" {
             return Some(CurrentAction::SelfCheckGpio());
         }
         None
+    }
+
+    fn exists(&self, index: u32) -> bool {
+        match index {
+            0..=21 | 34..=48 => true,
+            _ => false,
+        }
     }
 
     pub fn get_pin(&mut self, index: u32) -> Option<&mut Flex<'a>> {
@@ -76,6 +89,10 @@ impl<'a> FlexIo<'a> {
             19 => Some(&mut self.gpio19),
             20 => Some(&mut self.gpio20),
             21 => Some(&mut self.gpio21),
+            34 => Some(&mut self.gpio34),
+            35 => Some(&mut self.gpio35),
+            36 => Some(&mut self.gpio36),
+            37 => Some(&mut self.gpio37),
             38 => Some(&mut self.gpio38),
             39 => Some(&mut self.gpio39),
             40 => Some(&mut self.gpio40),

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-esp-hal = { version = "1.0.0", features = ["unstable"] }
+esp-hal = { version = "1.0.0", features = ["unstable", "log-04"] }
 esp-rtos = { version = "0.2.0", features = ["embassy", "log-04"] }
 esp-backtrace = { version = "0.18.1", features = [
     "panic-handler",
@@ -48,7 +48,7 @@ esp32s3 = [
 ]
 
 [profile.release]
-opt-level = "z"
+opt-level = 2
 codegen-units = 1
 debug = 2
 debug-assertions = false
@@ -57,6 +57,6 @@ lto = 'fat'
 overflow-checks = false
 
 [profile.dev]
-opt-level = "z"
+opt-level = 2
 lto = 'fat'
 panic = "abort"

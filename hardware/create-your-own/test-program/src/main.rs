@@ -57,9 +57,12 @@ async fn main(_spawner: Spawner) {
     info!("Getting the hardware");
     let peripherals = esp_hal::init(esp_hal::Config::default());
 
-    let sw_int = SoftwareInterruptControl::new(peripherals.SW_INTERRUPT);
+    let _sw_int = SoftwareInterruptControl::new(peripherals.SW_INTERRUPT);
     let timg0 = TimerGroup::new(peripherals.TIMG0);
-    esp_rtos::start(timg0.timer0, sw_int.software_interrupt0);
+    #[cfg(target_arch = "riscv32")]
+    esp_rtos::start(timg0.timer0, _sw_int.software_interrupt0);
+    #[cfg(not(target_arch = "riscv32"))]
+    esp_rtos::start(timg0.timer0);
 
     let mut gpios = FlexIo {
         current_output: None,
@@ -148,6 +151,14 @@ async fn main(_spawner: Spawner) {
         gpio20: esp_hal::gpio::Flex::new(peripherals.GPIO20),
         #[cfg(feature = "esp32s3")]
         gpio21: esp_hal::gpio::Flex::new(peripherals.GPIO21),
+        #[cfg(feature = "esp32s3")]
+        gpio34: esp_hal::gpio::Flex::new(peripherals.GPIO34),
+        #[cfg(feature = "esp32s3")]
+        gpio35: esp_hal::gpio::Flex::new(peripherals.GPIO35),
+        #[cfg(feature = "esp32s3")]
+        gpio36: esp_hal::gpio::Flex::new(peripherals.GPIO36),
+        #[cfg(feature = "esp32s3")]
+        gpio37: esp_hal::gpio::Flex::new(peripherals.GPIO37),
         #[cfg(feature = "esp32s3")]
         gpio38: esp_hal::gpio::Flex::new(peripherals.GPIO38),
         #[cfg(feature = "esp32s3")]
