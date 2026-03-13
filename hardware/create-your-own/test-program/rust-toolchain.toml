@@ -1,5 +1,5 @@
 [toolchain]
-channel = "nightly-2024-07-22"
+channel = "nightly"
 components = ["rustfmt", "llvm-tools", "rust-src", "clippy", "rust-analyzer"]
 targets = [
     "riscv32imac-unknown-none-elf",

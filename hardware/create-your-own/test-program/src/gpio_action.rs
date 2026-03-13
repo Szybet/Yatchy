@@ -1,7 +1,7 @@
 use log::{debug, error, info};
-use once_cell::sync::OnceCell;
+use esp_hal::gpio::{InputConfig, Pull};
 
-use crate::{currentAction, flex_io::FlexIo};
+use crate::{CurrentAction, flex_io::FlexIo};
 
 pub async fn gpio_check(io: &mut FlexIo<'_>) {
     //info!("entered gpio debug");
@@ -32,7 +32,9 @@ pub async fn gpio_reset(io: &mut FlexIo<'_>) {
     for pin in 0..24 {
         if let Some(flex_pin) = io.get_pin(pin) {
             flex_pin.set_low();
-            flex_pin.set_as_input(esp_hal_low::gpio::Pull::None);
+            flex_pin.set_output_enable(false);
+            flex_pin.set_input_enable(true);
+            flex_pin.apply_input_config(&InputConfig::default().with_pull(Pull::None));
         }
     }
 }
@@ -48,16 +50,18 @@ pub async fn gpio_action(pin: u32, io: &mut FlexIo<'_>) {
         debug!("Setting pin {} to output", pin);
         gpio_reset(io).await;
         io.current_output = Some(pin);
-        io.get_pin(pin).unwrap().set_as_output();
+        let flex_pin = io.get_pin(pin).unwrap();
+        flex_pin.set_input_enable(false);
+        flex_pin.set_output_enable(true);
     }
     info!("Toggling pin {}", pin);
     io.get_pin(pin).unwrap().toggle();
     embassy_time::Timer::after_millis(2000).await;
 }
 
-pub async fn self_check_gpio(act: &mut Option<currentAction>, io: &mut FlexIo<'_>) {
+pub async fn self_check_gpio(act: &mut Option<CurrentAction>, io: &mut FlexIo<'_>) {
     for pin in 0..24 {
-        if let Some(flex_pin) = io.get_pin(pin) {
+        if let Some(_flex_pin) = io.get_pin(pin) {
             info!("Checking pin {}", pin);
             gpio_action(pin, io).await;
             embassy_time::Timer::after_millis(1750).await;

@@ -1,5 +1,4 @@
-use esp_hal_low::gpio::any_pin::AnyPin;
-use esp_hal_low::gpio::{self, Flex, GpioPin, Io};
+use esp_hal::gpio::{Flex};
 
 // https://www.espressif.com/sites/default/files/documentation/esp32-c6_technical_reference_manual_en.pdf
 /*
@@ -12,34 +11,34 @@ ESP32-C6 has five strapping pins:
 
 pub struct FlexIo<'a> {
     pub current_output: Option<u32>,
-    pub gpio0: Flex<'a, AnyPin<'a>>,
-    pub gpio1: Flex<'a, AnyPin<'a>>,
-    pub gpio2: Flex<'a, AnyPin<'a>>,
-    pub gpio3: Flex<'a, AnyPin<'a>>,
-    pub gpio4: Flex<'a, AnyPin<'a>>,
-    pub gpio5: Flex<'a, AnyPin<'a>>,
-    pub gpio6: Flex<'a, AnyPin<'a>>,
-    pub gpio7: Flex<'a, AnyPin<'a>>,
-    pub gpio10: Flex<'a, AnyPin<'a>>,
-    pub gpio11: Flex<'a, AnyPin<'a>>,
+    pub gpio0: Flex<'a>,
+    pub gpio1: Flex<'a>,
+    pub gpio2: Flex<'a>,
+    pub gpio3: Flex<'a>,
+    pub gpio4: Flex<'a>,
+    pub gpio5: Flex<'a>,
+    pub gpio6: Flex<'a>,
+    pub gpio7: Flex<'a>,
+    pub gpio10: Flex<'a>,
+    pub gpio11: Flex<'a>,
     #[cfg(feature = "uart")]
-    pub gpio12: Flex<'a, AnyPin<'a>>,
+    pub gpio12: Flex<'a>,
     #[cfg(feature = "uart")]
-    pub gpio13: Flex<'a, AnyPin<'a>>,
-    pub gpio14: Flex<'a, AnyPin<'a>>,
-    pub gpio15: Flex<'a, AnyPin<'a>>,
-    pub gpio18: Flex<'a, AnyPin<'a>>,
-    pub gpio19: Flex<'a, AnyPin<'a>>,
-    pub gpio20: Flex<'a, AnyPin<'a>>,
-    pub gpio21: Flex<'a, AnyPin<'a>>,
+    pub gpio13: Flex<'a>,
+    pub gpio14: Flex<'a>,
+    pub gpio15: Flex<'a>,
+    pub gpio18: Flex<'a>,
+    pub gpio19: Flex<'a>,
+    pub gpio20: Flex<'a>,
+    pub gpio21: Flex<'a>,
     #[cfg(feature = "i2c")]
-    pub gpio22: Flex<'a, AnyPin<'a>>,
+    pub gpio22: Flex<'a>,
     #[cfg(feature = "i2c")]          
-    pub gpio23: Flex<'a, AnyPin<'a>>,
+    pub gpio23: Flex<'a>,
 }
 
 impl<'a> FlexIo<'a> {
-    pub fn get_pin(&mut self, index: u32) -> Option<&mut Flex<'a, AnyPin<'a>>> {
+    pub fn get_pin(&mut self, index: u32) -> Option<&mut Flex<'a>> {
         match index {
             0 => Some(&mut self.gpio0),
             1 => Some(&mut self.gpio1),
