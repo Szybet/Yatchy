@@ -2,29 +2,23 @@
 #![no_main]
 
 use core::mem::MaybeUninit;
-#[cfg(feature = "usb_jtag")]
-use core::fmt::Write;
 use esp_println::logger::init_logger;
 use log::{debug, error, info};
 
 use embassy_executor::Spawner;
 use esp_backtrace as _;
-use esp_hal::{
-    timer::{timg::TimerGroup},
-    interrupt::software::SoftwareInterruptControl,
-};
 #[cfg(feature = "usb_jtag")]
 use esp_hal::usb_serial_jtag::UsbSerialJtag;
-
+use esp_hal::{interrupt::software::SoftwareInterruptControl, timer::timg::TimerGroup};
 #[cfg(feature = "esp32c6")]
 mod esp32c6;
 #[cfg(feature = "esp32c6")]
-use esp32c6::{actions, flex_io::FlexIo, gpio_action::gpio_reset, actions::reset_actions};
+use esp32c6::{actions, actions::reset_actions, flex_io::FlexIo, gpio_action::gpio_reset};
 
 #[cfg(feature = "esp32s3")]
 mod esp32s3;
 #[cfg(feature = "esp32s3")]
-use esp32s3::{actions, flex_io::FlexIo, gpio_action::gpio_reset, actions::reset_actions};
+use esp32s3::{actions, actions::reset_actions, flex_io::FlexIo, gpio_action::gpio_reset};
 
 fn heap_init() {
     const HEAP_SIZE: usize = 32 * 1024;
@@ -47,10 +41,12 @@ pub enum CurrentAction {
     SelfCheckGpio(),
 }
 
+esp_bootloader_esp_idf::esp_app_desc!();
+
 #[esp_rtos::main]
 async fn main(_spawner: Spawner) {
     init_logger(log::LevelFilter::Info);
-    
+
     info!("Heap init");
     heap_init();
 
@@ -169,9 +165,9 @@ async fn main(_spawner: Spawner) {
         gpio41: esp_hal::gpio::Flex::new(peripherals.GPIO41),
         #[cfg(feature = "esp32s3")]
         gpio42: esp_hal::gpio::Flex::new(peripherals.GPIO42),
-        #[cfg(feature = "esp32s3")]
+        #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
         gpio43: esp_hal::gpio::Flex::new(peripherals.GPIO43),
-        #[cfg(feature = "esp32s3")]
+        #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
         gpio44: esp_hal::gpio::Flex::new(peripherals.GPIO44),
         #[cfg(feature = "esp32s3")]
         gpio45: esp_hal::gpio::Flex::new(peripherals.GPIO45),
@@ -193,25 +189,31 @@ async fn main(_spawner: Spawner) {
     info!("Initializing uart communication");
 
     #[cfg(feature = "uart")]
-    let mut serial = {
+    let (mut rx, mut tx) = {
         #[cfg(feature = "esp32c6")]
         {
-            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default()).unwrap()
+            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default())
+                .unwrap()
                 .with_rx(peripherals.GPIO17)
                 .with_tx(peripherals.GPIO16)
                 .into_async()
+                .split()
         }
         #[cfg(feature = "esp32s3")]
         {
-            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default()).unwrap()
+            esp_hal::uart::Uart::new(peripherals.UART0, esp_hal::uart::Config::default())
+                .unwrap()
                 .with_rx(peripherals.GPIO44)
                 .with_tx(peripherals.GPIO43)
                 .into_async()
+                .split()
         }
     };
 
     #[cfg(feature = "usb_jtag")]
-    let (mut rx, mut tx) = UsbSerialJtag::new(peripherals.USB_DEVICE).into_async().split();
+    let (mut rx, mut tx) = UsbSerialJtag::new(peripherals.USB_DEVICE)
+        .into_async()
+        .split();
 
     let mut string_buffer: heapless::Vec<u8, MAX_BUFFER_SIZE> = heapless::Vec::new();
 
@@ -219,22 +221,32 @@ async fn main(_spawner: Spawner) {
     let mut started_typing = false;
     loop {
         let mut is_newline = false;
-        
-        #[cfg(feature = "usb_jtag")]
-        let r = rx.read_byte();
-        #[cfg(all(not(feature = "usb_jtag"), feature = "uart"))]
-        let r = serial.read_byte();
-        #[cfg(not(any(feature = "usb_jtag", feature = "uart")))]
-        let r: Result<u8, ()> = Err(());
+        let mut readed = false;
 
-        if let Ok(byte) = r {
+        let mut small_buf = [0u8; 1];
+
+        #[cfg(feature = "uart")]
+        {
+            if rx.read_ready() {
+                rx.read(&mut small_buf).ok();
+                readed = true;
+            }
+        }
+
+        #[cfg(feature = "usb_jtag")]
+        {
+            let amount = rx.drain_rx_fifo(&mut small_buf);
+            if amount != 0 {
+                readed = true;
+            }
+        }
+
+        if readed {
+            let byte = small_buf[0];
             string_buffer.push(byte).unwrap();
             debug!("Received character: {}", byte);
-            #[cfg(feature = "usb_jtag")]
-            let _ = tx.write_char(byte as char);
-            #[cfg(feature = "uart")]
-            let _ = serial.write_bytes(&[byte]);
-            
+            let _ = tx.write(&[byte]);
+
             if byte == 13 {
                 debug!("Received a new line");
                 is_newline = true;
@@ -276,7 +288,7 @@ async fn main(_spawner: Spawner) {
             string_buffer.clear();
         }
 
-        if r.is_err() && cur_act.is_none() {
+        if !readed && cur_act.is_none() {
             embassy_time::Timer::after_millis(200).await;
             continue;
         }

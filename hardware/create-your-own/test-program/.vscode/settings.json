@@ -1,6 +1,7 @@
 {
-    "rust-analyzer.checkOnSave.allTargets": false,
-    "rust-analyzer.cargo.noDefaultFeatures": false,
+    "rust-analyzer.cargo.target": "riscv32imac-unknown-none-elf",
     "rust-analyzer.check.command": "clippy",
-    "rust-analyzer.diagnostics.enable": false,
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.cargo.noDefaultFeatures": false,
+    "rust-analyzer.diagnostics.enable": false
 }

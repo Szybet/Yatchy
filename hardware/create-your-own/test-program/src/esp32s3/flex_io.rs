@@ -1,5 +1,5 @@
-use esp_hal::gpio::{Flex};
 use crate::CurrentAction;
+use esp_hal::gpio::Flex;
 
 pub struct FlexIo<'a> {
     pub current_output: Option<u32>,
@@ -34,7 +34,9 @@ pub struct FlexIo<'a> {
     pub gpio40: Flex<'a>,
     pub gpio41: Flex<'a>,
     pub gpio42: Flex<'a>,
+    #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
     pub gpio43: Flex<'a>,
+    #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
     pub gpio44: Flex<'a>,
     pub gpio45: Flex<'a>,
     pub gpio46: Flex<'a>,
@@ -98,7 +100,9 @@ impl<'a> FlexIo<'a> {
             40 => Some(&mut self.gpio40),
             41 => Some(&mut self.gpio41),
             42 => Some(&mut self.gpio42),
+            #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
             43 => Some(&mut self.gpio43),
+            #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
             44 => Some(&mut self.gpio44),
             45 => Some(&mut self.gpio45),
             46 => Some(&mut self.gpio46),
