@@ -86,12 +86,12 @@ Sum: 690 zł, 182$, could be worse
 #### 3. Docs are too long, I did not read them, Where can I buy a Yatchy?
 Yes it's a TLDR, read all the docs for more explanation.
 
-As for 13.05.2025
+As for 24.04.2026
 
-Currently, Yatchies cannot be purchased directly due to technical and financial constraints. I occasionally sell a limited number, but availability is quite restricted.
+Currently, Yatchies cannot be purchased directly due to technical and financial constraints. I rarely sell a limited number.
 
-In the future, there may be additional sellers.
+If you can, create your own, it's open source, I can help answering some questions
+
+In the future, there may be additional sellers which I'm welcoming if they appear.
 
 To summarize, if you are interested in acquiring a Yatchy, keep an eye on the discord server and consider obtaining the Yatchy role for notifications. Those who have expressed interest in the relevant thread will be considered in chronological order.
-
-Please note that shipping from Europe can complicate the purchasing process.
