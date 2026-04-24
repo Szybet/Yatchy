@@ -160,6 +160,13 @@ If any issues arise, or you would like to use another type of strap, feel free t
 **Watch the Demo:**  
 [![Watch the Demo](https://img.youtube.com/vi/wA29wyvOd8w/hqdefault.jpg)](https://www.youtube.com/watch?v=wA29wyvOd8w)
 
+### Michal's gameboy
+<div align="center" style="white-space: nowrap; overflow-x: auto;">
+  <img src="Michal-gameboy/img/pic1.png" width="300px" style="display:inline-block; margin-right: 5px;">
+</div>
+
+- Not much is known about it, only that it looks cool, might not fit perfectly, print at your own risk
+
 ### Case comparison
 - without top case or the pieces that hold the straps
 
