@@ -5,6 +5,10 @@
 
 <sub>the inside is coated with nail polish in this picture for it to not conduct electricity</sub>
 
+##### Anodyzed SLM Titanium TC4 (No polishing)
+| ![Image 1](https://github.com/user-attachments/assets/2fb6395e-b8f5-4d6c-8bb6-43ada23c2798) | ![Image 2](https://github.com/user-attachments/assets/d698df5b-fe57-4584-a5ac-6655a5daef92) | ![Image 3](https://github.com/user-attachments/assets/c4f6c57c-3dde-4f51-a68b-a83bdea69e71) |
+| :---: | :---: | :---: |
+
 ### SLA 8001 Resin transparent
 | ![Image 1](https://github.com/user-attachments/assets/64d6a03f-cdd8-47d9-9de1-71ddd5734a29) | ![Image 2](https://github.com/user-attachments/assets/9a9db278-c657-40b9-a15d-61c1db170300) | ![Image 3](https://github.com/user-attachments/assets/6edb6613-b0e9-46aa-b352-7c56e8a52990) |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -47,7 +51,7 @@ https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
 **SLA 8001 Resin transparent:**
 - It looks the best, it's perfect quality
 - A bit on the squishy side :D
-- I hope it doesn't turn yellow at some point
+- ~~I hope it doesn't turn yellow at some point~~ It did after 5 months of use. Also it broke on one screen edge, for some reason...
 
 **MJF PA12-HP Nylon:**
 - Interesting texture, stiff but solid, cool
