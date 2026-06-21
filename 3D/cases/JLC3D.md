@@ -62,6 +62,7 @@ https://github.com/user-attachments/assets/9837bda7-dd3d-4c27-bf5d-23caa2c6a187
 - Pretty stiff
 - A bit transparent when wall is thin
 - but cool anyway
+- The front case broke for me after a while of using, so less strong than FDM
 
 **FDM Transparent TPU:**
 - The quality is good, but it's FDM soooo don't go with transparent, go with black or something
