@@ -98,4 +98,4 @@ Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 ## [FAQ](https://github.com/Szybet/Yatchy/blob/main/faq.md)
 
 # Community
-For any questions, potential purchase of one (look at faq), feel free to ask in github issues, in the discord server or matrix channel
+Create a github issue or get in touch with me on the discord server or matrix space (on top of this read are links)
