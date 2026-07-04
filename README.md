@@ -26,11 +26,19 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 <details>
   <summary><h3>Pictures</h3></summary>
 
+<sub>My Yatchy, with a [titanium anodized case](https://github.com/Szybet/Yatchy/blob/main/3D/cases/JLC3D.md#anodyzed-slm-titanium-tc4-no-polishing)</sub>
+
+<p>
+  <img src="https://github.com/user-attachments/assets/e75b9781-02c9-481c-9d6d-63c79a6dfe03" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="https://github.com/user-attachments/assets/79d574f5-c8e9-460b-8374-7359691c7393" width="300px" style="display:inline-block;">
+</p>
+
+
 <sub>The battery is on the side because it's easier for me to measure power consumption, there are [cases with the battery inside](https://github.com/Szybet/Yatchy/tree/main/3D/cases)</sub>
 
 <img src="https://github.com/user-attachments/assets/3ae1a087-5366-4c8e-a037-5b8754a2d5d1" width="45%" style="display:inline-block; margin-right: 5px;">
 
-<sub>A cleaner soldering job, with some other components (compability!)<sub>, yes, I know there is a short on the flex cable, it fell off when cleaning after the picture</sub></sub>
+<sub>A clean soldering job, with some alternative components (compability!)<sub>, yes, I know there is a short on the flex cable, it fell off when cleaning after the picture</sub></sub>
 ![image](https://github.com/user-attachments/assets/230947a2-5d99-478a-9cd9-84caa8b0bce0)
 
 Watchy one the left yatchy on the right, yatchy is smaller (yes, the battery is outside, but it would only increase height, not width/length
