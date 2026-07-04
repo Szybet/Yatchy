@@ -11,7 +11,7 @@
   <img src="/img/Yatchy1.png" width="340,5" height="384"/>
 </p>
 
-Yatchy is a full redesign, from the ground up of the well known [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the wasted potential of it.
+Yatchy is a full redesign, from the ground up of the well known [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the potential of it.
 
 #### Key points:
 - USBC instead of micro usb
@@ -19,7 +19,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 - [Better battery life](https://github.com/Szybet/Yatchy/blob/main/hardware/power-consumption/README.md)
 - Hardware hackable
 - Fixed many issues and improved minor things
-- A backlight, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)*
+- A backlight is possible, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)* and many other "extensions"
 - Smaller form factor
 
 <details>
@@ -42,7 +42,7 @@ Watchy one the left yatchy on the right, yatchy is smaller (yes, the battery is 
 
 Yatchy features, compared to 2.0 watchy:
 
-<sub>watchy v3 <a href="https://github.com/Szybet/WatchySourcingHub#original-watchy-v3">is a joke</a>, It's design files are not released, only the schematic, also it has many flaws so I don't even compare to it</sub>
+<sub>Let's ignore the v3 watchy for [reasons](https://github.com/Szybet/WatchySourcingHub#original-watchy-v3) but most of the points still compared to it</sub>
 
 <details>
   <summary><h2>For regular users</h2></summary>
@@ -54,7 +54,7 @@ Yatchy features, compared to 2.0 watchy:
 - better detection of charging, charge finishing. <sub>(In software it was hacky on the original watchy, there were problems with it, never worked good)</sub>
 - support for more wireless protocols, home automation ones, wifi 6 too
 - TVS diodes, voltage spike protection - which means no more destroyed devices because watchy doesn't follow any USB spec and allows your device to burn down...
-- More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better
+- More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better, **from experience it's even better than that**
 
 </details>
 
@@ -62,6 +62,7 @@ Yatchy features, compared to 2.0 watchy:
   <summary><h2>For advanced users</h2></summary>
 
 - Detailed ordering and assembly [guide](https://github.com/Szybet/Yatchy/tree/main/hardware/create-your-own)
+- Detailed soldering and testing [guide](https://github.com/Szybet/Yatchy/blob/main/hardware/create-your-own/assembling.md)
 - **A module area**, with almost all exposed pins from the esp, power lines, and many gpio pins thanks to the expander IC - You can create your own module, increase the capability of you yatchy without modifying everything inside - solar panel module, encoder instead of the button, sd card module, frontlight module, torchlight module, speaker module, microphone module, some environmental sensors. The only limitation is your imagination (And the size of the module)
    - The default module (In the picture above) allows for for attaching small things without the need for a custom PCB
 - All the components are newer, still available and produced. They are also listed, with links to mauser / tme. Ordering a Yatchy PCB and the parts, soldering them themself is possible and easier than the watchy
@@ -76,10 +77,10 @@ Yatchy features, compared to 2.0 watchy:
   <summary><h2>Flaws</h2></summary>
 
 - No battery connector, the module pads are small - so it's not for everyone, harder to use / assembly (solder!) for beginners
-- There is no dedicated place for the motor, it's just Yolo on the components with some glue. Soldering the motor cables also is not easy
+- There is no dedicated place for the motor, it needs a dedicated place in the case. Soldering the motor cables also is not easy
 - It's watchy like but not watchy case compatible, the size and form factor is the same but the obvious obstacle is USBC, even with it the buttons are different and placed a little off to save some space
 - It's a 4 layer PCB, so a bit more costly (With JLCPCB it's still cheap)
-- No easy hard reset option, you will need to short pins, but if you need to do it, then you made something really wrong. <sub>When developing the Yatchy, I only once needed a full reset</sub>
+- No easy hard reset option, you will need to short pins, but you probably won't need it. <sub>When developing the Yatchy, I only once needed a full reset</sub>
 - A complicated license
 
 </details>
