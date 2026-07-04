@@ -1,4 +1,5 @@
-[![](https://dcbadge.limes.pink/api/server/6PUmRXZRGD)](https://discord.gg/6PUmRXZRGD)
+[![Chat on Matrix](https://img.shields.io/badge/Chat%20on-Matrix-000000.svg?style=flat&logo=matrix&logoColor=white)](https://matrix.to/#/#*atchy-community:matrix.org)
+[![Chat on Discord](https://img.shields.io/badge/Chat%20on-Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/6PUmRXZRGD)
 
 <h1 align="center">
   Yatchy
@@ -96,7 +97,5 @@ Everything explained [here](https://github.com/Szybet/Yatchy/tree/main/hardware)
 
 ## [FAQ](https://github.com/Szybet/Yatchy/blob/main/faq.md)
 
-# Community / Buying one
-For any questions, potential purchase of one, feel free to ask in github issues or in this discord server:
-
-<a href="https://discord.gg/6PUmRXZRGD">*atchy community on discord</a>
+# Community
+For any questions, potential purchase of one (look at faq), feel free to ask in github issues, in the discord server or matrix channel
