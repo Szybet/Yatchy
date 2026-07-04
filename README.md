@@ -51,7 +51,7 @@ Watchy one the left yatchy on the right, yatchy is smaller (yes, the battery is 
 
 Yatchy features, compared to 2.0 watchy:
 
-<sub>Let's ignore the v3 watchy for [reasons](https://github.com/Szybet/WatchySourcingHub#original-watchy-v3) but most of the points still compared to it</sub>
+<sub>Let's ignore the v3 watchy for [reasons](https://github.com/Szybet/WatchySourcingHub#original-watchy-v3) but most of the points still apply to it</sub>
 
 <details>
   <summary><h2>For regular users</h2></summary>
