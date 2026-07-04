@@ -49,6 +49,10 @@ It's not only me having this opinion, other makers also share it:
 
 </details>
 
+Update 2026:
+
+Prusa released the [Open community license](https://github.com/OpenCommunityLicence/OpenCommunityLicence) which is basically what I'm saying above but I allow a bit of commerciallity, so that's cool, if they release a plugin like the Micro Business one, but smaller (Nano business?) then I would switch fully to it, so it's less confussion.
+
 ## The design of the Yatchy
 Yatchy was designed to:
 - Be created by yourself. That means it's adjusted to be hand solderable. Sooo that means changed footprints for easier hand soldering. If you can solder SMD without a problem and QFN packets aren't scary for you, but BGA is a bit, then it's for you
