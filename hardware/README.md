@@ -64,7 +64,7 @@ Those design choices have their own flaws:
 - It's not possible to order a assembled yatchy from a manufacturer. Not only because of the module, but the modified footprints have not adjusted solder mask (And I don't have the experience and money to test it). **Also to be clear, a stencil is also untested, probably won't work for the reasons explained a sentence ago, you have been warned.** - And with that in mind, let's go to the commercial section
 
 ## Commercial
-As mentioned above, It's not possible to manufacture yatchy on a mass scale. I don't even want to, I'm a student, I won't just start a company. I plan to sell a few Yatchy to community members and that's it.
+As mentioned above, It's not possible to manufacture yatchy on a mass scale (The original vision ones, doing a "regular" one, sure i gues). I don't even want to, I'm a student, I won't just start a company. I plan to sell a few Yatchy to community members and that's it.
 
 But if you plan to create a Yatchy for yourself (because you have the skills required) you are fully allowed to do so! I will support it fully, you should also consider creating some for people who can't do that. I will fully support it too! Just remember to contribute some docs, code, help, small donation if you create some more and it will be fine :D
 
