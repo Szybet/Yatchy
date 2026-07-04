@@ -4,7 +4,7 @@ or at least sometimes
 ### Contents
 1. [Why no spot for the vibration motor?](https://github.com/Szybet/Yatchy/blob/main/faq.md#1-why-no-spot-for-the-vibration-motor)
 2. [What soldering gear do I need?](https://github.com/Szybet/Yatchy/blob/main/faq.md#2-what-soldering-gear-do-i-need)
-3. [Docs are too long, I did not read them, Where can I buy a Yatchy?](https://github.com/Szybet/Yatchy/blob/main/faq.md#3-docs-are-too-long-i-did-not-read-them-where-can-i-buy-a-yatchy)
+3. [Where can I buy a Yatchy?](https://github.com/Szybet/Yatchy/blob/main/faq.md#3-docs-are-too-long-i-did-not-read-them-where-can-i-buy-a-yatchy)
 
 #### 1. Why no spot for the vibration motor?
 
@@ -83,15 +83,15 @@ Also I won't mention things that are more general like tweezers, digital multime
 
 Sum: 690 zł, 182$, could be worse
 
-#### 3. Docs are too long, I did not read them, Where can I buy a Yatchy?
+#### 3. Where can I buy a Yatchy?
 Yes it's a TLDR, read all the docs for more explanation.
 
-As for 24.04.2026
+As for 03.07.2026
 
-Currently, Yatchies cannot be purchased directly due to technical and financial constraints. I rarely sell a limited number.
+Currently, Yatchies cannot be purchased directly due to technical and financial constraints.
 
-If you can, create your own, it's open source, I can help answering some questions
+If you can, create your own, it's open source, I can provide some help/advice
 
 In the future, there may be additional sellers which I'm welcoming if they appear.
 
-To summarize, if you are interested in acquiring a Yatchy, keep an eye on the discord server and consider obtaining the Yatchy role for notifications. Those who have expressed interest in the relevant thread will be considered in chronological order.
+To summarize, if you are interested in acquiring a Yatchy, keep an eye on the discord/matrix server and consider obtaining the Yatchy role for notifications. Those who have expressed interest in the relevant thread will be considered in chronological order.
