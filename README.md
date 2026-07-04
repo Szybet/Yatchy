@@ -90,7 +90,7 @@ Yatchy features, compared to 2.0 watchy:
 - It's watchy like but not watchy case compatible, the size and form factor is the same but the obvious obstacle is USBC, even with it the buttons are different and placed a little off to save some space
 - It's a 4 layer PCB, so a bit more costly (With JLCPCB it's still cheap)
 - No easy hard reset option, you will need to short pins, but you probably won't need it. <sub>When developing the Yatchy, I only once needed a full reset</sub>
-- A complicated license
+- A complicated license (but still open source!)
 
 </details>
 
