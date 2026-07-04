@@ -25,7 +25,7 @@ Yatchy is a full redesign, from the ground up of the well known [watchy](https:/
 <details>
   <summary><h3>Pictures</h3></summary>
 
-<sub>The battery is on the side because it's easier for me to measure power consumption, there are cases with battery inside</sub>
+<sub>The battery is on the side because it's easier for me to measure power consumption, there are [cases with the battery inside](https://github.com/Szybet/Yatchy/tree/main/3D/cases)</sub>
 
 <img src="https://github.com/user-attachments/assets/3ae1a087-5366-4c8e-a037-5b8754a2d5d1" width="45%" style="display:inline-block; margin-right: 5px;">
 
