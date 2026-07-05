@@ -12,13 +12,13 @@
   <img src="/img/Yatchy1.png" width="340,5" height="384"/>
 </p>
 
-Yatchy is a full redesign, from the ground up of the well known [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the potential of it.
+Yatchy is a DIY watch, heavily inspired by the well known [watchy](https://watchy.sqfmi.com/). It focuses on fixing known issues and expanding the potential of it.
 
 #### Key points:
 - USBC instead of micro usb
 - Better buttons, they won't break easily
 - [Better battery life](https://github.com/Szybet/Yatchy/blob/main/hardware/power-consumption/README.md)
-- Hardware hackable
+- Hardware hackable, easier to self assemble from scratch
 - Fixed many issues and improved minor things
 - A backlight is possible, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)* and many other "extensions"
 - Smaller form factor
