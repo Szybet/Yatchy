@@ -22,7 +22,9 @@ pub struct FlexIo<'a> {
     pub gpio16: Flex<'a>,
     pub gpio17: Flex<'a>,
     pub gpio18: Flex<'a>,
+    #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
     pub gpio19: Flex<'a>,
+    #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
     pub gpio20: Flex<'a>,
     pub gpio21: Flex<'a>,
     pub gpio34: Flex<'a>,
@@ -34,9 +36,9 @@ pub struct FlexIo<'a> {
     pub gpio40: Flex<'a>,
     pub gpio41: Flex<'a>,
     pub gpio42: Flex<'a>,
-    #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+    #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
     pub gpio43: Flex<'a>,
-    #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+    #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
     pub gpio44: Flex<'a>,
     pub gpio45: Flex<'a>,
     pub gpio46: Flex<'a>,
@@ -88,7 +90,9 @@ impl<'a> FlexIo<'a> {
             16 => Some(&mut self.gpio16),
             17 => Some(&mut self.gpio17),
             18 => Some(&mut self.gpio18),
+            #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
             19 => Some(&mut self.gpio19),
+            #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
             20 => Some(&mut self.gpio20),
             21 => Some(&mut self.gpio21),
             34 => Some(&mut self.gpio34),
@@ -100,9 +104,9 @@ impl<'a> FlexIo<'a> {
             40 => Some(&mut self.gpio40),
             41 => Some(&mut self.gpio41),
             42 => Some(&mut self.gpio42),
-            #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+            #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
             43 => Some(&mut self.gpio43),
-            #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+            #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
             44 => Some(&mut self.gpio44),
             45 => Some(&mut self.gpio45),
             46 => Some(&mut self.gpio46),

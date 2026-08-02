@@ -141,9 +141,9 @@ async fn main(_spawner: Spawner) {
         gpio17: esp_hal::gpio::Flex::new(peripherals.GPIO17),
         #[cfg(feature = "esp32s3")]
         gpio18: esp_hal::gpio::Flex::new(peripherals.GPIO18),
-        #[cfg(feature = "esp32s3")]
+        #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
         gpio19: esp_hal::gpio::Flex::new(peripherals.GPIO19),
-        #[cfg(feature = "esp32s3")]
+        #[cfg(all(feature = "esp32s3", not(feature = "usb_jtag")))]
         gpio20: esp_hal::gpio::Flex::new(peripherals.GPIO20),
         #[cfg(feature = "esp32s3")]
         gpio21: esp_hal::gpio::Flex::new(peripherals.GPIO21),
@@ -165,9 +165,9 @@ async fn main(_spawner: Spawner) {
         gpio41: esp_hal::gpio::Flex::new(peripherals.GPIO41),
         #[cfg(feature = "esp32s3")]
         gpio42: esp_hal::gpio::Flex::new(peripherals.GPIO42),
-        #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+        #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
         gpio43: esp_hal::gpio::Flex::new(peripherals.GPIO43),
-        #[cfg(all(feature = "esp32s3", feature = "usb_jtag"))]
+        #[cfg(all(feature = "esp32s3", not(feature = "uart")))]
         gpio44: esp_hal::gpio::Flex::new(peripherals.GPIO44),
         #[cfg(feature = "esp32s3")]
         gpio45: esp_hal::gpio::Flex::new(peripherals.GPIO45),
