@@ -163,9 +163,11 @@ If any issues arise, or you would like to use another type of strap, feel free t
 ### Michal's gameboy
 <div align="center" style="white-space: nowrap; overflow-x: auto;">
   <img src="Michal-gameboy/img/pic1.png" width="300px" style="display:inline-block; margin-right: 5px;">
+  <img src="Michal-gameboy/img/pic2.png" width="300px" style="display:inline-block;">
 </div>
 
-- Not much is known about it, only that it looks cool, might not fit perfectly, print at your own risk
+- More info at: https://github.com/Michal-Szczepaniak/watchy-case/tree/master
+- Inspired by the watchy gameboy case
 
 ### Case comparison
 - without top case or the pieces that hold the straps
