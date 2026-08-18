@@ -179,3 +179,4 @@ If any issues arise, or you would like to use another type of strap, feel free t
 | Szybet's Side                   | 9.55611     |
 | Szybet's and Glaucon1984's Brick                  | 10.96346    |
 | Glowy's Thicc Boi   | 15.3         |
+| Michal's gameboy | 11.2 |
