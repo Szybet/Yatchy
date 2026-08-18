@@ -167,6 +167,7 @@ If any issues arise, or you would like to use another type of strap, feel free t
 </div>
 
 - More info at: https://github.com/Michal-Szczepaniak/watchy-case/tree/master
+- Fits the 450mAh 303040 LiPo
 - Inspired by the watchy gameboy case
 
 ### Case comparison
