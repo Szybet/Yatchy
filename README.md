@@ -49,11 +49,9 @@ Watchy one the left yatchy on the right, yatchy is smaller (yes, the battery is 
 
 </details>
 
-Yatchy features, compared to 2.0 watchy:
+## Yatchy features in more detail:
 
-<sub>Let's ignore the v3 watchy for [reasons](https://github.com/Szybet/WatchySourcingHub#original-watchy-v3) but most of the points still apply to it</sub>
-
-<h2>For regular users</h2>
+<h4>For regular users</h4>
 
 - Heavy increase in battery life, even with the screen updating every minute <sub>(The esp32c6 has a riscv lp core, which i connected to the screen, which means the device never really wakes up fully to only update the screen, not only that i fixed sqfmi flaws (Using 2 voltage dividers for example) I also use the external crystal clock for the RTC which means no RTC IC... and many more such things)</sub>
 - Better buttons, more solid, shouldn't and probably won't break that much if at all. They are also very quiet. If you like the tactile feel of the original buttons, you won't like these ones. Luckly vibration motor feedback is possible.
@@ -65,7 +63,7 @@ Yatchy features, compared to 2.0 watchy:
 - More precise time, based on some loose math and experiments, it should drift only a minute after a month, compared to the watchy its a lot better, **from experience it's even better than that**
 
 <details>
-  <summary><h2>For advanced users</h2></summary>
+  <summary><h4>For advanced users</h4></summary>
 
 - Detailed ordering and assembly [guide](https://github.com/Szybet/Yatchy/tree/main/hardware/create-your-own)
 - Detailed soldering and testing [guide](https://github.com/Szybet/Yatchy/blob/main/hardware/create-your-own/assembling.md)
@@ -80,7 +78,7 @@ Yatchy features, compared to 2.0 watchy:
 </details>
 
 <details>
-  <summary><h2>Flaws</h2></summary>
+  <summary><h4>Flaws</h4></summary>
 
 - No battery connector, the module pads are small - so it's not for everyone, harder to use / assembly (solder!) for beginners
 - There is no dedicated place for the motor, it needs a dedicated place in the case. Soldering the motor cables also is not easy
