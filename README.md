@@ -21,7 +21,7 @@ Yatchy is a DIY watch, heavily inspired by the well known [watchy](https://watch
 - Hardware hackable, easier to self assemble from scratch
 - Fixed many issues and improved minor things
 - A backlight is possible, *[kind of](https://github.com/Szybet/Yatchy/blob/main/3D/cases/README.md#proof-of-concept-glow-in-the-dark-transparent-filament-with-the-rotated-case)* and many other "extensions"
-- Smaller form factor
+- [Smaller](https://github.com/Szybet/Yatchy/blob/main/faq.md#dimensions) form factor
 
 <details>
   <summary><h3>Pictures</h3></summary>
