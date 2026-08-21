@@ -25,6 +25,8 @@ Yatchy is a DIY watch, heavily inspired by the well known [watchy](https://watch
 
 <details>
   <summary><h3>Pictures</h3></summary>
+The coolest yatchy, contributed by a community member!
+<img width="1924" height="2216" alt="image" src="https://github.com/user-attachments/assets/ca9428ca-b72c-4109-9365-109bade11d6b" />
 
 <sub>My Yatchy, with a [titanium anodized case, the rotated variant](https://github.com/Szybet/Yatchy/blob/main/3D/cases/JLC3D.md#anodyzed-slm-titanium-tc4-no-polishing)</sub>
 
