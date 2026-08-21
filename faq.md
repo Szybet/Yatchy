@@ -95,3 +95,11 @@ If you can, create your own, it's open source, I can provide some help/advice
 In the future, there may be additional sellers which I'm welcoming if they appear.
 
 To summarize, if you are interested in acquiring a Yatchy, keep an eye on the discord/matrix server and consider obtaining the Yatchy role for notifications. Those who have expressed interest in the relevant thread will be considered in chronological order.
+
+### Dimensions
+A bit smaller than yatchy, but the USBC is on the thicker side (BUT THT!) if you are ordering the PCB's yourself, you can change the usbc to a smd one easily, if you believe in those pads holding for long
+
+<img width="1226" height="717" alt="image" src="https://github.com/user-attachments/assets/be3a292e-ba22-4bfd-8183-a5e4cb4d4e58" />
+<img width="1190" height="907" alt="image" src="https://github.com/user-attachments/assets/f6aa888d-d29d-43d8-b99a-72deecc24e17" />
+<img width="1374" height="300" alt="image" src="https://github.com/user-attachments/assets/100d0e65-6885-46ff-8698-1cad478a564a" />
+<img width="1374" height="300" alt="image" src="https://github.com/user-attachments/assets/236daed6-6ac1-413a-bc9f-8f02e43fe569" />
