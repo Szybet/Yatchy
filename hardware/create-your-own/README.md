@@ -5,6 +5,8 @@
 # Viewing the PCB & schematic
 It's available [here](https://szybet.github.io/Yatchy/hardware/read-only/index.html) but I advice using kicad directly anyway, as this site could be outdated
 
+or [kicanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FSzybet%2FYatchy%2Ftree%2Fmain%2Fhardware%2Fkicad%2FYatchy)!
+
 # [Assembling Yatchy](./assembling.md)
 
 ## Binner.io
